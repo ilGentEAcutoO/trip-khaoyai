@@ -1,0 +1,936 @@
+{
+  "generated": "2026-09-28T10:59:32.882Z",
+  "places": {
+    "kung": {
+      "placeId": "ChIJYWW2V8vpHTER_lBvNFyN9iM",
+      "name": "วิชชา ทะเลสด",
+      "address": "171 6 ซ.4 ถ. พหลโยธิน ตำบล ปากเพรียว อำเภอเมือง สระบุรี 18000 ประเทศไทย",
+      "types": [
+        "market",
+        "point_of_interest",
+        "establishment"
+      ],
+      "distM": 64,
+      "photos": [
+        {
+          "ref": "places/ChIJYWW2V8vpHTER_lBvNFyN9iM/photos/Aa-ngMbAbpDGfx6g2DLU61C4yMyEUFdZF28rBGTxodBBnYMEQGe8MsTDDx0dVPg7-uQj1iruyIl3jJhStErHyfe6ZvxD3pnJIVMWZij9evwZ5dM5B_DfA7XVQ0LT_ucn01cRd_Xc0FaNGzT6cDCe_RQqbXM0CZPCR1lHMxmXIRexOIrwyzRa1MqoNZ-Us-VEIUSHB2ZE3IxwhZZI6cF1CmVPfyaEILyRGaXu4j6DSz_K9lt3x7BvNGMUIvmEhGrwDxEpnOrElytC5cXk5o3XvGJqTwM6G3CfPzHIaK0c4k5Tvd1vvwrk0hjvEkP0JbWE5j9NVmAEJWikwHaZu7m_MvqwImOLOK1h2rAzQuHpd02HYxhyfeaVsVBKTOzn8k3gA7IreiNfKvAAEAR4XbktXGQJLnvkMAwuFpR5xAKMaetZ8TRkyTAn",
+          "w": 960,
+          "h": 720,
+          "credit": "Chuleeporn Tanghom"
+        },
+        {
+          "ref": "places/ChIJYWW2V8vpHTER_lBvNFyN9iM/photos/Aa-ngMabY4R-5QUfLkegV6MqAfBKMDNaiiK6VsUTMyRz7zMhHLL9g27JR4Guksmo6MxZtUmPJQEGqkHyafpUcRHH3ZN_SVzyE4VOZEOMWLQ2A-WI1jTYUsfsu7VUoa8MQM5-p7cqbfmn7RxG8hz1UtJbwy2hkF0dMbmZVVJbuXJTrrrGo6nRj0kdMqCju0K-6qsGkC1tLQHCBwdHVmyJUxLfvfLTj5BRcdPm_e0BF-gd4pbCJWqoZW77IWD7dFRYXEkId_J7HPgAZ7R5rfVBs6L49o17uea9b6bFS_vL1PCZzEDMEYG-A5RrbhvxPQGTTSKCk-4OmgB2U8zOzDOMt4KEyotf0OnHqLURu44N9l9GAKN1UVjnqe7r2ptqb-5b_08RjJdPPkYN2RwB0MQQFhl9-g3IEtdNfMfDes_FZ7PgBLxLbw",
+          "w": 4624,
+          "h": 2604,
+          "credit": "Gadikoppula 'Prasad"
+        },
+        {
+          "ref": "places/ChIJYWW2V8vpHTER_lBvNFyN9iM/photos/Aa-ngMYkhHsWw_qcpqWrdFw1ULiuT5ENHXKW3d7vbw4ZKLbD2rguWRJ0luExxbZeZ7GIpFxpJDaCcGTPyL4asXdvwNA_xuV3suIB_m7AkBSeX-MpzvJ9kadSpuKVflhY_qvZRoy6KyK7jQqSyEG4sKle6XvSZQRhUTIrQ5oO5V1S61jD7-fVEazUN1LK_FSROHnSOJs5jjGS_iC39Q-rZV3aACmJ79I0ESyWTuSFQXRmHoWrV1DgZcvK5fgt11iASDhuRTSg1DgorOELrbCKLMVQZf4xriNWcARlk_WcGxHa5JSS7tjWHbJPlbg9W-ei0-dnF0LdAwTNTeeyAtQ0znf3_hSkUa7YROrivQLzuJrx0ExbjB1CFZEKCvtCR0l5NTHoLY0OQRKek_jpMN83a23JCqoEGJUpc0OTkTMLj8d19gDsag",
+          "w": 960,
+          "h": 720,
+          "credit": "Chuleeporn Tanghom"
+        },
+        {
+          "ref": "places/ChIJYWW2V8vpHTER_lBvNFyN9iM/photos/Aa-ngMbdHp7tYE6O4i_QTXqWUk1D4Lqe21uIq8iw7JOtqdjblooszkOnQcA2mLvJuHDjTMupgIy32Y60LJ8XImpEY-3savy7R7uy_62GcG3SE-_ENnVPf792qvTTs1eQtJJjeHr8SWZ75K9416bTR_ijsVqjxPvShA4Ny_jh8T80ECw3c5ICLLddi9x-YAzgJHGaWvkYBHt8mxesz9Q8nQ8HArUxqOXDIUoF9JVViGvs7mY2ZX2tqX5BKaqP7aIYa3Cm2qy4idPO7FzEEtTqfXzCkvhjNC9HvkEDX0YJhMcFGfL2I0Pqk6g7pmmYX7rCHB2WGFWuznaHmPRfaPjRFEYxqMP51SjxWd7FxZyfMy3HfPRU6UvDpBtH1uE3JT7QR381fae-FPuAFde_w0M_zGx7clxkVScyRMTuG2-7IEWqckYH1Q",
+          "w": 4624,
+          "h": 2604,
+          "credit": "Gadikoppula 'Prasad"
+        },
+        {
+          "ref": "places/ChIJYWW2V8vpHTER_lBvNFyN9iM/photos/Aa-ngMbTxyriCXDo5y-AG2dA3Yb_2rd4dWVTFh2lOYHwVfgyg8FZaZjc_v28JfPRldqZP4p3PO-0QWH08tnBHAgBsDuvNTdO4f54u753CdHKlliHbYrwWcybqv-8Tb7ZcLpXQ3WpktCJOdmngsYvuIbaRd7cUemw32KPd-7ccgWiBfnIsagV8rklCeegDp6MjgAsuhJFeOXLWFVPyKkjyZbBMQgauLFjMYBIuAb7z0_kgCG1Xdt-Ex0Whb5wKOyHeH4GgYaJtqNZw_qcGayBYJNoBS4CJsgR-D_brcfRiVsG_tYS2y10AKgpwDIlWY_SlNN1-_qJx3J53ElgA1I-B8oKJQS-wklouNRcj6nD5U2LiyLNHh0P6keOLWhIPRJgItxXcdj_i7x6gMqg5gY2mHdc-JMuFt2mMBatw7zevWY79I7pWxhE",
+          "w": 960,
+          "h": 720,
+          "credit": "Chuleeporn Tanghom"
+        },
+        {
+          "ref": "places/ChIJYWW2V8vpHTER_lBvNFyN9iM/photos/Aa-ngMZQCRdv9RsMeHDG0G8ROsfQUg_imPPnkwf17EPlsueFyTqhIQJIFN5_M8118rPS4k1-jM8FflaRX3RK9z9WwRPLjLaT1z13G5iLb7yXNpWcB_DzhESMYPj3z8bXchjc5M9gckduzfc4zjFkhutmc0S-e6Ol42peX6SkdG_JXQ-AQmdntiVY0O2GGzq8ZoT1Qe39nJnBQBOKb0kwO6IrWPy9h5indNRn-5KMxZMqXUXVLkfKV5Skrm7QSsEOplujsHyaOgafpVwKnF_-iOJXycG2sH_3h8ZuT6O2l2eRtI4CRnQkFBLbQ5QTP2ETHO-1-736tuFGQLmup0xf_0DbLmXp-faBniNrsS3BTJphiWC704mwR0WC_6ZU11xuSyt2PCbELwBz1etVyUNiS8RhjI0CFlYkTT0NG6fVZcpq5Ultgg",
+          "w": 960,
+          "h": 720,
+          "credit": "Chuleeporn Tanghom"
+        },
+        {
+          "ref": "places/ChIJYWW2V8vpHTER_lBvNFyN9iM/photos/Aa-ngMYFC_OOOOgMvLd8xMQPHAZEBzPkghGb9VfsoTG3FDu1hyIe5anEh2DgBKFgJBwTKBxbdjtkpmvjiGuYwHx-M8XEO7V4VIbC2qBmFC3Z83y-SfvKcq6Rle-7I3Zp8MckmzxYFWJjKJEZjx9OR1eThDbARFUwQH9-csGZkTqAjTMwfjnECag0eXp5An5jnUT4SZEO7GMPYNuPOTxAiChdQhfOghuldJsSJ73xxkivYL0h8CSkBbruivJsEiDWYiS1jPT-xyjtaxX7c1CoALAJbmXMkWOc7j6ReIeu0skq1U8HUHB2mBIeslEuc_fZi0G-dQb9QyAg93H8E5oMGi1foIw47zODrpwieRC-6qr1Hj8sCbdg36_o8W98VEIKdkMbs6PNfcuJxRh6WEQ_cr0BAb1rb4IvUeSUQD6QGIe5VGc",
+          "w": 960,
+          "h": 720,
+          "credit": "Chuleeporn Tanghom"
+        },
+        {
+          "ref": "places/ChIJYWW2V8vpHTER_lBvNFyN9iM/photos/Aa-ngMbxJvyuSIXfpo8zfIv4v8ie2j8w-7oF73iXgFidRSDtHNnyNdsabNmRh2ajFeh1u-kitdKDbTY3MRG_aBKhUST3T7UrclwlBAJqPOde3nJw31iS7iBuBxt0HomVQoWtPR2FGvSyOiOdGP0yXswLiKq9_rb2rSt2O5nC4dh2A4S9WtEIwOs3PJQp4FS4xQWD1_zV-b1SyaPtI_4sdUP9WSAVYZoWoP5Wq2qVIOEKLTV3ruuaY4hRMw2OCdsCj7LSezgPusqkQvANPCnH8FiYyrVolcG3zLcVZhzJaOGlKlM7_B56ACaKnXy8ezxvFl0Gvm9RKmXtjqcVLlBgs9oHRIVr5cx5XepkzdOgGU6TKZev4uf-wDxeEz00v7QfoMsJdRBPqO0LVDWmMPYmFr5s0NLF3jR5c2QyNUBQ8wb_8J7jTrE",
+          "w": 960,
+          "h": 720,
+          "credit": "Chuleeporn Tanghom"
+        },
+        {
+          "ref": "places/ChIJYWW2V8vpHTER_lBvNFyN9iM/photos/Aa-ngMYg8IwJ8wsksh3d3acyshqDYHgudyGDluvedYlSKgpc6s1MpRVUCME-PA6Xby3QKvTDqkGY5_c94bTADg5xdjBE81Wi237GWdu0iaPq80GpDsqoDcqn_J3b0eQMvYzcR6bqfdr99BQTu9PiUDV5DnhLN-97I7VcH14fD870gKyZJOjf7W2aJFGxDEVqig2keEQvVqR9sWfOC1rm4zV-Rp3H99ynmnhkkuGjjjPPOC_3GMnJeoMQMVjbt7YjEm9dShGzgk5PPc3CXrWUJ_xt2ZCztpWPbUnS3rJgHRxnxLh7YV3ACTIgMMonT5rtYxEWCyeWof8AiONFCbaVfvdchMi70RvX5YJjxsYRTtUfRYql2Nu27C86AjyUnRxGxK-oOYvB8vcu4uevIa2X10rwSPeKqbmexilGcTWJ79s-CyhjwQ",
+          "w": 960,
+          "h": 720,
+          "credit": "Chuleeporn Tanghom"
+        },
+        {
+          "ref": "places/ChIJYWW2V8vpHTER_lBvNFyN9iM/photos/Aa-ngMYw8I7Qz7m9lQlJ7GbKueMjNs26sH4Wnu1wKRye9fGgF9x7okXSpKUbbtWm7-gVl2fQIv_ip9QkYSxMp1_Awa9872-seFH8sIr9D6NgYHxVTNFBu8burF2uQUUPvgIRDNbK5c_4bmQ6rtgwGfD453VlBNFZh6W2pCMpFmPyJfbssbKKycrzUGObMVMtx7Vii9TFhwfkK2bj8v62OS5YA9vJIwzQ-auxSbKvPiXriRUgBBpBS2SV7_pjf6JvRxx8HjzY_S_dfHfdt0AAseEtyB4wukvcWtmOZwmK8B3NYg21tN19_6RpeXcUUkTb0-QjGMQg--IFy7FHS0Z8x12KWUTbmv7AeiC5KLlffib9jmhjJ7SbkHPI_lCYNT3H4Y99gdO4_fk7yAE1hGDAIaBpz5pzIMBMX_4OMyP2x8G7I_b2mw",
+          "w": 2604,
+          "h": 4624,
+          "credit": "Gadikoppula 'Prasad"
+        }
+      ]
+    },
+    "ptt-saraburi": {
+      "placeId": "ChIJV2OIITfoHTERd95k_9lbqbY",
+      "name": "ปตท.สระบุรี (น้ำมัน+อีวี ฮับ)",
+      "address": "HX38+P6M สาขาที่1) 112 ม.2 ถ. มิตรภาพ ตำบล ตลิ่งชัน อำเภอเมืองสระบุรี สระบุรี 18000 ประเทศไทย",
+      "types": [
+        "gas_station",
+        "point_of_interest",
+        "service",
+        "establishment"
+      ],
+      "distM": 0,
+      "photos": [
+        {
+          "ref": "places/ChIJV2OIITfoHTERd95k_9lbqbY/photos/Aa-ngMYPbreFuBi_zSqLvxAvv7hetJ5UvoU2sN2wx9BOMg5Ul1uziknlcHE09LSDUS_co6SGfXlnDD7bISIA7uR-fHQ6S8Xat-Zgkj1AaWLDXOMLbP3o9ObLnG4UNFtHiDVNOzf2C4CVTfYh0NatSkgw0w2RV8BXRjfPxIAfcqczDzQbL7kMEQN7jKdq-qpMs1Lm69kbxCMDLOxIreZyxHfpdwSfFDf_MfZlo-WTgDYwCK-EIxpuPqFyJtTq4qbTQHL8EX8vpH87KlmHWTg57WnVgbtCKNcSq6_I4abzlfApEZyEcaTxSWGGOv8Vh-S25vNglhp9pGrJF9o19AB0RTuc3xgiZgeafKnBoBi-0Eu1FgdoSNnYD2Vl7yHpbWxPIzQA2xl2sgfozaTDWbVdFdd_RKhLwTkOdk-d6RSgpX9U7gUwzhQiSHJxdx6PI2mlAg",
+          "w": 1477,
+          "h": 1108,
+          "credit": "WhaWha TheinThein"
+        },
+        {
+          "ref": "places/ChIJV2OIITfoHTERd95k_9lbqbY/photos/Aa-ngMZPrIVbPyxWeVH8A09OCq_41KtscfIMR-nYEWxRkLd4UhD12W-KHLxWU_cfDdt1fz8an3HLyCli4Cy9E6FIxrnaE1-pYDpGuIRPgOrnJRifmlvgNvzpICHgNZfJ7sCQEV--Z4dxLY28oSGNLQLQRSnFkeAF-6Hy8zabnaekkA6ge647pX38nLDXU-o6A3QFlG-Gx_dhzriDquhrHyUT5Am7fFwuBQW_e_oWXLSpvB4jOsnsF2_S4H00R-Da8KA27Eto1NqtH9lJpG30xmdcNfNQGxjtU7pJrA_aL0RsUv2Zr2xQ84jITBG_T0KQKcCfbJXAwZl1DANanu5HiCvuUSZmec8Qvbpc2wxeaBmPpMDbMX_RhSNXdvXUPJGlfcf-OZMYNqBUwnFzaevkfAeYLnjNYo04pg5japqHsLhe2wbiQmrszDqtBAsynKEnvlg0",
+          "w": 4000,
+          "h": 3000,
+          "credit": "my biz"
+        },
+        {
+          "ref": "places/ChIJV2OIITfoHTERd95k_9lbqbY/photos/Aa-ngMavqtiAI0rTGv6nRZ0lLJfY6i-FmjPnLmK6ukEZa-ZpKH1Z77tGL-guVhaBv0cndqmh-BOv21CUptsxNGM_k2NAp5kpJ3aTUU0M0ZlMecr3lxhncpHAo0nZlaxD3bYsXNdP3WxvAhqC-7SepQ0q11Gl59C43glCIwO_gelquekxs1Q_M0mPV4oN7YxWKtMw8Bm6z2ni_G9x8qvZHzJJSM45B6XKQA7aTyy58q_UQ3hpwyRjWvWo4sQ4474ilSLeHPlQMI3Bg0RChUNL4uNVmutl9yYiDcEIFDGETiq7fd75lSKCynURk2UNivOQP7G39FifdjelcIwUU3wqwpHPbQB-Y8iB23rd7B_leX18ctHjzztIRn0poVuGG1OOyL7zBM0b99PedXSKRv9bijWDKUPPjJF5Vx0vHcJ0-HYmTotksLw-tzwN9CfMF2d6-g",
+          "w": 3072,
+          "h": 3072,
+          "credit": "pisit apiphatvoradate"
+        },
+        {
+          "ref": "places/ChIJV2OIITfoHTERd95k_9lbqbY/photos/Aa-ngMZ-IOsYmqiH2gUMSa-XcUCWWR1r4CPUcPbitDp_b70L9mXjtOh9biEr2O3jHE63sokD7jRZJEjGRk2E8sLmpkWybNcyecrTO-phYZFTpyV4CIQF1_p5mRL1A9RrUyNw64h_aI9pOpiDI7Vx3tl8dBHF7R54J2OcTGxuCZwJSRXqpyEZyE8dReq69DS-o0iZC1_0i44H5w97efKZT2mY-0EEHodJO8JQDKd56blCXoN5MzrLmyqLX7P84zeILT2gpqfqUBKv8sIkTV36dC_7O2_puE8H9rJuY5IY52bBfnQ7woyOI7wrjJ1Kmd6smBNxYEsQGuKR89fa2ilxJWQHsHbV1aND8BOvOL4jTdK0hEjHXUNlSJUWqCV5iYd1I7rcC_Zqk7tzkyNpCw_Jcn38GgT--1Ib78ymbaoeEbndiG-GUR2r_xR1ElzL3vPwuw",
+          "w": 1705,
+          "h": 960,
+          "credit": "Work to Travel"
+        },
+        {
+          "ref": "places/ChIJV2OIITfoHTERd95k_9lbqbY/photos/Aa-ngMaa403umaMOWahW3u5gXymkywSaQXGgT-BtSecOioKrV2AJmUf6ATAJrDVDF_dmDiIVMJpqX37ybX1Bg44VhAI0VZoYC3LQAuLfhaQgP26Jp86MK5p6cWC8np3HAOWSa11aXL98WWuxsoKWhS8mOBSo-ACq1iqj9WQSEb_KTbvbZ9FjLbFnEdU3kZIEhT3FIqsWCTPkCy0gyGOcL6Anhd17RTpOBwsjXmUrBCOMLf74BCV763TMS5k4CVAkqmqvpP2zmoPYpL7IEGiRliiAbKytr8xeDMuruyaCgS0mUT9eBvHudC6XXiMwN845-GsCS2s3HlnYM2RLTht_S7lEV60Mu0UsXML84pQzeVgEjYIAa1rsDZ1Ku9ahyhIIAexSU20yM-7g5IaMuAtxc8vrVbA1wQrkNcBHcqYbttj_J6huS-Y",
+          "w": 4000,
+          "h": 3000,
+          "credit": "Nigel Lilburn"
+        },
+        {
+          "ref": "places/ChIJV2OIITfoHTERd95k_9lbqbY/photos/Aa-ngMagGFzWf76TLxxSSab7WYEUXVY3sscRHYjJKPPc_KmEaGKEBT25eWk8X_4aXJtib98ottgjFi3TMzVrqAFl8X0N37tgBhgV1bSNTFvLV3Vwq211ZOCM_0r7wq-mmQ0K9eMSexqhpHMc9W6zlM4VZgVxOMVmtNVQ4f9Vz4XQIyF7Q3P7lYzl71pXiG_kHHAIRr5rFLVFpb3CBfli4MtzdAC-AQEftucXCVGVj8VJju7lubfi1DZBC5LJOEiqlvsJ9DoIUqEGp8DW09s4JihaHYnLtZcCBouWMtUDsLkq74bTtQzt8MJR-AZ0k_izGf59W6Imgt2qzeJNdZjf6tuPA65bLRG8bbrx7IR4NpMfGc4onRCuIsKluXwbCEoY2L8149R4UKgA9zD_haxzJVWcCci6OuDkbvcLshqAWmotnO_ElqxPb85JOeyxZAVvRoni",
+          "w": 4000,
+          "h": 3000,
+          "credit": "my biz"
+        },
+        {
+          "ref": "places/ChIJV2OIITfoHTERd95k_9lbqbY/photos/Aa-ngMb2oXN5RKPlD7OO65xktCGC69KaqAsfCj75toInXDWmAPub-WadRnBPT0kb6FEEB2GveKuYB1UeobQMf9vXTJvSqxnSZoEYq_LYwA8vAwmhP7wMwqs1-OJ6ENxJ8O3LBs24OuM_JYx6s4isKUwjxSIW4RcOLUT5I_ol-oMnzF89-tGobZY9tTvbklB9yuvXOkDqPDbORN2wuAaKUCMRzW0j6QDSNs1Jsocj1cUz-cqm4wvxPm5AATulLpw7433GVDuU7KRHhvoUPOblavPOw_68leupJC5jyO0UT25nhyTXEr2FvHojcewi25NRVB8uVzTGBhuKv7hljNDzhDdtMprmQLnqdKjuo9TJYVv6SycGMUDDYqJZzYnb2IA7uSaMUkqTyAyOmG8ClcLxe1-d7fJFkZA6xMRVtM95KmFuyQCvUHXUUqWn5M6PNe5iXvh2",
+          "w": 3072,
+          "h": 3072,
+          "credit": "pisit apiphatvoradate"
+        },
+        {
+          "ref": "places/ChIJV2OIITfoHTERd95k_9lbqbY/photos/Aa-ngMbgPAWeqZ_hdhV1Ssm1MjKYKLoQx0FlkgK81I9D6uiSx5UkSt6A6-_PhaHeD1MvllTO5yhK_Ntt5ZhJe6XFiNjXMpKsVjXO1uc6kRW2KJbfXKu4ZfRpzvFiTNe0hftINxu3WMb4UZZgCo7R9rdacjFwYjFlFwIp6Nj0BupO2Gw_fBZ2NK_kSwOOUBTYlZJjcnHoPBj89aKOJXKvnOJJGdYszuuut88DHHSjLlbk9QBrDR_69X4Z0O1BIWOUg_-kRKNx-4b7kWdUN8GOIP5WIh_eYtr3qUP6gJzEDZBe0-L357orMppp56SldLajwPgpqMwJvTUPj0eH_uLcARpvURT0Ks92xXQCC5WouRn_zAPM1svaLMShAEe25iodY2FYbp8TMRysaxzkldmD7Uv5PTyh6fuG2q1hf4ffuQtQK8nTwA4stH2s8R_auMPSHg",
+          "w": 1080,
+          "h": 1080,
+          "credit": "pisit apiphatvoradate"
+        },
+        {
+          "ref": "places/ChIJV2OIITfoHTERd95k_9lbqbY/photos/Aa-ngMbWOUNYLQLxqv8HoPEZb0zc0Y4VNeL5qdPkt2XfIZSma5hvbATpviHCWqMlpU7ugF3ufPaaxysG4U7gzOenf61aDF9dE8y2uxiDpor3syr0caFOcthhwG9M7Nb2zohyD8Jd0prtqW40zV1fFBIAGnAEAzUiJEk0icR8HFyhyHMixzBUiiFFsNN4MTJ2wjWUKTclte4X3UaIYRkWPzyLxbISr1WbFdzeBSM9mmoOZRSvYWJZB2fsg4c3cvsfS7KO67gILZZMpqOC1becJdKWS-sNi1lVQ9m3iRNNUeF7LyTMHBId-XufBi6w5u93SxF6xmhRfZmSgk3v4-rNkUH5O_7eY_R7wfFD2zUnOlY33zToWgY-Kx0AeprHMZsmtTvWa5Zb-fVLeyAuoRb_o6O5655Ley-TPHV59oXWO_zYKMvsGdniHhKi7Q8Y7GMd8A",
+          "w": 3072,
+          "h": 3072,
+          "credit": "pisit apiphatvoradate"
+        },
+        {
+          "ref": "places/ChIJV2OIITfoHTERd95k_9lbqbY/photos/Aa-ngMahPKKGqolZXRlSBcG6sVoF0GyEYxuUq4_AqxmIGOSi9sEVTKHKJK7cz5JpEaT4IXPNi4xg1z2Hq6CamoNMGX7o38JOlSqCcHkZIUlun7UuNcFHj-6bAskv4FKkLssYgyGsqNGJU8EapDVj_L2neQZ2ACWcgIPC1ME9FIfrHB6XAOyT1qU7p1C9WqFMjTwFCWGVXQ5bY17Knk0ysonX4X3m13n4fr2cHka82-y6epg2ajCxU_FQgOr74N8OaR1mxrFCtEFLBKWZZei6zR2ftRH2Vti9U1mX0WT5Y91fndzGXnUJmkELyuD7Y00L92KdpjYodaw1c-0fCLR9A5NkCYo55J5rU_AlhuDeKPVu1kMTvzRJ-rS_MT0Zq0ZDAnomSVTQMqMMeNbAiMVJqTa9MgY2emTP4F6CODS-0WwPmYEOfPz017NqFXT_IKtgrA",
+          "w": 1477,
+          "h": 1108,
+          "credit": "WhaWha TheinThein"
+        }
+      ]
+    },
+    "krua": {
+      "placeId": "ChIJC0JUPWsyHDERj9Ca1kDQlG0",
+      "name": "ครัวบ้านเราเอง เขาใหญ่",
+      "address": "ตำบล หมูสี อำเภอปากช่อง นครราชสีมา 30130 ประเทศไทย",
+      "types": [
+        "restaurant",
+        "point_of_interest",
+        "food",
+        "establishment"
+      ],
+      "distM": 0,
+      "photos": [
+        {
+          "ref": "places/ChIJC0JUPWsyHDERj9Ca1kDQlG0/photos/Aa-ngMYr28AIYrt9eKByA0wzhYJtytHqVE97lWBCk1IlxFv5GBWZjOKhEPwqBxtIWH1rsu6tjryVfYkEumgD6uoSs7u2fL-SzYEiG8ULm-r72-hknQ3RxFNS1oBBZw0al1zIr-sURQs1T6YeQXinpXPALaiVvQVX1ccJsgbxPsit6FQRPDq8cdovhx_v-kfw9YFp0JTGU_NgK6shMfANMm9OJtD3siQ6AVCyNh0WBWH48eZhfzFmpTosE_oNDw830cxyP9OVv9AU2lCzaCgqGocb4pFw8bVo7r94zXoBSMjLG6RBZkwKEc4DeJSWOF5gqk-TlLnilaR7fRKjYTsKYlk4h4_eRlk5ImKg8wjYADcOgCptHSM7V9xrMgyHeXlhaICgayQa0QdetXqAlVERwmoGFRfmJiNXhs8EthCtIs5CTz3dAg2kZchzsBrXwy_U61hg",
+          "w": 4800,
+          "h": 3599,
+          "credit": "Nan Ai"
+        },
+        {
+          "ref": "places/ChIJC0JUPWsyHDERj9Ca1kDQlG0/photos/Aa-ngMbRyA3Tw6RxLCla8COGdSgFnHR0EBwqYUAz2KLUGBK-g6HMe-s8Ahkyhs51FkM3Fb1jcccUi7V02N1BCZYxcpE75lW0_bd6Aq-zVaQOWf6ksRz8GW8jLrP5EZZ8-crSQpPgsgyAbiKg5YRfRIWknMACO30_PEN3BxR3Yoj0QyNIfm3875evPAMa84qQ8wcmPuBSCFpL-9oROuONgjYiWvVD3rAo9In9nKmS1oPtTRouyheO7Uzbke95NZ_6GzCYz4v1GOYNcegSObA-wfFrKGUgGYAQ4HIZ1UmuCOAjucMNqBfAFb_ISO6bdI3YiOO0thqtJIxU-77gWChWPop-ClzPmFzKm-ltznNR1-QIAZOcTwWT1ehOkaJUqm-pDeKs55ATZK4wa1bYsa0xHfdHRGvlD9etRqLKnU2IWYahBGYtQWRotNHYIHgaMrip80ml",
+          "w": 4096,
+          "h": 3072,
+          "credit": "Tanat Leekulpitak"
+        },
+        {
+          "ref": "places/ChIJC0JUPWsyHDERj9Ca1kDQlG0/photos/Aa-ngMYutKalRIQrZBv52kL7JdUK2UXfDeVLAUDSqYzpvHyEWtwnj-rgtAtgqEAgxdFplEpVRqs0XW0_X03KB9qE1dqyFyYMev0iQf2IKpYvh3Uy5A40YwUJ49iuF6Ma6pD1stXfLtTG6yDhTOZ1nKsC4dXQeD35pukPTNqE1uHoaieCTTasQ5dD3SJTFlciGBFVNbrJogC4LzHh1grVj8m2f4hnKWIHwlDwOk3E0zaVbCcOg6It8MZMn0y25PaTAFLB5RumMoeYP6X5mvNmvTNwmBpc6I1JA150EP2rSCrGmpBGN7qfuAA5_9viEvUnKI0hJSqbwW4gPckMxb8UXpL0xssbs__LQ8iFYF3EgP2e7Hj-hdx1jtXB8TjlpYdQKSe_TpP0z8HlZJ1YkXi3DFrzrXfzTP7D_fro23piqAwyFa3RYJu_NfuLLmDvqUau-a-R",
+          "w": 4032,
+          "h": 3024,
+          "credit": "Isoon Katanyoowattana"
+        },
+        {
+          "ref": "places/ChIJC0JUPWsyHDERj9Ca1kDQlG0/photos/Aa-ngMbmBXfA05dbnTJZL6hDSKHTjNtWAeVlVtQxsVuNmCHQyxwVTtJSk10OP3_brj_qFxdtfSlIV7ST6l8WJuEVLKqr7WmOvf0h7WcgJIFlzNWCcsVa0YqZIQuQ8LEqgS44d5Dzdup47-GKmA6ZYksxKzcpLA6zxDVMeRJ24gI8eNHmKZ9eC72yuWRIDMjJYh18Pv9TkW9On_UVqUGzsO4CQnJgAiC-N_X2RwUjb6PTEkQquWHpbdyNSdwNlPivY4QcT6Sw-f_Ua1-LajI_uHKMJZyTeBNvm_1fgschmUMPVoO7mhSoBeSEJ7QinPGucPTYHblkehRdE5N7fDy6tIiYMD5fTgM1guSyCrwRmzRW4NYnCSqEzEGQaChFKLzMgyRlf_-rTOGeVd2cKwnaoeLZmcTHqXeYoJwS6a1J8PlAbBWpwq_R",
+          "w": 1179,
+          "h": 1140,
+          "credit": "ครัวบ้านเราเอง เขาใหญ่"
+        },
+        {
+          "ref": "places/ChIJC0JUPWsyHDERj9Ca1kDQlG0/photos/Aa-ngMbhjWq37Lgkia6YhFRvsUGMvdUHi2hJADHGnMv2lX8H1I7NCsHHxWa0O2e2BjFGJRUaH7wX_W4sIOC72hHNO6Ry5R9YSt2ML7vvRQCfwa3_FKlVnjjUm5owtmRwjleb2dTW7YwGl-7eEUBBGczneNH3KKZs-6OE1umk1QmcdLgz0VcfaFEXKozUkAHLIxo8NUPoRSIKNrvPry7NnzKLe7iLaELHdFwtAeB2BJ9rECEtxMHhPwT8GUN5FaUtXhyeipLmHa15Okon_geAD4FGToWW2mDvQNk9CLbOGDoDC6-Kgj66M94CaYaL3GiKdzp61o-U-JjSUxuHS878p3JebQmX2HZwy2KuMXqOLFFRnsnGUDKr87Oho1UQDl639AHD1Bk0_HdOgEBj-NtxACcOhheoyvBgjaseLi5XV8rnhk3mKdEwSeoNmyfXwgDIjucZ",
+          "w": 4096,
+          "h": 3072,
+          "credit": "Tanat Leekulpitak"
+        },
+        {
+          "ref": "places/ChIJC0JUPWsyHDERj9Ca1kDQlG0/photos/Aa-ngMaqQgBGMsTKDyJJXph46MHkhPLpLisWAf4XaB8hxZlxoDWfljh6r_QOc6e-6iQUwFeork5g2lcPs3hMfPF1Cj1d9k4SSj5K8pJYmw1gAiktJLkLwJ52qqM-BNbLbNkMPPtvedS4sGmCW3EF_JQ-m68C7iN_5QuiOkNNDdUEYyg8y1anWx44-hH5HzFDk3IiUOwl9kuH0o7MePPbGObo6LDysyMjQM_Ep_aIcZ28ZuxtDuAZAbFXUyWE6yvgdnG3ubNZ_Kux-COFKaSk2o12_b8_YeasvrhkSBxaLrsiqv0AkdgFL7NZ9Eg0b1uE08OpI4VBU2gnC3wCW2TaByNRGRVUnCEpgkjLSwXKPvR9LuUmRckAw2qjYztcnH4lcY60A1RbJSGFLskbkwLrEXXMQuM6lWclNRXx05QDHlq9I0SA5GbOLCxOo5mAVmLD4g",
+          "w": 4000,
+          "h": 3000,
+          "credit": "Bowling Chin"
+        },
+        {
+          "ref": "places/ChIJC0JUPWsyHDERj9Ca1kDQlG0/photos/Aa-ngMY7gh-5i9MYI8-y4o_BBjLZ061syZXMpvhjNv9PeZ2fSs7X_20f5XtKVvkjpm_3z-pbBM4wnLE0yNdcDwgN9szMrxB61Xr_t4ZaxmIK-GslG3ZiNJNTQlQjUyJYTTo-ZbZLuLKNUPAFwrvHOyg7qRFBVvN9pk3wHmyskO32KpLINiiyS9dBGyn7JPPpAq8yIBOrPmNcD5pePDpz8VdQ3eU3bbKFuqQ9-IBOEy7rP2rX_5O7GXMVAmbC9Q3KGiWP-74H8iGfU-o9gjyzj42hRzypp0KbgRVlRlP7Ld3JgW10kbZFjm_DWNGJeI6Az-_yVaNobLrc-borxvj5QH4l7cQIe7hWc8_aDrHKsm2XUT1gkDhjgCKJt4zSSi0zuwv07N_X1bU2-Lymbah_dy4Vqyg-6TbsEA0CTJtGwxMl5RvM5Lqd4GWGtrKNYXDSig",
+          "w": 4000,
+          "h": 3000,
+          "credit": "Bowling Chin"
+        },
+        {
+          "ref": "places/ChIJC0JUPWsyHDERj9Ca1kDQlG0/photos/Aa-ngMZL56E_9eTZMDjjh7dQjmfS2L9JLTyUxwDeIK4HFsI-tFI8BViRiGW7IaEDpuZdIRlI-0oH8MXwYRQ96v7n46CP6ObP_2ZHQ40NK4d_O0K254Y8ZZmo4QTWTzhzJ269Odxz3sFTdI2RJiM920ChW6HzpiEeZWSsltGoz5bC_0H8nEa067q95Khnl3936YvjBtcV4jTnp9zVYmBR-mLL_fKsLTfkHwOZC-DX_pz-HyuP5Phc3K_SDt1FiHdBNjgDNsVUruXQi6BQwDU6fYlmsAkfDydnWYeNs2ayupvZVF0vhviYeVtYBmL20aRyZLl0lnYlH0n6Ty833KA0n5qsRTsLsk9wSEvQXhT5Q4zbsFDse_lwS7Bz_5RgUg2oNtuIX8io984TKqTVN7Iso5FhQqvvwQjylMhnR93FGNZA1FbtSd1An8iyWdj6VNz_HzX4",
+          "w": 4032,
+          "h": 3024,
+          "credit": "Isoon Katanyoowattana"
+        }
+      ]
+    },
+    "haew": {
+      "placeId": "ChIJ4QD7jiQ1HDERYIfOJh4Fj_s",
+      "name": "น้ำตกเหวสุวัต",
+      "address": "CCP7+7M3 Unnamed Road ตำบล หมูสี อำเภอปากช่อง นครราชสีมา 30130 ประเทศไทย",
+      "types": [
+        "tourist_attraction",
+        "national_park",
+        "park",
+        "point_of_interest",
+        "establishment"
+      ],
+      "distM": 9513,
+      "photos": [
+        {
+          "ref": "places/ChIJ4QD7jiQ1HDERYIfOJh4Fj_s/photos/Aa-ngMaCY0TQsRSc_Uklkh_pKHeMgkKUqQVtjTjib9e56gDxBM69yoe4h8tXWNoyf_zFx0oUxwIos5FHBZiZIX55FRqKBVDHiKwc0n_IwuApMwKHq6VtEtYCeW4bEeZ31f6KEppUOcKQ-IRju-bejupTf8DFxRq2oT8z13gJ0Od3gZ4bOlkrq5vDSbl0EA5uJKDfHoGMFS7qVNM8jJLHd4QYrnZAmUXTe0kNmxEkbK2AoDXqGphmpHl3lm00jAQmVuRkNgwmGDt1ZfmU9LU7q3pZzq7hcLa7W0rkcydJmWeM3xWXlachq4N2w3lczOZPnY_FAhoUjhpyNG5OSrck9i-OcFnF7Pi-gJhnGTGxLHdLeWuwV_GlA5cTypDE0iFyWfcYswgabtprky5jutv9T4jWu1q844mo",
+          "w": 4000,
+          "h": 3000,
+          "credit": "O 2"
+        },
+        {
+          "ref": "places/ChIJ4QD7jiQ1HDERYIfOJh4Fj_s/photos/Aa-ngMY58w8V7rJ9P5XiXVksAPG6NZOOCjf0CkTp2nQcqpXceuOwO3YgIPA7BVL2DXW6WLcfzCFkEBWVS-wi_wpmxsB6WWOj0W7sUdSWFA2cxwotSArEC26p8FFJ7OPPwdmKsSmdB-XBWNLtQ4XIAs14zggEFlPxlea21Wxt1NCwszZVqkHbSmZyH1K1t9rflTU6F6CmJehePaJHZqD2LGHmLh-xtXW9MNnYEjE20SD1p4r5bI1Ge3YRPdM7ljCVLl6HNsJLz69pUBLmJbq51k0g-6DcdIbctH_1yMI3x9J-tqeib7PaUXwl_p2FALA4y5m3qBIhZdu7U0Uw4-bi4SNtSuVP2LplMKpMQ2QUbZp6CzSSo7C7fzxi7XMzKXM6otXcztYSUpFr8Nt1gdBDQy3z1QBILMHgNHw",
+          "w": 4032,
+          "h": 3024,
+          "credit": "เด็กหนุ่มชรา"
+        },
+        {
+          "ref": "places/ChIJ4QD7jiQ1HDERYIfOJh4Fj_s/photos/Aa-ngMaXdDcj43uQ61urk426IxCmV9idcQy-v3_v6BJ3DUXgck10GMp6vn3RIzv0EQBHmmE5K5AuZpn9ErzJ9OyvpcE3xGcJgqBvFyJAYeYm_VZt_gs0AmT4hKZcWwzgwrS4hNfY-CoMjs6gIS_4x2aidWQTyIlS2KTE4X_jTp8-QyXLQjXujnTlnflCYsrPGEp9zRQmE9-QhVXNhFjfHnx7rK5nrmnt0kCSVPqRPEN3h3jgXu1wCRw_E6yFHuNxzVTc3vL7vp_jsrjHZobJAKmsvl79hlibGKC3AISJurhK3v2vxP-KtFF6A-eGV47TuxaWmpYCuHTwwbbAv8-U5l1ecee2viPv2u68Krq2nq8IAX_O2UxpOEBPR5PAl7G-SdxEgtt6PN8xU0Lhn1q-UPw6mGvXHihfFqBo8n8yROXFuDKqgg",
+          "w": 4000,
+          "h": 3000,
+          "credit": "송상호"
+        },
+        {
+          "ref": "places/ChIJ4QD7jiQ1HDERYIfOJh4Fj_s/photos/Aa-ngMa5dTHguBaQ667DxURiiaSYuGpNaSzq53CDTORwqz-qn2hT6yscXPeBAL9UwcUrywGPPULAaxxpjmdXaJxpmS84zLJD3IcvT4i7Zk8FE74kWl1I23x8OV18Dpct70sfRYUhRHVNW3LyyWMQIyX0iAfpfDeUDqsnHMxhLq8DfU7M-4wY5gh7UlzYnSBh4-NHtLR5-ckV-2HJic9mFQpEQjVFMByc0QBG9LS3XAl4K_1fqfDajG6qBGUYipqi11W4uNJ8dY3afPAhGIjSflhTHZyeNztoWwHy0w5xE_uDnX8bxOR0KnIDMfUnjnYPdfaSjMoebEcR-gwnfi8UVkMm3QFHTecAZjRW_vN_qLX457iAI4FNOEGoQ5vgmDhO4FF6Ln-Gpyc5G-Y0PGA3yzmyESHBM71kX0g",
+          "w": 3024,
+          "h": 4032,
+          "credit": "ณัฐธิชา แซ่เตียว"
+        },
+        {
+          "ref": "places/ChIJ4QD7jiQ1HDERYIfOJh4Fj_s/photos/Aa-ngMbxUV-0cPxkp10ZEbkuLyDYVihQ3_mLeNHvuhXGLeA_hIlV-NsYq87h8atctg_UxcjtyzxwirEBnS-MAai5n_6VxlMlC2Cfest9yElpvUyqoWROXquw4_C9vJW-lSoeCFbOV4N4AOyNn823lCkxKC-xDP63CMlNz3HbeHurST2foDllYy9aQXMTVteoMabbna0N2ephQp63pFYGSxUa2FqYIkUIPWdvXv83vilbncCtFf3fKDJrdbAnGLdTIUD3offygHwtH9j_OhcjTZjMaJED-UDDTGQmcuEeO9C5g0xnNS8WRwpis0MM632RJjjv5vuXNcVS7QqnoFljtwj8qLsWhlv2aXANCTa225FNu7Qe5zOKLnmZQw1-HuQ_SXWkDbMqqtUdyWo1UWedMKrn4yRlJpv7-Ts",
+          "w": 3000,
+          "h": 4000,
+          "credit": "marc van looy"
+        },
+        {
+          "ref": "places/ChIJ4QD7jiQ1HDERYIfOJh4Fj_s/photos/Aa-ngMZgtAcm9n9X7Yb742g_UvxUaWJKMYkSr-wVtRB2re5K1CA0hiCChk6QnEt03A4HPLA1QIMicRAELfBYCsdVblUxIn37HS01WPVLtzsnVQ9YVO_JqV1nYoKNz1AZFEn-HUVub_5WLdzypEy_omcRkXuQB6gm0MDAA69K7EhpMlIqXAFm0WZmEB17RjrC3NE5hpv6lOjT81sHLAhRz7dk9HzpNttkqJP8emcQlWBc64FLWiWZwnHp10GiREBmz_9cE8IXSQvO0Lkr7wgpoGLRJJa408BD_kRU-iVcARwVOf9Doumvp0c3OCM5RDujztgkd3-u6ts0hUGFFoElI0p_Uq470skvCXOq9Ki1O6GTWr4fLR0gOTvsh0xhnVsYVS0n4ZAAk16PsWGlc0yY7m18kuXnE6qrHNk",
+          "w": 4032,
+          "h": 3024,
+          "credit": "Kati Chen"
+        }
+      ]
+    },
+    "everest": {
+      "placeId": "ChIJmyk1W8wxHDERwGXu0tEFrl4",
+      "name": "The Everest Pool Villa Khaoyai",
+      "address": "424 หนองจอก ตำบล โป่งตาลอง อำเภอปากช่อง นครราชสีมา 30130 ประเทศไทย",
+      "types": [
+        "hotel",
+        "lodging",
+        "point_of_interest",
+        "establishment"
+      ],
+      "distM": 0,
+      "photos": [
+        {
+          "ref": "places/ChIJmyk1W8wxHDERwGXu0tEFrl4/photos/Aa-ngMZPXn_Ndr-lZwBnvdal8tKjjA1T9HgBIv83qxQqHQREQEuPP8jcCQMLnLwnNChSsEaKebDE07LOanEA1uG4o1KSEynOVqsUfH95CC9RXXrhmo49AE0yGYOLN2fpNyczmVKsWmS06XRqd2hvIN3u2QC4f8bDRYhqf6zlHTFDnZbR3xg4uNxRmhpBoqY9emF6FLMkPY93-hDgeGTBdEVTZ8P1jeWuF7IFjwp6yhZoobMwAKbHJ0AQdt4PiXXPVLl5M5usnCWyqzccIeyO5xiNSTXv1lsX3ZNYWkDlVY8AtuUtF1-LjF87UfXUnqZLdktkmPGpSYjFjevjXxk3KPdBenIl0x50koQOp4bIpwgJoly-DOc2xFSrWjzyye6Dtf4xZJuKhBbhjvyfvlTC1uBWtBMM-w",
+          "w": 2048,
+          "h": 1560,
+          "credit": "The Everest Pool Villa Khaoyai"
+        },
+        {
+          "ref": "places/ChIJmyk1W8wxHDERwGXu0tEFrl4/photos/Aa-ngMaCddHwd1SlDmccdCMOvYC4xPXQYiBws27X-4Z0y5_8mwMWVDN1xtO7JMam4SG78HqcyNzxwZi0fkKNxm44fZNcanv1njZfUVjFydNJ2IBXQhabdg55p5HBJx9MLdOsAmTaRDQZ21rjhML0JQyRgKvMjqEWXbRChAsQU6fabnjgZgL-slhfOVdgff_IpIMuJfzoqNYuVevv_uC1g4QC_TXlAgCXRMjwdL0gIIm5o77BuY7CeDJ-zQZTeButFwng5NkQeOo-xWdxdxMYwMGKu0huAx5SVV30GijTUxhe-ndmZstIFhjkp1_g8oAyxwkjW9wkLk0P7hnfZ-P6B2eG1wUil6loyke8B0sylgkVDk_DfkHM811Ks_Mfkm-iTFZWsLK1PeCcyIVnUhJoZZtHtoVRC0Wq8tE",
+          "w": 4608,
+          "h": 2080,
+          "credit": "sorapong intanong"
+        },
+        {
+          "ref": "places/ChIJmyk1W8wxHDERwGXu0tEFrl4/photos/Aa-ngMbZ5wBobnon4mvBXLvoJn96--OLw6cL9y4YKXgK3IIMKGn-kvS6Mf99ERb07FZt9FaYXRjI0ImalO7htQ-zR1zXDad1G_mBYm085IUejClWOls6cHVWcf_auQeBF2VMhlW6j6dq_DPNEhOvjr51wP0NZ26AwgIBLmn-iXj0WFTCZIjjIMTXnJixKzynCHBaKD-W3MdmXYxWk9HH8agPYxUKvKoKGk3cMlBdQ2JTD92Jhvci6qsdhsCmrImR8bpXOUoi0acR7jXovrSCAN0eA2h7L4PHMmp2uCQAoxKT5usD_Yjly2LPNc9vYj4KHByeSggG60pbDFipleJmciNLeAjVofJ40t1VDx-qjCllZfs-3bMB2MMJ9EbAvoAnKUrCOLcShVblLderyDUSk5big7unTIc",
+          "w": 2048,
+          "h": 1560,
+          "credit": "The Everest Pool Villa Khaoyai"
+        },
+        {
+          "ref": "places/ChIJmyk1W8wxHDERwGXu0tEFrl4/photos/Aa-ngMbSVESsDQltf0pqbxK-T1MZN6HPJoJKn0FRl6Iv_Pofc5SFBnNZedYmL3WM3xy_FIW4T6-RU3is80LOpSvX5Qs5MK84X1iyx0vdVNIiQCqBFPfISxBU6raGQSB9BEcFPKNaA-NBGf5KUDI2Waejx6Ntco1XoNjwfZ5Urko7UHygww-T3a43pgocduTh6QbNnbD6rALPqAj-JA0Ic34Iz3iiIrLMdL4hfjJ5h4Eyew5M-BGyrD1pdOAehj1ssdK89yqgFxSZrOUwZFtTK1Tbq_JsbMAHHf0tbPmxPulBPRJ4QeyEvGmVsSYDvZgQW85qb66mOxRMFxpK5IW9rmRI2iG-Qo2dv7p52HMJXIwhxyKVul_n9i6WQwOYiaESLlyZiiuXA9i12I1ysH5qT6ZXWxzb6yk",
+          "w": 3024,
+          "h": 3024,
+          "credit": "The Everest Pool Villa Khaoyai"
+        },
+        {
+          "ref": "places/ChIJmyk1W8wxHDERwGXu0tEFrl4/photos/Aa-ngMZCj9nGnasHTn0iBBPFtsnQWKn6PvHGka3xB8bv3Gr3zyOmGIquSY3_Hs1PHXQflKtx0Jwdh_sqb62UibigZUHXcIRaaIS1hd0L7ZvrXWrOJrS9XJQoRZQZamACr064QqvhbxpYWTaDRPIpNJuAOvbu3_M-USX_GQBhzkADwrRkIpTO4KB2G54J7-R6M0dYE_Q2z3JMoxFR24XSidMMqQ9s2RACVRzG0zDbYMSfnxVRDYzfa4FPwdeB00iNnof5PyYsRtZSPW6YNEwn3PYr27JU3PiqoZnz5dUgw1NSs_ho6noPAeCec7qXyktCVi0XHYRn0n4rNf4LFMGqs5YEdUaNEsccrVrM-mBr5yZGeZLaEW58-wa5BDNAsmieyUwdJ7fEQRoXPdy2oIQNeZI4Fw_DM4LXo0U",
+          "w": 3024,
+          "h": 3024,
+          "credit": "The Everest Pool Villa Khaoyai"
+        },
+        {
+          "ref": "places/ChIJmyk1W8wxHDERwGXu0tEFrl4/photos/Aa-ngMaRXnYU9asYyz73LXgAx9nFgucOVJpxBZ9jR0x-vSCQuIM3ohqs-QsihlAe0T6bw47JRUqT5P4xkWXnVLtuTwYAing3LfHFovMA0m7bdv6jaHgHlL3V1chKj2_xxdCM4bmqwVt7IISiWc9PkATmEqKq0-MzAMF4kpBwPJu_OMuNvEHIhnFB62s8C6KC0kXvvwDZLrPOVx7edPkx8s7dFLGhKS7VRke6QwSzZW67io4-oE7SGmALclonV1oVmahqrbCwTUg6x3547qKr8mYCasfP7SScvKDZZnY0P9hqeSIWu4q9ZXvc5Rb2RYmk3x-CekChRRFWgWyDEyQPX3k26GN1S-pzd5oTJ76GqhjbIpjwY9mLDFv9X4S4Vg_BtIwSEGwoOJMz6aAHM_3ns7lrb-SbeXk",
+          "w": 1706,
+          "h": 960,
+          "credit": "The Everest Pool Villa Khaoyai"
+        },
+        {
+          "ref": "places/ChIJmyk1W8wxHDERwGXu0tEFrl4/photos/Aa-ngMaOeTTg2SEnW7_F5K3gHA7H1k2IsmOVMmdN0yMq7ADNSjxjorHZk7bsaJQGlj64913Yer1-kmIotEG0A8rMBNCzTVpuRwo4KZDou1AOGuqbwfrzGWj24V_4mfxJIyD5saaLRUIOrpb737FUiUF3Nk5-FOeFPkTXQ1F1YFeT02psBuQ9XNmkCIAP_zErjvfEwl1k0eyDxvIf4rMWKMDZuwX8Dy9V69s_DcuGTQMJu2Hey6ZCbWSZ-5-2xD0f6dlCNFbjBf_BAf7W7vtx_EaElUiocgvdpe71jbULF8EoKEofZlLadreG55HiVXvu-9wOW9WKdl-dIYxl0mi9d91g-uuMEFuex3X-AOl0mK3XTEaiCtzP75eReU5f4wxbpDwbnWE0Ihg_z4x6Enno_qlK176SWArT2e4",
+          "w": 4608,
+          "h": 2080,
+          "credit": "sorapong intanong"
+        },
+        {
+          "ref": "places/ChIJmyk1W8wxHDERwGXu0tEFrl4/photos/Aa-ngMbrmHQozcAt_0_gH5QFYDL8JJQu_Ls5MnKTtEy1pMy2ii-LkeM0y3jb-yNcG0rc2QrwmBca43i4rJbjMa0v2zDujrBSa-my5rqRdAnsMStQg0jApamCg8UC2IddoOD2zh_Bnv8_BAC15wgZxiTDuX6zEOwhtN3QlKkdN2PikDsjP1veXj75yZXtHVwixpOPyH4g4pLP8Ft_lrM9QUWjaC6i7V5hpON5MEKl9JECQi1PtB4b95NzWdwaKI_TKx11g8DZxN6X_ce2PRKuDAGFJ5VCJYF0klLcQk_jQLHRSIrEgkmgctAv2pEnqDPD5JJE2X1NezcAhpFOiwkizwR89TVTz7VqJm6ivP_PtXboBHjN_mW4vvrdY0sHwFSvoct7asReziogvMoSIpJ_1CjoPwf0O6A",
+          "w": 3024,
+          "h": 3024,
+          "credit": "The Everest Pool Villa Khaoyai"
+        },
+        {
+          "ref": "places/ChIJmyk1W8wxHDERwGXu0tEFrl4/photos/Aa-ngMbDQxU_RaWO3MsXl2aRehB5Xg8NBwkvFNtWEaCPYqXnzbCV6eb5jhd0T5uCjw3AMrQ6xsMuwLGY1RkXSW9mM4_c6uukImZYilil__upoaFXUh2HHmtT0ANa0GgQUyKW6UULBYsMMCIeBfFq2PEuVSkrAsGqgPba20kFyMiudyJoxNwkABrGgkoXvQ4k30v4YfT8D1PSM1z_SBK1VrjYT0_uGEYHpyOWjGbEJiNhPh5_9dEQWzBvFHWr-_FBm2YB8W1kRDraA_QGG5u5ULmYZ_lrCPuRU1KEssruZg1WaScBDzCoEAAC0bJwcq6eL5OQbqoVN9fbhTAgzV7EL00bLnAM5z8rU46CYyLHK7QSV0n5ORJUq0DE1rihCtsX0Kh2tOd4J8J6rEs_R4iovOnKV5HkcA",
+          "w": 2048,
+          "h": 1560,
+          "credit": "The Everest Pool Villa Khaoyai"
+        }
+      ],
+      "videos": [
+        {
+          "id": "AtNS0kgPTb4"
+        }
+      ]
+    },
+    "bucolic": {
+      "placeId": "ChIJnUBKNywxHDERWhB9IHo1Fxc",
+      "name": "BUCOLIC Khaoyai",
+      "address": "11 หมู่ที่ 18 ตำบล หมูสี อำเภอปากช่อง นครราชสีมา 30450 ประเทศไทย",
+      "types": [
+        "cafe",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "distM": 0,
+      "photos": [
+        {
+          "ref": "places/ChIJnUBKNywxHDERWhB9IHo1Fxc/photos/Aa-ngMaV4NWxaAS24t4hQd03CVktP9DhWMMfiwsnDeEspUOQZ-CPp6NjCbNiRIAO3AFmcMpTuE8vjNTJSMTeqbO3XHGelp-gzx7Y54y1AB5S9AzeZ5oBFK_70L3SQuMOUPPIvqnBSIvXo49kdbPQ3zWr8xohVQJFhVycn7WTkoEAnXfV87uTUAFoPcTi9Fk-h3mfspEPN7Lb-3ge5cvp8m-uG9DeiFjNcCtyG07gXpHxSxQkR1QtB1VZQ-CxX0RI_DLmq5rj9afNHk2smj5n3-n9JeWjB1-5XjMBbHV8rzXB-OBWLzFAA4uqjohvijucMk00TwxYQ2DceQMbcJLc40YHeeexHkpEIuzZYHx6sdIlN-sfrnalgnuSqg81VGZq1-brybtiAg5VIilXZzYLH_3i39Afuw",
+          "w": 4800,
+          "h": 3200,
+          "credit": "BUCOLIC Khaoyai"
+        },
+        {
+          "ref": "places/ChIJnUBKNywxHDERWhB9IHo1Fxc/photos/Aa-ngMZT9OWl0OJyGQUL-K-OnrIQ5s9WU6tMJ7kmdgORE3LFA3loZvlTJ0dR7Pemnpya0VA_slztP7IPzNrLMPyv_0xHPbuQ-_AJh74lP23yL4ENHx3oZyc4gP67wWl69O2YFT8PpfdnV2lLIcdh5Hj5uWY6bkZi0sXlfmku8FTjfM7a9AyzEppItPbObs0C_2HMmwEav1Igwhp_SXH_ERDg_RLuDLc9-MX6I2tp7_CzXvI7zCcYhM12bt5kNKAgCOiUFGzRwa5_Ukc39LFqXUD3PHgWbfcc_M2GZmJWsCm1aO-wgx0yAUGt_YO-5tu7Lkyfmchvn5wbXurfBIXO61pJaM0xgElQIEykMOwSbaBWB5slzB7gqDV7KW2jI5hBppGpkeedkRL3023OMpJoKlCcF7ZJRCU",
+          "w": 4800,
+          "h": 3600,
+          "credit": "Tuanjai Vichaivong"
+        },
+        {
+          "ref": "places/ChIJnUBKNywxHDERWhB9IHo1Fxc/photos/Aa-ngMa1plboRUrisFz8_cbeHgUhau2T5U19M2valif6KT9YM2KVNIw--MVlrq7zsZnxAElSZ9SzNfNqproZmOBT4s_HvEP5vZ-Rh2lLN2v8zU7P7l3HMeiWvkJelHUJeQQFN8xa3VfNiKM24VbcWklLaV51t0hfrOWJzZpTHtjwp4h-uQcTzf33IV2vOd92OJm53_neWmnS2BQpzCcMNSE9GHrJFt9kqMInqn-gNII6yuofJpdDZnNQLS-SyuJw3-xDQOeJ6BNj_VCypcGkDb61OhS5z95cZjmuez3mP7aJmcJW3wYxqb71ZwYFdDr_OGIveDq8MelBfeWqusQTV8LmudiXujg2chna9mb3zs7i6asiNDKawEl51GdgfDi0xHdEXhxvBhHwIlNUxwaLr2kEJHcd7_A",
+          "w": 4032,
+          "h": 3024,
+          "credit": "Wasina S."
+        },
+        {
+          "ref": "places/ChIJnUBKNywxHDERWhB9IHo1Fxc/photos/Aa-ngMYzWGja29iBbeHWm8wf03ZhgmqqJFoWGYbkcMygl6tQZ208-3oyn8Y0R2UiDJm1NXcN0Zizd8TTAwVe3UkC4oAffH_54gwDgkub46_JJO3jhWk4bqUyf3lBOreE0oPtVDrSEolP_vHc6IhW0pq_BOseogxBPFt38ieK9hkXPkvWld97Ex84lsXOXrIP6hE22AR01ydNZA-hOb_04K3EETlp4t63ViDCjlTNRxiEa1PLFnQi5xC5F1owxq5OUr5qOqvrPf-GTU5IvOmEd5sj8_o_u9zVWyzpYfiw-YAh8WgASH8SXUtlk_eDtBbi-a6VNxTSPO0rf459KIamQHHtCZahNLru5GZ9NxtI4u-jlrcZfXLQ21DuO3eJ4MkiuLz-YoY91yfxqzvKWzBMgHAKRSszWXgLQ0aEZQsTUjXH0kgdqA",
+          "w": 4032,
+          "h": 3024,
+          "credit": "paprasiri mansuk"
+        },
+        {
+          "ref": "places/ChIJnUBKNywxHDERWhB9IHo1Fxc/photos/Aa-ngMY7xSB7krV2dYe4_WWieDxE3yDiVnAo4SlcbiotjxwToT9b-TL9XS_57A4SMXYDWVM8n2vhDoh76vdgyMexil03jOD-2exzgQ4Ed36z_d30J11USRMEVJxpMqkeyxyzNbV6uHheV7ciJ7YhXb-XeYS8fanv9mNFH2NnpS-KZpd1Y6TizbdULxXiWy6sm-6_At0AWs5MD9w2F0qDcNAncrm7nMWgdaNOJZQV-XNyonqliVF718duHmJ-VvsQU8WZU6bj00eG_5YyKLxpSqoPtd7DT9nY4mA6YxF4OsQ7xku6fuSes6vtAhzfnuxBW2DOB1c_AoTzTExdDiRV-I68Bh9FNKQlS1u_496b1OqjANScyOGioFEnyMqY2yKfL1M3gfZknLQKa4yPHDFzy5PZ0reX980",
+          "w": 4800,
+          "h": 3600,
+          "credit": "Tuanjai Vichaivong"
+        },
+        {
+          "ref": "places/ChIJnUBKNywxHDERWhB9IHo1Fxc/photos/Aa-ngMY1VgduYMNSHIQJxqQRiNqzSI8q34odCYoFAxXo10_XHfEIVED2PdPFiiLS-26BXW1TSMKSUKM8cFSPoCIOWdUvugCyaJzzNtWqn-uqxghlX3Pmw7c-uKYmc0Sy3ugO6FOL2NzYn8GLDLIiQqN6tmAervRndHe3UQ_HNkKrVsW0hvto6iB2XqdGM7YwiULhLl93h1Y0v73_FclQPR3wMAU7FCuTLI54_I-XwHHNULFofQsoMvKvITetJWfJycYpdPoffr4tph0OMm1c3o6PeQCTnvZ2x8kGrwR8rqWF1uycbFIeJObeWlVQNYDcwZATej-Ylvtt5ckqvoxMVPBveW0UNpR2-0fHyzmW0_J5HkLB7x-evLV9TXnmmT8Leg7QSFD0zDmkvzh2ZZSxrxpvhoWjLQ",
+          "w": 4800,
+          "h": 3200,
+          "credit": "BUCOLIC Khaoyai"
+        }
+      ]
+    },
+    "chokchai": {
+      "placeId": "ChIJaxb_rqssHDERArS7jcRwFXc",
+      "name": "ฟาร์มโชคชัย",
+      "address": "169 หมู่ที่ 2 ถ. มิตรภาพ วงษ์เกษตร หนองน้ำแดง อำเภอปากช่อง นครราชสีมา 30130 ประเทศไทย",
+      "types": [
+        "tourist_attraction",
+        "supplier",
+        "wholesaler",
+        "ranch",
+        "farm",
+        "food",
+        "point_of_interest",
+        "service",
+        "establishment"
+      ],
+      "distM": 0,
+      "photos": [
+        {
+          "ref": "places/ChIJaxb_rqssHDERArS7jcRwFXc/photos/Aa-ngMZT9rCmZo5ozT8YMbvh2IcvBA1ptYluqlMRGtFBNUt9SfX7pyJySMR6ZFeZ8JrpHFRYWFw7IKqw3fOiorrCFv3hz0QtQPcOsAgOgr5GWqh8rso1_CXTuTjjTXsnotYjrS1-nrMWvvtlEyvVyhmO98addbLnbPphyWlNus2vz_GBETH5vEPqXIrCDZ14xyfRNlJ6PxuhIZN4zLFGhdv1pBzT80W26XjS-9TeLVyZqPMnyFbgHOjq811yig-4UWyx7VL_e0v1THfS3JdQvaAopczOeMSXKjBqSKAKZragnc8nciLdzl6t2JZi83Xh0Sy2034jusVNJ-wHCugVuvI4T4X99_jSI-1sNNu0QDbRJTdV6_D7Ekn-rgtOpnKY3C0QQC3E_lDENDqEM3_adbU8X7sUSpif_vOqQjgx1BSF8sH1jWWy",
+          "w": 4640,
+          "h": 3480,
+          "credit": "inthira tri"
+        },
+        {
+          "ref": "places/ChIJaxb_rqssHDERArS7jcRwFXc/photos/Aa-ngMYrCsvOrbc5motJtVqFiU1hYcmfd2V-1UfOHk-fh06-A-OINfucQzUZ8whDDAThsHtu3uNkoEonki_4sOH37lJEbAKniPkDtrrI0HTco41uI-_V3CKy0WzJvkT3sY0JNmUlJYixpLTrB48cLMhJ58FfVXjRjYuol2B0iGravxg_KDPu9E7A_xap3ezo81F_6efdOH48Ttsl2Aihj7HZS2R-dFR0wFuVwvgle5lZUWU3ZOq1sk2IueegBrMr2SotFq8zWMxke0dPCkesLr9z0xkWybjdnY29znmbTsFftkwrAxUIlok6yG9LmHye5ouN5VGyeUfyzWOikQZB0OZQR2cFYhhAloy8hxAgxWo28TXvWZZ6T4t6qeqJyII5EJS37uzPcdU_B2-oIHnMy71CquZHG9vdHvOXxrwPxtQDVETHFxo",
+          "w": 4608,
+          "h": 3456,
+          "credit": "Ngô Văn Hưng"
+        },
+        {
+          "ref": "places/ChIJaxb_rqssHDERArS7jcRwFXc/photos/Aa-ngManivGKNljEHA1CkCzmLp_h_U88SBPN3Ws4koMrsIsQwxy7-f6WbBDs1nNXj1d3r7nzMnnM1ITcmuC1QqPm-DKaAxobzounp_BY29TV_Q283BEpy2VVXsf1LOJF7SY7b9tat8wxFv12IPFJfexX0l7a-k4u3EspOC3CzCWlG6WJJxhYE6UoSbl0IQxUG8XFQ10LUz-646CdBQJWakAHquqgsfGYse9eA56ZgeqYLd17-63yl9Rqul7Cd6DQZqzPrcwmUfNJktDXGt4ac6t0bcm4lBW3TPL6VY2o4JTMTbIejMukqE3gO1NxT3A3w_m2umdQBIZfYpEmhoYClplMGq9r7n3uGhO93aCy2__7chPfeuzPc3f_topGLOHVjgPv4lZJp3HyHQOa6duh0BO6I5CrwwuOFALwwQ0lmJ9BApFoyA",
+          "w": 4032,
+          "h": 3024,
+          "credit": "Nine Jaruthien"
+        },
+        {
+          "ref": "places/ChIJaxb_rqssHDERArS7jcRwFXc/photos/Aa-ngMZ_ThDesXiYqcNprxqenKLyltij1LVDkJPicZ-xktu92Dh5NdkFkGSJJIgNOOsBq09mmnOUxYs40nSuKjfBxCrqc-6dtASb9Br2y6ajgxfYJJe0cJtlMcf8ajBTLZ-qbklvS-yFzyQKeWs4ZAat9uCzcDAUkgsYCgnVFTTmhmKcj6LdEWptEemOzE9KcsxtR-gxkeTDnJ0f0wS45kTUK4C2Db78za0Wg9cBs8Mqhxy_M1fnXpXpnTZfk89ucfCO1BWkiPGIBkfOYVikttG9daRV1DxsxkH2phOyOuklGfSL7nDt5g4VieDBN7UNXAF092VhEDZwZxQDva84XTFI4RmVQGuYBXbZWX8hfP1Z6y0-x-GInwTNzC8P9FNS1An1vhDhaNCk1KJ0Evk-TjG5K3sov5jc4pGIPB8p2loQrkgyLym_",
+          "w": 2048,
+          "h": 1365,
+          "credit": "Farm Chokchai (ท่องเที่ยวฟาร์มโชคชัย)"
+        },
+        {
+          "ref": "places/ChIJaxb_rqssHDERArS7jcRwFXc/photos/Aa-ngMb-E6IIaJvmlqLcOmA3Vm15tnub9bpUp2Eno0YDpnP3gTuutMEovsoXikO23crEEGoDeggA-kh7KaAmnMmtMii7zLpZ9t86wq7tJ-rLVNQVlaN-PAa5G9ntRIvnm4lrX9utMpieq-5fPbZgsPi5UgZmyrZtzfLhPJFRXG2Oe3kjVQ9hZQ3IrWqzW-PX7CyhFJthiy6UuZYcPzMD5KEZXbbmKMUBhH6RXLbka86o7RlnpkGY_MP3sFReYBbGx0Y8c8wCNG-wbUps0E29FrozteD0VKGRICQWujlz-zpVrs5tUvFo8BgyI72ewQIC1Pv-hfkqzw1Zlrv555YVJuGcHFmQH_akfZiLtXgeirO4GNa5_2ig1mKJ7OV7RciV0fQ9c6tTe4r2uyz6rRlEfDuyhIwQSXinsiU4tdDJ5u13lzXtdmg",
+          "w": 4608,
+          "h": 3456,
+          "credit": "Ngô Văn Hưng"
+        },
+        {
+          "ref": "places/ChIJaxb_rqssHDERArS7jcRwFXc/photos/Aa-ngMYlU7q54LsqM8JTUnoYgIkuY4JFYJqwEtzhlwUpcubptcL6kPeH0B2H4QwB9zfZC80AxQt07PoW7Nop-cVwo39EDUzpDgLVOK_OM2u9EMX1XwRJF-ixoOnckzSgkAeovEfCcBx0EH4CSo9_wegcM4QsRiap0ZFy3cwzzDEW9oA8WOoy7eaxDdioIz3dIADXXN40fwIbSM7K2Z-eKK1j0S5kbR9m02zz3mzrjYMlKp211IJ6q9JMcZrVTDz_7XBuGxXqe8Nesu4V_bGSY5-G5NIAcHow6-dCrx4rQSTggxWmxRLilfY8DRuWH4Pxl17BPimAWVH5n-wZyqUC52QRdhwZepvC1rPX8TGB4J-9rtu07ggrEfqT5S0gPJgRIoh7aSVL_89bDdOmatf3XLiXL0Kg_I90IVy28_HgH9dnv-OD3A",
+          "w": 4032,
+          "h": 3024,
+          "credit": "Nine Jaruthien"
+        }
+      ]
+    },
+    "suwan": {
+      "placeId": "ChIJIz7DaT3THTER7vHD8HXsIRU",
+      "name": "ไร่สุวรรณวาจกกสิกิจ",
+      "address": "M836+3GR ตำบล กลางดง อำเภอปากช่อง นครราชสีมา 30320 ประเทศไทย",
+      "types": [
+        "grocery_store",
+        "food_store",
+        "farm",
+        "food",
+        "store",
+        "point_of_interest",
+        "service",
+        "establishment"
+      ],
+      "distM": 0,
+      "photos": [
+        {
+          "ref": "places/ChIJIz7DaT3THTER7vHD8HXsIRU/photos/Aa-ngMYtc3kn8jM52H4RBNi7qFZuL4jWK3WyR0IeayNEcjVBHh_Tnk6yCvCTLqZXk1QWHp2fcjySPSLfvEAqyNVuO6B0to5gSB6vgszsGI83VTQRtFPo39Ajk7etGeczPx5cCFEhnK2KAwQz3aAH8qDNW5gTQq2UuyAgxe1Rb4wRsqjymxWFRs2iOwT4ns70NPWt_dU3xnnzHlUcuNVnCNF_xdMUZLolJku8-GSH7TGRBlgaMEkXKbe_ccLx5q3fIgioA4WwL50oSz0tTDTfuRioTa3CYb5ZI9xl5ZfL6X2PTFAe0xqYzZRKMqd4Q2vG-1oyYy0cLNfxZwQPSee5psG7uZ1LHNkipFUHitQCeUs5sPQBBJn2x8UA_0yQJw8FPtxvEGkRB3ZNOKvadZr86F3ouhbd27VU-sY",
+          "w": 4096,
+          "h": 3072,
+          "credit": "สมชาติ เมืองศิริ"
+        },
+        {
+          "ref": "places/ChIJIz7DaT3THTER7vHD8HXsIRU/photos/Aa-ngMbTjwCdKpzLT6fY9JLBrpzWXcEjBAayVIM1SVL4KsKpNyUtGFWAKSDl5fdkuGWONkAU1s57EWAUC9n2Zi0CyyiYtcQq5b7SwfcGCCqs8TY_YAehv5lAVx1jBS70cdmSA4DyX1hA4m42xOu0sTp07s5aZx3VMsFdZLG154fZrIr-OsEbRiiFgMP-xCETltZoWd3Xr7FiiwMvSPgmtgAohvWA25b48lKYgvMFpv5aY9v3It984v17bKG19r1R0R1Huy3ku2oIGIOT-WkaDSrdAoNe5ZxkGf5ZDHfgKqJEhocyP9eeHn3ecOaOva0ygFabW9IvSrvpBxiA8uSMTEeJo1SSrkJP3PxWtOah4rOtnlSPTPaFeiLQJ7nHWk3-hDdcQCKPJ9cufjMSJamBPQeIZRj0Addief0",
+          "w": 4096,
+          "h": 3072,
+          "credit": "ชัยะ"
+        },
+        {
+          "ref": "places/ChIJIz7DaT3THTER7vHD8HXsIRU/photos/Aa-ngMaHGNTXgFYf3lTpo2ss41nSng-hAgpkGObeNEwO-IwzsZoSfQT86h_7W7P24bVf1mipYzcIrsNdGqv-uT-VzMTUEgZ1f7UUVWtH4Q6bHA9Fmv56nWbGcvvrVsTu_diQrDsAfEKyClNyw4oCk02rs3qBk_A1oo5FQOQV2Spc4K799BZ3uurczvgIJqYg-9NBjjoGm2Sth1H3t8YLe1KRVoQk10k7E6mn6tzavsPx8hL9xlB-iipxJmnyazgudyY1Yri9zh0_2ySkQnzM2DgwGymr1dVqoS-CfhAJmpetohitfpqX6grUJrus8eYNzuILibtEABu79yoczO38YlJU5k6cmSa8aS5L9Vx8K5u8EvDXj1yRN_xq7Y4BVNt7OtDg4r48RWJnr4jNHccwycsuuvgPBQ",
+          "w": 4160,
+          "h": 3120,
+          "credit": "Chumnumporn Kongarin"
+        },
+        {
+          "ref": "places/ChIJIz7DaT3THTER7vHD8HXsIRU/photos/Aa-ngMbFXLE9nmvA12SdpJ_WaxqyqBE2nXDzL3fE6kOBErcDApIt6YChCo9p4ZqDaWNQEz0K6qXgfVAQo0lHOx5zfFfq170al0Er8WPdQMwBk4K9RsPF9wW_Dc6ns4Hp0Fj0xtpdUtqLmxbRuHeubdcQvqRuQe9Ulz2N-Pxfh82scFonGqE_esIMWaE900-wvqOKDDx-SIJI78QXc5GZBZPp_I0wvH0mD7sktcLYxutLgzjKcMH7fE-yd3bdgUDxjluay3rEHPe3Jg3IW_5DAzboCVXcYgXUKbFV7yKtF0BZAHoNW13Qb3iftHYtNulz2c7VOkcEUOAiync4pJ9ygxkkiwLBkAWLbZgKGaHht5iDZsNjmts5F2YE_MNdDRfciORjY5YeP0q4ITPdAxrHimXus6j-mKoed1w",
+          "w": 4096,
+          "h": 3072,
+          "credit": "สมชาติ เมืองศิริ"
+        },
+        {
+          "ref": "places/ChIJIz7DaT3THTER7vHD8HXsIRU/photos/Aa-ngMZY88eiqQbEU1VzL9MTCVN2lWUDExa_ciggg5f-nT-jk7F1UOdUgQnnSXPcQBTVP8QNPCss78qWTilrPlxWoI6_jku8Cmqu9UmngabaoXpoexUBO89wMdvLMqSPRdhPlFVdTqWF3LWU0HTcaoGaV5CDK3SIfb862U82wUIsw3JpZvXmHF_BzXzPU6GEdkqsZuBDtCSsCFBuo5ILUXasX3w-D6kazaIsujwOyJnp0rB0coTPtvCqT5joOUWnrJXS-QYrstpyUrl9TJOcetQtggGYmi99jymoGwyGj8bMNfaTaR9qW7mhfV2phV56ZCYYARx40iyQoVMIGI1_Zoe081imtn-3zs8cjQ5JKBVAMbrfHwebCHBifp26zSTJzWQrpjIhp8MYi867vNTPoDC8l1v5Q1IkTNY",
+          "w": 3648,
+          "h": 2736,
+          "credit": "Kwang TH"
+        },
+        {
+          "ref": "places/ChIJIz7DaT3THTER7vHD8HXsIRU/photos/Aa-ngMbhotUYw1-5i7rxSDVQv9OUM9nnbdj3EK37QMAZNiEE_VPbro9I6Iy2I86A7dFXAUQsgXp0POW6RAkNteQYVEVSDnOq-km-ysCa_y65IyJ-CGm0OaqZe6DOLyHw8JX5R7fyn_7cPFwFf67FR0mEkjOg8Pw0fMpmHgctzxLO80Bkax2bO_2yNQjkQ6Q3EAIDucb06V9GDL9hR-LUJzqw_BtTv21aOZGBgHqjy3hGXgYy59_qngUMjHl0VUwlkS8nrd1k-oBHy-2BuKkHa3ysyAfCRVBPJOU2MT0pQdpFF6jrOLTmCvHAqgYhyZqG_jPeax7LOyni1LPaACMGb18La6huOpFn3LaBhN9Vs8urZIr7YxnrSSTPR5xTmJk9QGnLPhaANRgB85073qxJIe2AJNCjfF-9vD5snsISiixYsuKU",
+          "w": 3000,
+          "h": 4000,
+          "credit": "Elynnda N."
+        },
+        {
+          "ref": "places/ChIJIz7DaT3THTER7vHD8HXsIRU/photos/Aa-ngMYG4bn6ADpj19AmTnLUfEYl_aB8MOEQwKMBXBSC-MVkuUL2e7VMwmrX6Df5xSbT4EYw24Nwod2c5XgDdE2JQSR9HpnWewE4mO-PuauLvi9Ch-YNmK9dHdTntHynO4GroLS4t93_LGmP_lzJJMKPUec__zSMFwDnE886ZOyIwnpBGhNxCaPTCPLsHgnMsf6sF_QHCmxZeQwB3TrXJ6h_3hsC60LUdZcjBtUsN9caHmIdQtMAccH6ut8l62q-X5DjVIuH_evx5D0hajh3t1dMf-o7xSQMKLH5qPBXr2qwGyowJF_yhe_1GdNNeqOpo1TrACJc125u7VPFTjcoGLqjbPVLFFL0bzP4utMuho6IY2acRi9B44cDK2Jd53f4dakMlejmL7ENcGjz_E8lctuhEqbS32k9U92jCoyAHO8wd-Vh",
+          "w": 4032,
+          "h": 3024,
+          "credit": "Jin Kerkarchachai"
+        },
+        {
+          "ref": "places/ChIJIz7DaT3THTER7vHD8HXsIRU/photos/Aa-ngMY1OxHE6JcYV-r512bTO54CfX97uCdCY6LhRvNgmXQ70xYPHAYXH8_oz2rw_3xIx7G416KftPPdPllEl_KrIiZfgIdMWLDQ2TJ5_JmFdKLuxyAG9k4f0NBaygqrIJ1TWFX4BHfA4JwreTgrgW_DtFJlLtwjV0ViJAn14jsNlAM_qrBRFQn5Z_XGFLebaQBMdAr3GiiU9ZLd-nn2oMnpm_IWLovxW2SEyJKbrhejZ2Iyh3UzmBHXUCIsPVq5AooMWYjEHTvSlrz9wqe-ZFvrGn2HB4WfYyZELjtBxOdgn918mv7wF0eCmxTy2kRLxKTLl8LXaqtl4AVzuBtMpBj5GXsoGpckxYK36UlSCjm5fNyzJPWsZheY2hTzXkLjgm8ZKKwtKRhp9zVjiLYGXi4LK7ApNANMcmI",
+          "w": 4096,
+          "h": 3072,
+          "credit": "ชัยะ"
+        }
+      ]
+    },
+    "oeimi": {
+      "placeId": "ChIJh05ZQ9zrHTERk-HfsFy0n88",
+      "name": "Oeimi Café - คาเฟ่สระบุรี",
+      "address": "99, ตำบล ห้วยทราย อำเภอหนองแค สระบุรี 18230 ประเทศไทย",
+      "types": [
+        "cafe",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "distM": 0,
+      "photos": [
+        {
+          "ref": "places/ChIJh05ZQ9zrHTERk-HfsFy0n88/photos/Aa-ngMYhdo4aulN3s9IHy90CX-BPU6eFbOS7ockDAB4ocPrWawuK4Fouzm-w1gI-Up7GGwRvhk-_4ELcFtRGTJrGy_vznGMJfDPz73XxfxSM7kETT0KucJRhh2C8xA0tmePBnaqtRM4-8GMTXO_z4p8jUab1WJu1BJPQ9P0KXqr-IKvU0yIUILHPFN6tqt-B0xwzsPJmUlvATU3tIIyACqojRviV0HthGlYiha_6e0SlKnooMWA17bplT5J_bVmi-Ris0XGyS4cdwUOS5WEJ3KYN8IF3FKHrAqx-IwCYt_RaPssqhIByeDGcgwc6X6_nUvg6-VWqhpgSelppHQZ8zQ4Tlo3rfbLe9FgKn7GE0qnVU1KaFGHbSF-vdLGDosfBrIqQsZfuiT4SDs-bzkI02TMAqNIHBG3wtJMQJWt4yDORYH1EHwlu1yKb_2uWpNJQ6x2-",
+          "w": 4800,
+          "h": 3600,
+          "credit": "I deserved The Best"
+        },
+        {
+          "ref": "places/ChIJh05ZQ9zrHTERk-HfsFy0n88/photos/Aa-ngMawLel419vj06QYhmTTFC_FgzH1scKjC5Rb_es1CczWp5GslzkrM8jMP5v7dPGRyWfRZH0h1LQkVofCr86mQ12u7p25NLQO3dpuuCq_84BNEptfWsDvoEbYx2aLKFPGTvPjLxz-VGMgWkS3mm1V5k9dd6aXt9lRxGdDquCfYYDg5xT3VNNUHv50bR8c7oNcZt2_y1qpJQuZW0wrubHntyfqup5udlgZNNrqoS5StSW4xzZIizYXBidSdYuYBvJ0uDprUDmFKZ1EM_66biNlMLGAsSoN_hH7U4sTYRi5iV9de7HjCq3LjopehQkQFTMiIiZ35hUr50rVT1hJuqx6jnYDu1Ke4IwdYfuuiPx-dIeaBMnA96JsdV0ZaQGbHyH4QWEFhB_c0KUjJFGpwER1eqTvhhdCEhyVyf30eSi2WQCKSzgC0RWQjSh4G8XV1meV",
+          "w": 4800,
+          "h": 3453,
+          "credit": "Sunying Napan"
+        },
+        {
+          "ref": "places/ChIJh05ZQ9zrHTERk-HfsFy0n88/photos/Aa-ngMY1EwjfEQtsOZwbXXRPUOs8UTD6WnyPpP_cxPpm0skeWGH4Id-bfsweiAD3coL9GxqJiyru0zEWT8mo6rkwCMVxQo-04miKgi-FGsekMldWU52hqyb3gReocPJeoHWO5ywSawaF6EPk2NAFtVbOXIROicK5lYEkUgWviTdDgOupEc_Fjin2ZWZMvj6W9ZwTYenLbl0lBkMs36qpRFL080J5_ADF9a3IH-8bJqo-w0inxqRTl6CbJ1jLrT23vIhFzNyOkZMiQFVzw1RIM4RsicLFxElzDM8ZKkXo3BEer7fck8aEdYn23RH5BnjRmc5_xNDpAqr6IMu7XeBiuyVlZATYno5tRFWaG0rHOXScg49nyXtyYcuExkt99F50MQzoGeihzOUBCErl09JN7nQheXW9xKWUdFHYBHzHSqwJ3JzqSL9hLX6tRf1Y9TtvgjWO",
+          "w": 4800,
+          "h": 2700,
+          "credit": "Angsumalin Songkit"
+        },
+        {
+          "ref": "places/ChIJh05ZQ9zrHTERk-HfsFy0n88/photos/Aa-ngMZBASF9oCqsiUK6qPjABbSqnsYZObJpgU0Uu5-5gnPITzL_Oeh7alv6mGYOCgYMogH23Ab5EITmR9i2LQy2xHnh47OOSQs79XL0uw0y37NcwYGNCAnr-sjRafGoNG-3dY5APGmnypFUPOClA0qW8eTL5Dpk1kFwBdlV2I-n-xUEoFKmUTJmzBLWk8SUc8LLZj2UJs4sGC_ZWnxa5sLOdKB5gFMr6_jIhn521-8z6YwVz_lWm-TwK3grVewoFbKKTk2Ho8sKRDNSoF3eNbXChR39YemyVZ29Z2Qr25eGtldTh45VQr4Sqg5KAIEEpT5GZQd4gHH4QLwaWV9gZSNyv_oWcIfacKu0ySHISYjMpoqCB63vdnCMx_-gCh5Q8XEsXPIK6zlCxVVVHxfhX01MzAU1eZNh7zuhGjV-keHNsySMyjxzVqTbjyLL-kxYuyCk",
+          "w": 4800,
+          "h": 3600,
+          "credit": "I deserved The Best"
+        },
+        {
+          "ref": "places/ChIJh05ZQ9zrHTERk-HfsFy0n88/photos/Aa-ngMbeNweCaE9tNzgz9UBqTb33E4MNCFXKkn0Pzn7MjAOf8cQuHhW25j9nA7FLToJU52dOhj5POmmOnzfF1X_ypvTBkO7Xl7xbfBbcHjr5sdhg9f9MIF9MEA8RTIOIpRNuTG56rak1REh3OD96ipNmr0zqTq9Wk2ZScNZH5e7vT8sPaUO_CPG8wbjDa0q2FBolqL3AteWzPJ1maIaCThxuk-idCuvsDomr8Nn_bUSosbK3cDX2rv5Lmf20qBt9DF7gaKWemvDs3kNANFPK_WbxB1NvdTSI1arq7hrh2jChk5dJcSkUvOGj7pRFx-tRy2AdqKgAZgEnJLRN6_Q2qcrkr6icyadXgVD3OgcHrzCtVxTeFMR3qyFqYN5tjob3WWrSazm0DAk00qbudogcFQ2vO6b3UG53Q0i5S3RAUumbSIExXLWwG5yWwPjzqWTWQXSa",
+          "w": 4800,
+          "h": 3453,
+          "credit": "Sunying Napan"
+        },
+        {
+          "ref": "places/ChIJh05ZQ9zrHTERk-HfsFy0n88/photos/Aa-ngMa5B4KNa5zUckRhEpIQvx6c03sW2LcJTsJjS7NZf9Cjo_QhJk0OLar2kkTC7aenMHgJ4HPw10ZGzUxGOLV1iOFoFENXf81T3kLj-6f_9bi3dQ2YMXEagtAAzgo1S4ZCrTAqHPouAjjOZLjvber3hf-maiD0lh1KFxHlOZYQoc9ln7wysaaTt8A-HFxItIe8TgT0zwQlMWUdjqiaHBNIajzFHg2GD1K_Ajc7izvojLnI20gwhsCymbCO7OQKUSMY4dUEDIC7cCHsyjnn-GkCQ_nMeBnx0zpsVFSNYHc_MT5bWq2TkFR4_oJajwowH9Q2YU_H4h8XVlLCzXPpowulzKVJ2R1nU5UPtL2OOSiN6Hxl_q5_Df_JXcLhPVpK62GI769TXrPQc0WySOUWex6-Mte7Bca4Q_mYAkodyUzGB-oOqr6gTo81bZ8zxeQg0g",
+          "w": 3000,
+          "h": 4000,
+          "credit": "บักเหน่ง เจ้า"
+        }
+      ]
+    },
+    "ptt-charge": {
+      "placeId": "ChIJiaZdahszHDERVL9SF6b0v3o",
+      "name": "PTT Charging Station",
+      "address": "54 Village No.17 ตำบล หมูสี อำเภอปากช่อง นครราชสีมา 30450 ประเทศไทย",
+      "types": [
+        "electric_vehicle_charging_station",
+        "transportation_service",
+        "point_of_interest",
+        "establishment"
+      ],
+      "distM": 0,
+      "photos": [
+        {
+          "ref": "places/ChIJiaZdahszHDERVL9SF6b0v3o/photos/Aa-ngMaJ9oDE1RxjxWZrYtbBfONU9U1C7ejKN9nSCMSdypkEqYHN4nQVSpj8CjdeabRSYaDYhoHVPrFtDZxy3W2bF5ROqnkv3-oBPl8XOgMcEucTCdltvKkGN_xv8JsrvlGgPV27JSyfLxLEN1gclthFBfvynu_ataYnukcEFYXbYaxtjvINVM3jN5J7W9gV543f8jE_4PAjGq-nK3vKQAsgjn8ts4jZYaF2yp-GqYfFRMQDpQLLYIDRGhGuTpVPCaDX6BN53Qh9kRFHh7DSJABVGE9uqRceZeVyQSVOBSKxjCfezy92t_q7G1EpkSOCxwSKrc0TnAiVKhQW9r8IFOVMVU7CYPxAZxAVDPsyMswXCWGeP3OrjEUq5IF3cvD6IPuNt9ZrLohcJcSoGl4HuhkqFVbAsebZw6d6qxlt9m45oysxXEDs",
+          "w": 4000,
+          "h": 3000,
+          "credit": "Ps.Worachat Janla"
+        },
+        {
+          "ref": "places/ChIJiaZdahszHDERVL9SF6b0v3o/photos/Aa-ngMZQPwwtFbXqY8IFY7xRGkfNWSIHI29BexblZptCIX4PmIwXHP5uHlGqvF2YNaQl86f25ZqnL9MHnuN9Lq2KAHHuH6XDVy8oRrOtGFwRrO65irt28qNHNqj_ZmHBXAgnVqhj64lsxhBOD_cEY0OziZsU2xc2XJmidY_xMUzSqnduLQjV4pj7rgEh8B_MTzDErgz-38pNnaoMXufNxUVqa_9in5V0iFVpLSzk4TRhMBlY6F10ezn2klLs9bpsJjzDKJFfeZxJcJA5qfWTtiKDN2H2CeJzBGwFYjtnc4nmchOUTIUl_pTCG51njXtk5qlRskoThOOSwpapyXU9mm4JGGmYHOobQVvQHVG1S5mt6nOs2xVRJ78AwM4j1i5ar13LBYDGnjTmPQ9R24-dglzERbPhM4ie-FxAA-vSr62mpOIPQg",
+          "w": 4000,
+          "h": 2252,
+          "credit": "Jrp Sk"
+        },
+        {
+          "ref": "places/ChIJiaZdahszHDERVL9SF6b0v3o/photos/Aa-ngMZmKmCIGilTDKq26IPdkfCmPsILXn1cPW9nHcc8CuBeGU19uwop0EBwf3RrFhNsCk5hII86pWIKc3LCt9WT6eWl3lEz6Wbqxs79L5NtyInMvx2L2ENH7ovKwDZ34AFfmLHrI7JI_rvCLfLLxDy1jxekIElVwubhPoRC_BW_DnMBh8BLaWr9aKewUdGuS-8NfDJcVI6nuhAgRZdTXgnUWSMt7iZ-B2WT8DEa1hJxXwTQ5Y0JaoNPtq09BvpUmOoRYDZdrywjbMKWASW9Vmphs2Ae60Lap9dVFZshGP8iF9iGKGk1GoDHAo-RwCL536oAQB_jToropKBQY7PkvFeF6Osdje8Gp448HWxCjWhOI57fJjE5h4sO66TT9I-yJdl_CB1ccXptUOZLmI1LOGyG1kIC2QzXOmW53i1H6fwNQdPKLA",
+          "w": 3000,
+          "h": 4000,
+          "credit": "Minn"
+        },
+        {
+          "ref": "places/ChIJiaZdahszHDERVL9SF6b0v3o/photos/Aa-ngMalp-V4tHKFOp8PjRsvujtexKep5HKwVkvvxdQz40jwPMhMwHjI_qM2m7zdBHT5M5b3w61mJlrtB1wtl1jToBr9raBryRy0LXfNjUYfbxMK1uUcd9nDe3LJG0tW522ZJ-Fx5JJmeDaf934_UrwBqMCoou-EPzi56l1dzq58rj9clojMkqU7teP9_PzKttHQgMd9pAJ5xQXmGWNxdRM--SSWpg7NBeItAH2iZnoJRNPQGbIu7lWbEwyy1tjRihPxSa0vosOqo515tIvnlv8RknkAgtbicxmLCj1DBhYXH2Z4MitvukB1C79dad8oqpm62_hqLMvGBXRMKtMy7lr5B0VuT7IC33ZvAp_CqatKTpTLRq2kjL1O6gTMZBPF2f1PqDGHBDk_0cD635g-l285PvaJWws-8vceLBpE1o25dpefeFyP",
+          "w": 3648,
+          "h": 2736,
+          "credit": "Jeffey"
+        },
+        {
+          "ref": "places/ChIJiaZdahszHDERVL9SF6b0v3o/photos/Aa-ngMaQ2x5PZuTOoiMndJO_um_v0ANRYTmFm5rH2sPyTWmYCzJfCXejR817Rws6cr5YkuWPvWfQvESbnlnyjZJD-l9g94bTtADl5KvEbN7iOYLkERhNE3_BW_OHknLoGcEx9nikx75IpgCrD0jVd3qSZzR8bUqU8kN4V3to8Y1MI5JAExDF25SPieXM0GqM8GwIn60YdN8b_XRLvEC2y9-dBpgN-W7_TgbSimcXrPpwwkTYaIW2s-nvTh3Z1_Tmg6-hEo00eBkXx4GW6mPzZ18CO8RZo4XvhPK8qb_BPODewskqEgVXCpzfY7b9W0TF90wDVWfTPcrwcubqdwrJdp9DYodq-PIxH6S4qx5vnJLI9bnnzCKc3v8V328bShtzzt82GnBWvNuOPlhdGaLa16HZHRG8V-E4kDiESs2tgb7HUjdiLSi4",
+          "w": 4032,
+          "h": 2268,
+          "credit": "Surachai Yodkaew"
+        },
+        {
+          "ref": "places/ChIJiaZdahszHDERVL9SF6b0v3o/photos/Aa-ngMa9qmMQCre2igI3OKzduBt1YsO06QO0NhwwHfr-Db3q4KkHwdIowuFLmFJg_5fC8C2BY1zca7lk8JJNCA410kec4DQL4fUP_T7EgWVy4uAPoO_-yMKq6YANUmvdjCRH97o_osFGBCa72D8iGB3puGzDfPRGSxo2qze76aeRi7rNDiVozsQqMX5vVfoqc1O28BuWnl8jzJjQt36S0TGWPe58shDhWsg6B3Uj1uNyatgvOOAkZjDfYDeb7DGIsxXWgOdlI5TGcwIVHZFvnRY5PkxFjckHmXqgvgKyNyfgXLM3nqz-n4IZDr_r4myqhv3XjeBhDylk2qg_X19PGT7HYUZdtq9FpVpfI0-U0JJ_u3qWejWzrlCEj_fQ_0CIj7rqRBREZqjXQVpHNPHkvP0wnhScg9IJtM94odbS6frMNfY3uQ",
+          "w": 4000,
+          "h": 2252,
+          "credit": "Jrp Sk"
+        },
+        {
+          "ref": "places/ChIJiaZdahszHDERVL9SF6b0v3o/photos/Aa-ngMbczTJTQaiYY4sxyEM5WoAVmP5kTqOLHzMwtJs_tt9tT7ZwG0O2l_FWR0YM3YNzn6g57OxyOJse_W1p8juHtxB9x7wgCDXRF6-DuNvz_6EQ6G_KazXLE7aNiGCh5MPi0A4ArNIw_phL05dIlgyWB7xet15zOrvreaYxx8XhSXFq1SOOf_C0Ih8TroQrY8CoT4EnonTpH7npk8vHEk01c9rkAM8AxWElFABT8ZQwj_sQnLO138XMqkH3b4m3CKOsoWXvSanNK64kaMS2jipHeqr-0KDqH9T_a-ULWh2-o8PB6y9eaGEpSJIUUFwpfs7kdTyk83mnRMuh_TEzdC4S2zm1XLDEHqfMqLqwoxx6-PFnrQs3O5pnA_m1ix4iKtKkLWlr8PXxA4H9GRkHVbPu_sYNZFCEkHSnpiw4DqQMTRk",
+          "w": 2268,
+          "h": 4032,
+          "credit": "Surachai Yodkaew"
+        },
+        {
+          "ref": "places/ChIJiaZdahszHDERVL9SF6b0v3o/photos/Aa-ngMbIfghJVIWEORCSwOQC2TTS7MUZoiOb7RPkQDCdfMNlXsyULiJbRjbS1A5IEkPva8jB_VUq0Gbt6g1wcfXhph8CDLwsgwa9ykCQc2l0e44vp2bpmaXOIWK-UO26PS72XJkzGZaWoSiGjsyeO9Nbb88z6RImG1maKUk4z8LqD5np_fU3Lm0eHivM1V1YwXskcXrSL0JqtLReFAILUiK9MsQf-AlejVZ_vrPGQw3GPamBiJp9hZGhFrBqHQ7FUEZCLr1jsf3LB3LHcBQ0QlcoRcMkTVzqJnz7LKOTCfpiln28Iv6iN_W7RW1oIxgiKiAZjTE09mvcowbHBVP1BbcE4vXQLFC7eWOe-vBRemWFk33TDAgP0LVESlcrWj8v9OMulODPJMwgfg8hBLzME72qjCyUfBtBt5AUUfHMH91gCfynw7aD",
+          "w": 1440,
+          "h": 1920,
+          "credit": "TsAaOwTrP"
+        },
+        {
+          "ref": "places/ChIJiaZdahszHDERVL9SF6b0v3o/photos/Aa-ngMbP3FPdclbLdGgs9c-UOrie3GiFMm0J9wW3oEl2d4_07jwTBhQrDGxcFjefhwKoj7JSTJMaf-t78k2APzSExI230h7GWRJHIQ18QhI-rd4SavZob3CTSqm47LOLE0bwQQZzCizqf-G6xPHPWuIawQ5bPG0E8zuqEGmy-5vQwHlKnNm0kZ6YFVYn4g7f1V3FuwFVr03YF7p88GVZchWtpKjibuKrlHyll-k7zH8mWeo33-BYQSVuGHrPcBqVJaAVh0BvSLZusiJn9hPbNNJ2EwNDt76aT7pZljXu6-5KsJT1CqCh-p0AQ06LhE3TG1LmtfIUpWrOCpmRVyLJtXIkZApM0GcilUaxka_rbfJZHIDZ7IQ9U6S4KjwbRcR_lM1vci9E4cZrpuCVw0uomc4jh8xiBiW8Zj0aAeKxHi4HL3EqZA",
+          "w": 2736,
+          "h": 3648,
+          "credit": "Jeffey"
+        },
+        {
+          "ref": "places/ChIJiaZdahszHDERVL9SF6b0v3o/photos/Aa-ngMYdJ7tG2qs8EHcZ4WVSRaCq0DMfDGmyqm5fQR5Vo61rsb36XoSEIG5RtNEKus-gVOeKtN0lrHarnf893R7ZCakpxG8V2KMpmP-5qNroqTkACRCZLWdgoCukqHHyk0ARG92TX-XwFR_UYw9Gvu-K6ZYHyocIjFFIxNec477Vg5NoblQOEowRrSaLh1AzGmM2_BpypLgsNW6SwTUsyuZBPNOJtXcA5h303i5JcxjaSygzF5GawwnAgsbJqOFMLOM50WUyEcuFKUBBDMzNdoOrMI144qs48vbOazsmmp3aXCoMJVTdHxgZY_UWLs13DqLRVJVh7AyYE7xOXdjPnr1ClQWSk6eEt5mr9BAPbhnQ68IlT9ApdfLHg0Y4gSaZkM-nVNgwkwraWKOx8NrxW4M7G1gpUbQkgaG6u-HKYvrGDibb0Q",
+          "w": 3264,
+          "h": 1836,
+          "credit": "Jrp Sk"
+        }
+      ]
+    },
+    "ptt-station": {
+      "placeId": "ChIJyXyttUwsHDER5bNzI3Q9hgo",
+      "name": "สถานีบริการน้ำมันปตท. เขาใหญ่สเตชั่น",
+      "address": "95 หมู่ 6 ถ. ธนะรัชต์ หนองน้ำแดง อำเภอปากช่อง นครราชสีมา 30130 ประเทศไทย",
+      "types": [
+        "gas_station",
+        "point_of_interest",
+        "service",
+        "establishment"
+      ],
+      "distM": 0,
+      "photos": [
+        {
+          "ref": "places/ChIJyXyttUwsHDER5bNzI3Q9hgo/photos/Aa-ngMaIusIYSDS5AT98pWyvZX35pXwwCHomlu3gzM-VSodUbH2fnfhcJJOUDxe7gV8IfbOiTpZSp5W-CHIOImpRmGd7vSWXwsSHpsRPAwlRieR0K-v9D4WvM0ur9teoQeZ50GdVqy1UUG26TJaAlf_NtDZ-QNx2qsFCnj9sqbE5DOoUbmC7RlCWlq7qTh6-a26Yhsom0JlKeqoPirIIhifR3vg-7I2TENtFZSv9kaqT16JROrmomtmvLTzvB2gXtqQckw9Bedc1zvTPXHd2jXAuOmv3cyiY7AiJnEQurFsDWB9JRb1cVF5z0gy8OSyeAsjSY6yZCyhZ4nrOgQV4WC9Cxt0ZsChSeHrqf8DmBKddROtZ-O7gf5NWY7eWDQaPY_VerEFbN9x9y9pCok-6YgLF7LAbjG1eGLHY_eoqL-rMAfSgBjU_DAhrq4IguavEzw",
+          "w": 4096,
+          "h": 3072,
+          "credit": "TeeBiBi"
+        },
+        {
+          "ref": "places/ChIJyXyttUwsHDER5bNzI3Q9hgo/photos/Aa-ngMbPixwoYyowpcLDWLak_Le0aEunmZa6Gho5QpcrURH4UpYG_Dh8Vd4bruhMvWGTAmkqUMZOoWKM2OztHog6slfg0_1jQwr8p7NAOrteJzC5Td-TzzqNb97kCroGhoXVeZlcZajURd-4VBR6tCMJE4eFtxkc7hsvoglmKeqN9zLs43mglAbKCeGbLWSA_PMtScm3y6mtaxmtauHuNTbuBrm_KPf8cyFjasGqBbkUbqA9g8ImfRsYRujoIU6X7yosvI8C5UGiswM_BVitCF3rE2-R49MlHl9sVA8RYDF5TDAKRbrEwRFYKn0wKvmrmhCdwSfCzwlB0nZx6jExSqJzi03Dx6AnH8MSIZZi6JeazvdyQNIIrPyvu9UIB3MGGTEN87SlJClM85Xu-Qn_6Ttd0kDnhLcv6TcvYpPs78sKBzsE3UWh",
+          "w": 4032,
+          "h": 3024,
+          "credit": "Review Pooh"
+        },
+        {
+          "ref": "places/ChIJyXyttUwsHDER5bNzI3Q9hgo/photos/Aa-ngMY2DhlnaylWpA0Jh-pOlRO__qeQsSvp7WBmFHTtLeVTo4LcYn1a_Kw6FAwcG0ELzvciuYHoBIOPfQOPRBsHZwXVZYQ8wVVM50c4E8nOsyAXgBIMeyS7VvvoLmnptVAYJWQlD5AHW4A_vzcWJXwbGut-fHmH93456-4Aky2Xgcfpj2SXERdBI8UGiyM6YbCyMqGGODT9LOESOKtVMCdXm06OxT3QDWmkxMs6kEm3zH2PTizTNyZI21vVKWD6zd_4h5tG9Uc8pECmRbREEbBrcKOkpH3tAPzuNaBWS2tsy_QVUbTL3EdJLvolSjqpcaQ5nxG6dGHPWKwoeq7uvfBn93RzHxlRPGCu1PWI6vrq-pHlVKwGyeGAu_p7D-Wawc9WnaBl0s7S9ATLn21Qn81XB1FCHXSrt1cWg7gp6KXbeWSRT2UYU6St6lPvtvC6RWvD",
+          "w": 4096,
+          "h": 3072,
+          "credit": "TeeBiBi"
+        },
+        {
+          "ref": "places/ChIJyXyttUwsHDER5bNzI3Q9hgo/photos/Aa-ngMarTogUbG_j8p8rvuxSp7ChJ0krhCvw6FBy_t_YD2kQr0JuVDSQzKb8Oew1F1Fb8H2YDOKNM1JPbsqC7s8SgA4zS_AJ1MTsL3Wl3LkiGjXLyZ3_V_zKbC438lpoFp-3jycnkiUOawyOgd8M1d19AWFSEm7RcegCuBCV7dvm3g9ECXhxbf3PlJMmf9s8rqKR61QYmh6MdhP-Lb4l4sAydNNWH9qCP-h8KsorHECdloqQwGQk_eCLaazSTNowZXAdyY9_A2YirzU7i35JY8Y6NbEgog_FfB1qpvbw7pZwwm12A-ZKBZhKZ_8M7Hgojz9cVR64fzoOATyvMIjXQss5l2XfFugHEikckzD28dayLkTGZ8gqQ0_v-NGBE6a2IF80Cd4-XBO3mEUn4t5s75MOjLJKPa9Gg2MJWOEJdDZfoTB7QaQjtYpiJPbCjw4Y-9kE",
+          "w": 3264,
+          "h": 2448,
+          "credit": "TeeBiBi"
+        },
+        {
+          "ref": "places/ChIJyXyttUwsHDER5bNzI3Q9hgo/photos/Aa-ngMb6-vLY_o3wedawFQUT2pDCC3fopQ63GL5NiXiSOH7nzvNAbq3wYtJXBLI91bujRxj63J7C1oT7eIc_aNJFKKiUXrBpbSF45M6rU62VDwJ4vECR7JdspzUSNC6LJMJDzXx76VwfI1G-0PhThTJVFug7bYJcyhqMKiB73-krFaxfl8UXAZClNutqEoRKn2ndZihk6Dau45g3ryQCaRyUntyk-blIh4Zfmi7CrDk5r2rMAbYCqDFdtKGJ-_yCZstSsi9HNq8muqVSHNK3JtRi49-e8MhRDO4i4PB3mobNzVWZT73s2BehjRTqPYaSQMO9quAtbLlISDakU_TM4DooMPumgxbL5okAaRKPDPkXk_sfn0VPM9WZKlVZFqJIC8nNfCAvH6uu3r-EbBzzjT1yXyeEtz12zeK6DAfvkNKU5dt1lWEmmfMNQBlc2oIieVkS",
+          "w": 4096,
+          "h": 3072,
+          "credit": "TeeBiBi"
+        },
+        {
+          "ref": "places/ChIJyXyttUwsHDER5bNzI3Q9hgo/photos/Aa-ngMZwbh9Ul61sfd-vJo0icxvoRvz360M1FOs-tY6RmJ4615XSQvGMJ4BOMNKuuioJAh5Dxo9EX4BYTQ5E0H0_80k71xW6XjiTAL4qRMRxuaW2YMQPO0li3m9S-WXsWyX8SiAYOSYtPr_Nq7bX3jgQuQVT198CvqDpTo5oGpqAhflXYDoItZp5cpjJpqoQVH9yvCQAJeORaCiQdCpcVZVDnynyYz3UVO8kfX07F5QrTsFa8gN1hdOh-PN3tm5puoFL1mgY7fW7nQx4XFQ_0Q5RDZWvZWcnp0glqefwVXQk8w-kMXiQLWCfIjPs0m3jgoezSe22MFpYwGaujVYkf0Yqnly995KXaEKvAsR7Xuf67nsGVuq85T0CsEGqkYTlSqaV5xpc40dCaZdYUFI1Cvzun_xyIBhwxx8zDDcanlup4b5EiDGuXpJyUDBP1HQqhX9y",
+          "w": 4000,
+          "h": 2252,
+          "credit": "ชายชาญ อาษาพล Chaichan arsapon share"
+        },
+        {
+          "ref": "places/ChIJyXyttUwsHDER5bNzI3Q9hgo/photos/Aa-ngMYCF3biCGrVePZ4jUO9j4nPUkeZSmsfSNJSCGE3UA7P9iuuLPl6FTJS0W-w0K-X_2oeMItwcFFqmSRpkWMHHX0KyoSVOitepxkcUA2aQobPLllQTHhFTURO3g8KTgPkLQX2XtqBnEucaetKWDB5LWxh17Og-Jw2lgeyswKReqNxUB-aUDlJungcDmHszvhb-Aleb-UyOdKujH_YsnFh7Khp7hRs3OvrP053_KkUuQwAy5Ae0292f_l5Hnr0mJOr_iEWjaXj_NxB4v2ZeZYfUKQEU0H5tz79865NpItuN0xGQxBR-Kam-QkOYQoszQCCi9hOeR_wdi7e4tvO2PvulF78cO_lRTHZKTdwdvYQjudWcoBV1ceb3orj6R4jMJ_tSja479NJVhMlNnDSgXc49lbHl1MO5CJ75YeikELKrRZ6spP_",
+          "w": 4032,
+          "h": 3024,
+          "credit": "Review Pooh"
+        },
+        {
+          "ref": "places/ChIJyXyttUwsHDER5bNzI3Q9hgo/photos/Aa-ngMYaaFUdhu_VxHpfvNl_KmL-fminLfMR34upMbmKjdBRbw6WbS1S0JoAArEjQpZjNAR1_5NAvIrOsakMTMZoBCH9U45hSTqF8p2Be5BLuOm7JyygQrxCzhq7nFvBzAoyhqXBIO2KhMBYQU5Sm0_W85EB795rlQKKbnBcUo2ydAMkjKGct4N9n_uibXE1zmJnC2ugwyOoewoXUjhreDfxolGTlfM3lH4W_cgebz6QOv3Q1N8NmQ7sMBakkAUw4YCxdHOj-E6r_c1LWyvK62N58v-T5g8un2Tu4T-hNllq244uj6QxUEe0-zDRMeZWQoegUM3DZl7xhM-rxP7jNr6gJnjyL8isDQL3Rjxadx7AIy9Lj8a8XrBVEXYZcpLFiQ-LbA70rYHTPEISQZvv-1x7zp-irSsmk_taxdNsndIDLan9sN_LL0_R-0dVcuyrmw",
+          "w": 4096,
+          "h": 3072,
+          "credit": "TeeBiBi"
+        },
+        {
+          "ref": "places/ChIJyXyttUwsHDER5bNzI3Q9hgo/photos/Aa-ngMY5yZbGDyCOrzcwYqyU_c8tZ77XJYM594TL54G6419PZfP4auFzXGuExVxEREL8TB1u-RBtop9JtUFGlXS1ZtdKCdfLXdBrWfeOtO-tvif5C41JAB5YW3lYxz51KV4vI_T2mP6UxyRw5TpK4Uq1ruKppbJl9y6jieDx-vBRD7fnSJ3ghOpPrc_8Dvj09wURLBUcZahr6wDq_oYQvFi_4dfaVaE68NZxgE0pixiDtbcQU-Wb5YFFWB9Dn_20R9Y24wxPXweUA29nCMUb8vwjpyg4lUNxRMx9V-3brPnHgDHMAbdXIut0VpRwJ3YBADy_p--cxSE8E1Kd9AShRqbTe5EFtAbx2eWvw0HD0TLNyaW3pclzmFpQnM89Ae8aZ4JeSGQwQuI6ZpXHrKLQikwXVutJtd78LWhymYxsB2q-CF7NDZod",
+          "w": 4032,
+          "h": 3024,
+          "credit": "Ronapee Pensri"
+        },
+        {
+          "ref": "places/ChIJyXyttUwsHDER5bNzI3Q9hgo/photos/Aa-ngMYP3hssAFCbGRF6jNDCha0YdEuKRfgcnWLOlw6oWpV41KaY35H7DK0hllH6eQZKUUE4PHBKHbC-oWO_4Cgyof7sCs15R_Ix1YlQbaGyIcHca6a_WCCfuIlH8UWk74QFvuBO8uZvlXcHXAidHRCyb5PqML0GvWFAmhVVnaF7E5URaygx35RX0tYqD2xI1Ry4KGeWlMQ6fGcI1BrqOKOeF3Z7lhgDgbOJnCLjDcZ1nnrW8bPFHx7F0NEe4rllB3dVzl3Xb5vkj2BYkh3HVFkfXo-FQK29z86Gp3rdpbhR-PLdXSgzlPcaCe3eB9xRGOoQ9pnjVS2qUMqb-KQ50ZUHPYOLZhmKcuKFG7uTkf8UdLaKncOn5akj4_z-wrWcBKLdCXydo5T2z7i47vn8VPBu6KWU_Lhf2i5uTTDjoORUMfylGUb5",
+          "w": 3024,
+          "h": 4032,
+          "credit": "Patinya Wisuth"
+        }
+      ]
+    },
+    "home": {
+      "placeId": "ChIJmYK_LC5jHTERh2MD17AyazA",
+      "name": "เสนา พาร์ค วิลล์ 2 รามอินทรา - วงแหวน",
+      "address": "45 โครงการเสนาพาร์ควิลล์ 2 189 รามอินทรา-วงแหวน แขวงคันนายาว เขตคันนายาว กรุงเทพมหานคร 10230 ประเทศไทย",
+      "types": [
+        "finance",
+        "point_of_interest",
+        "service",
+        "establishment"
+      ],
+      "distM": 0,
+      "photos": [
+        {
+          "ref": "places/ChIJmYK_LC5jHTERh2MD17AyazA/photos/Aa-ngMY2suKx00oQZkSFKPWr70yz7WWZ0Jb9j-J0CyTrj7QB9hvwLGKzRwz0jPReFCzjD_pKPC5vEE-BWjh1WLwW6uvAtZCxllQ4ZZaVPBRU4MslYxk9TgtRZxPXEfiTv99CNLNEvQzNL14UkvzSjari3ay_WVayLxF5ExXWpk0XcOMfpnS312vhKRuFRxXB85nq0ZVXcR8pLeUSCbCjNpZMP2HRmqVIC5L144n6udSS7tuyvZfoEas_sThs_BIhp-uGJzfSUlYGUNK8Olxwm7lSFYDG1sP4rEl9OIUCm2q6sSCXabpyHijbtUo1nU_kPmIZwuxTJUcY0yHlYGimEiRbjK2cWf0lchLKpnwqji2PdIjP2qs4RTkxzbZmsFY5dqgVPRlsP7P0haE7w6jH3umMJXjQRTZP",
+          "w": 2364,
+          "h": 1773,
+          "credit": "bhass Rak"
+        },
+        {
+          "ref": "places/ChIJmYK_LC5jHTERh2MD17AyazA/photos/Aa-ngMZVPP9l3je19WhRtZFXza3D52z907Fua43WDGf2Srhzq5S1SRzjuz0eW1mVS2xGBPISRk_2noHTULYY3CHyzvkfr4j01_ZQfKoXDjK1vT95yiV3z7i-DVM7hfdm1DlP2ZUL2zWWzJSkuILObjEnaQJbV9MsVO8mXMgxzHA4lnOa_iXW5PEBVYgn5nfsrpmwE5_FIMqMxiSM6auhwv5nxp0TdN5te_X2K2H95LzMULLKYdSH2jO-2XJjmhtRrbkYiNjMmXIJIOQPYgOz2TF-UNLuRl3hvX0-Q4TnqyDpyr4AOUJ_ZnmIPhEWz9-CWq9_p0SYje6kNA8TODhedhBR5QQjyl-OG6AtxNDE7aIGJ1vUIxx6msx5-yRG3UydKurWtQWQXXqDlJtAv4d89xszP9RrXH7G1eoJ9nHBjAH14T__bA",
+          "w": 4000,
+          "h": 3000,
+          "credit": "Wannisa Boonpradit"
+        },
+        {
+          "ref": "places/ChIJmYK_LC5jHTERh2MD17AyazA/photos/Aa-ngMYAZgYGNtbmIYc5ScQ8qXUxVRjlhiUMMnBQ62JeT-8-gG7dQ9xsTMMZSJ9avnt_pnx-mY4bwuxK6ETd639uj-zi10VIU6xDcZLaCFekZfRz2hdkIBFaG6Fq67_95fDNzOT6kemCk_QtLd3QJCckER-guG3SGWoZARZ1H2c72cSaWt3p0w3s_UOK9YkXylVACnRotd9Ssq-7lohePgtdVOu4d-LCf6MKvEFu91z1jMVl1nomd-yVU8weUmKPuHwCuOjgLr9df3JeExuGtbFmWEFGz0_GFH_dyFN_oCf9RIsrgqvwC6oGLuKglm70cVquvYano1aGtUkpFbnPBfP95OA7niYBiU9E0Zmn9KiVu5uzgyG5fwmkjNqEQV9DnR8s3qd632FSTNKmqWyMSg82O-HP4Xk_Hf95ylDpqxI3HO_IhQ",
+          "w": 4032,
+          "h": 2268,
+          "credit": "เสาวณีย์ ผลประเสริฐ"
+        },
+        {
+          "ref": "places/ChIJmYK_LC5jHTERh2MD17AyazA/photos/Aa-ngMZloCNWojdObDyrLgpu87ZLjzPuK3-0OfFtv6R1UaUaPMafJ2ISdoAIObtrw1ptguAn0S_y0vHMySZPlwZ_OTuLh1uCZDtXRNFQptVfbNnYk3vrpBCtesR0sF6AMGsANFGU2Wun0QbKFBFC2OakLxMSXpzA_dVevlRc1p-d3OylRbuLxBfd8zcvCh9EuFQ3LpH6zHgqpwvQPGwzuOGdg-4Qr6Yg8C33fFIJz5VEPGYkhEcRgrYuMCCWNrk20H_j_sfsYxfKdz2UNDjvvfxR5BwGNJ1PSSJFBnAiSgkEX5RV5S__A1C0yOShrAGrQ5qpaCohZDuoubB_Sl9WHycSHoeE2h1WMBGbZ5gF_e-zekzAkAoB7CEcVCwofOb6x8vg-mDgKAjJEaxsQww0VpPa2sXHt9Gmm7PGwxl16rPtZavCDw",
+          "w": 4000,
+          "h": 2252,
+          "credit": "Lin Zaw"
+        },
+        {
+          "ref": "places/ChIJmYK_LC5jHTERh2MD17AyazA/photos/Aa-ngMbpCWK7irR-khR7VOOhM6gC36wVvGHbe6Y2E-wFM2Cno7Q0dOn6sq2-1ZOa8MZiNe6WEAUlnTxqFGyjlc-IDntWm_cUI6Qq5dkNlNQd5cp85wY0bPoYqh8URKoxT974DOAgg4XRiILB4A5-nbu2fzPl36pHbn-cAu0V4fskBrDrb7xu6zjUPwcXtCUCtfVESpIM_gyCsyPv2fSHc7uTmWmOaaBGndBtdYC2beQwWBaqO8Flvig8_4AO-fNdI51WZGvoHpCXGTXDLV7dS_P2XC9FeKqVt6kQzvcLPO7mXiqbmUhdwlPR30vnp2XxHxjuJhtRNqRw6UjsmeHVS1N05t60KaJ7KpssdShGMqwFzI06qgVoyDGqFA4TK2wONhCgXaDUC1nCUuexNlYs15r_Mn2ahxPhz56Uc85FIOe-kppXyQ",
+          "w": 1477,
+          "h": 918,
+          "credit": "เสาวณีย์ ผลประเสริฐ"
+        },
+        {
+          "ref": "places/ChIJmYK_LC5jHTERh2MD17AyazA/photos/Aa-ngMaEoSMR8ZqgQBVuuTsR8BgrQ8tGE4fKog21rhveuYY8DN35P9sbjTanPLE0SHCkHUFErLDKzMOzhIjaEwEaELlYUeCqTKY388RamWawE8FhPcqgpVpvfcsdsGUW5_DswsRS6WLIsYRtHk6CKSQMg-iNJL52z-cBa-vfJD35a1YBAmUN6LM0c7nM6KtuQcoMtpHZRPPMXbPxmZIOj7ckTqadTM-xP8S3L_bCVrYMFPU0jKdiCzRVBtN7di3qIMOmqibLRQrz-TdHIjYj1ROPgIscpnLhN_8H3nGtdrPyHwd1U8SwYcZEPLeqQ-Fw_s1zkWPcc3Tl_yqc1UVWsG6G4VNzi3bg3w2ZRWZjgZ_l_Fc6EWvv8CRRfMMiJD9x0UYoQKoPGijX9r8AUJnZwJCeHpfexFsHP8E",
+          "w": 1400,
+          "h": 800,
+          "credit": "เสนา พาร์ค วิลล์ 2 รามอินทรา - วงแหวน"
+        },
+        {
+          "ref": "places/ChIJmYK_LC5jHTERh2MD17AyazA/photos/Aa-ngMbFF4Revlh59NPfzLqTiuj9400if0pDLD7y-oIR3NZSEayf9OwGJvSxskPVWq_hNr8kQ0-4PxaGYsi-IUhaI1wcha-3s8TjT-m0cfSADRjO-6oie5Yusw24tsPoUgAj7ATbGxSL1p5R6EIAZD1JqhLVkFkdiFtrw8oDuDOWwI-UPYk354ebeDW1ena87TCAh_C0Pk5qtZg18WTw2ojw-g7_xc-19cbsNqAwXafxMMWT1ukzkhGl1kIYT9DmGitZTtKXBIEhhdtkckFNeCzDEEJMdT83lUNdkPjRTy6IBf2AJ5cDrDavbYLH3A6jhgEODEuGIWSgQFdxjerJ90TZIzw_JgxD-W0XG8heYfVfRIWX-KJWhOLtK6IQ1_VUBsslPzq2QZxD3TZWK3OblKVMjZilds2iREq7glmDQeKmwdCU",
+          "w": 4000,
+          "h": 3000,
+          "credit": "Wannisa Boonpradit"
+        },
+        {
+          "ref": "places/ChIJmYK_LC5jHTERh2MD17AyazA/photos/Aa-ngMbym6kp05OIZuPbilObLOq64Qiz26IQMm8L9aQwtrT5XjvIwUYsByLl6_9iRhzacVCyivCVpkW2jEC0va8WpZh1uO0Em9kOCUHwta_E___eV2gRl8rZWj7aDvmzsMu8jxaLHsMTg8cjp1ioWnef1doL-N0mfVr7PqL976NG7wBVV_59_dLy2chR70OzEP4GtUckCwV6ahTB9dWsuDXYvaYhFxibcJ0lkfwOZ5WL8LCkL_nUtyNeb1TfK6cQEzkGHeH0T20Rx8311VGOfC2caNEM9X4ADB7REZrjEE_ffeVHV2vDgl0v62txbyXoozBfVoXiv-Erp4_uYUw0wK8HAhAH05oLChstWMwQ1weePYZtmmrt38tdToqmG3xBNxyIy3ZzMjzhFv-53qiIoKtehlvITSIGuJtZ48VHfIhXE4mQZQ",
+          "w": 4032,
+          "h": 2268,
+          "credit": "เสาวณีย์ ผลประเสริฐ"
+        },
+        {
+          "ref": "places/ChIJmYK_LC5jHTERh2MD17AyazA/photos/Aa-ngMYqbaw5D_cgkEkTZNjguq6GkKRP0w0EevUGL7ZgcjLn1B7S-1Y50gn51pTa6DA8v1rKhfmvc2rBXCfmSkLhLs9yfhz6JHPmtQFywuunK5FLdZyiEJ_W7mjMuxSClB1yOhyjfsPoFe6UCM35FZYGs67fjrx87FjKpD_GlQqdMyW0MTIXhrfSn7VTxV4--lfe11HJEIfDj_lYeYXJf1RqUgDBF0zQ_9M4m8J0NlN2VaiLmrG-RFpiiUfz_Zantk43Qmb8PoJ8EeRHyjhF8atx6ZW1uKtBa5J0VuU7DrqHTGCe5ONDOHiabWkVWQdssnkUg1z3hV3KKJYQEaA7b0bXfOabbjGm4vANrO2F6QVTrgga85M2-r-Ho2mQApcdOKq1QtxkIM6D__HiGSdpCsCi511XOkTr3r1vNLVphIv0nn6T",
+          "w": 4000,
+          "h": 3000,
+          "credit": "Wannisa Boonpradit"
+        }
+      ],
+      "videos": []
+    },
+    "makro": {
+      "placeId": "ChIJoaTc6wRjHTER0coUnRuH-2U",
+      "name": "แม็คโคร รามอินทรา",
+      "address": "904 ถ. รามอินทรา แขวงคันนายาว เขตคันนายาว กรุงเทพมหานคร 10230 ประเทศไทย",
+      "types": [
+        "hypermarket",
+        "supermarket",
+        "grocery_store",
+        "food_store",
+        "store",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "distM": 3694,
+      "photos": [
+        {
+          "ref": "places/ChIJoaTc6wRjHTER0coUnRuH-2U/photos/Aa-ngMYi8UAyPpsqcDmn49QtC4nn3OkYD0A8uFnRwnP2cyUFEbYRG9k1CaRvdy9sUcCu5Zpa9NYtGY2vmyeY--VucKP4hAZEcJI16nXaNTAoWeLYEF97-FSJ_L3oPuv00I4xZeGbZ-uKfnfRTdwNA7eAsHJLelnizOiMTpx9OYtb_V9aRy9KGylkJsQtz3Vy0zVsZmYc6kct7C_cnAYdgxnl_hd8D-iiV-69Oyb3PezTE4mRQe5yapX4THmD9Rf2AwEHaZ8U6Uqqd-UyBdE_jbu2OfsHaN-ZGM_Nl_a2SMtXbqk4PXtqNO0_U1dx6fKrVIHR0TvW3mwUTUrrSQgdFq8KJlZMCenUi_e7n9zM8QEM3pih31XHj9Tnbg1Hg2HPoF8ghjfz7V03rVMQo8-kixK4nvH-rO-mjKzuOrm4Fu2oq_H8sg4",
+          "w": 3264,
+          "h": 1836,
+          "credit": "Khattaphon Boriboon"
+        },
+        {
+          "ref": "places/ChIJoaTc6wRjHTER0coUnRuH-2U/photos/Aa-ngMajoL82lrHhoYuAHoxAtEjXJHqTHuzf0to-tdOD3bRny_7e4hg_WGNiQLIzsfiGuZ-Zc1szAEcC67rEHkaL9EH0wne9FFTr9MKhN13wx1LH3ztDOGJTxkDxaZSWRI7cEClCrSt9H_StVXne70J0W6_dJMhJ7-oPikY9ee0ysYlY0T-FgTD1a3C6ip2j7LqnFUTiicBUHYrY_tiGLQexBt1AZy0qEyH-X8I54w2sf6WSybmhWKa5El5vyZZSUGf8M9LChsSWtNMchd7CfbRk1oRC-78_EMsmuMQyi1qZaOOM4lAWae0wBeULkMJiCQHRyiB_d5bXCTaUYh11O0zJY2f38Cwb9k7UOKp9nu5Q6ibS48_2z0rq3Ij-1UzLtzdXGBMhqRnOMFYBXjhruZUwq9nI5L81eFBNNfOFKj7oUmM2LgKo",
+          "w": 4160,
+          "h": 3120,
+          "credit": "ชลธี มรรคผลสมบัติ"
+        },
+        {
+          "ref": "places/ChIJoaTc6wRjHTER0coUnRuH-2U/photos/Aa-ngMZ-S7gabszBi5_EuDDyjZKRpP-tuWOWKsIXepTf5fsJPtOIynGOp_npXMchyrfCxDKwLm-Cu7qvUW-sVYdWn_11o49qX38sr-k1zAhBZUcXGws_SFVvMI_TXizXQSBNS9RKYxRkJVPpZdM3h84HvpV0Bw114joXiQyHniucLNKxENxSzCsCS4eXwi6d58LWEzK4rxROvsKGCStP_pjlKL0fOu-TsOKru5nJ-aHnQEpQRhfiW4U7cPSznkJ3mX0eUMXYrhhsfeHoozKvm1C6TSA4E4IhScPi0BhsHJYMraiLtu4WSvcO4JJggzgb55jEvPEw2mQDiR29PnirVpQk6Cj6LjJDE5UQgDbk2gkS4KZ2ziYsGFVcec7jmTbwVi_MQKJjK85rropwMqL6ZhepfDP-Zri8nSRdQTXJKa4foajnnw",
+          "w": 4032,
+          "h": 3024,
+          "credit": "PORAMIN KHOTPHONSUNG"
+        },
+        {
+          "ref": "places/ChIJoaTc6wRjHTER0coUnRuH-2U/photos/Aa-ngMZygGZt995_YqSlu7qnR5tyo0zrjQRVPfZXy25MEDOEya5gtuKCH9DXGykXLBJB7wFHTVBnpqeqAWG7a4kzWxfund7T-ma9IK0fugbWawCYsP0bjvDKbBJLlTTGeaseaHeQEG6CMADtplg6xHGNukXczo1EDw51-TjpncJoy3LxWmKFHruq47W3MTz1Wh1hgFxsRUDoxi7DjQeNdfNBGAlUuMJbdx2VwCRJRzuGARjtgPzlNiugBh0pSzA-7OViAw3W-fTG-966eTDMz2AGNCQhXsdQ8p4F39qk3TtSj3Vl35NiDaImnHilMnwg3JmvHqz6ERr0Na6hBIaSW-0BQa9b8CnqGOzfOLMuvor48JkE6F8tnRthLQqHfxbJDZVpWjwUAkDHRwUHwkqflZcs4_zdde6TPVKovKVpdBfAR4t2Sw",
+          "w": 4032,
+          "h": 1960,
+          "credit": "Thiwakorn"
+        },
+        {
+          "ref": "places/ChIJoaTc6wRjHTER0coUnRuH-2U/photos/Aa-ngMaT9SOv95hUOKUb4TgtkeM2YbwTQ3KHVSqsIHwUpcBe5Fxy6N9SC_84g5BjAF6Dg-ozzsospsN1xTcx2cMPUnUxb7qX6G4enVVFPO1pMAjKAp2_qm3G2nA0Ug7G6IuVTsRb8oqqlzJdSq6WJNtMEz3Bm9jPQiYMjkoZeVLXg99fbbekCr4Z6s5ByB2Y7539KayLylOdU_zVVMWBpxtMTq3J_OnSiyb61WS1-4ZmYmVmhN9WFWIqz1i6v_Wgq9N_wWbIrdTzc9ZrK5IXwfH81oJbAJSZg78twf3suJ9QytRDGGEeHumVBDVgEuIkTrVnf1DtgWUgjKuphSp39laK_QdN8X5zPIrKq1KKTWwXgwFC4NHg7LBXd0EAB_iljT9GFoE3uxMsekBJXL17TJrbGe-iYXvPljhQDrb30J3sKqQ",
+          "w": 2448,
+          "h": 2448,
+          "credit": "Lotus Warthanon"
+        },
+        {
+          "ref": "places/ChIJoaTc6wRjHTER0coUnRuH-2U/photos/Aa-ngMaFelaHuLc44wCZ1W0maNeE7hQ7xwDU8by21ApOOTOwt77vlBs71C5tqKwZEeVxajKADDm53vJp_Aeru23wMcwFgkg4jUkpPHdtAcwvOsSIGj_OyVySygSIJfRIEtPJVUDLP1trDWrv6hW9Y0hu1KAcKvBk6o6U5YTTFR7JgDQumw9hk42604PDBVLkfXJfUYhf5ifKXVd03IZ-EoUXlBdAPvhbD9Em1h3J5tfjhrf28EgUg6-7IZomgXr0xQ5iRdBYgDk_NiQUMWbZO8wj_RR7fY7rEqyuYIyxZho7Mucs-bSY-6BAD3RzogEQBUdnXf9sZQiPyRHIxSovWD_fuGlwUlZt93vPdKFqdEn76tuFQZjQixnyXtGEBzv-YxD_TnfioCToy86OZanC2-zRBsrZJ3562bvlGmnNt0DsTsw",
+          "w": 2592,
+          "h": 4608,
+          "credit": "Napas J"
+        },
+        {
+          "ref": "places/ChIJoaTc6wRjHTER0coUnRuH-2U/photos/Aa-ngMaMZhTwYPm6DB5EQpSyV-RUEn3lr-1FoZXDQJY6X2OQ8KX8sdv698C-XknABhPcnFQM_sqpjZn8VHBjZCB51j16S6jtqvdxHrzzaxTaIScclXSifRfn07uN7sjhgG44udGQ0lul7-fvpAm_ueVr1jQbdbmjzp5RQ6wGNReBTNMG-8ij1ld1dMOvnY3lZlN886yygueTJSK5RU_kNqRwPKloFnnp3rH-_vGVObX6QjKotfPZf-FLBkmPfCQj8GX3KZOENoMZSkMXHytx-F1FOR_XSA8te8_Agi6wO5Y9Gyr07K_t3uSrafKjFOXPvMr8ZEFZSWb4SxRTzHsZL4OP3Ip_XMkyAstO1UMuZSxpKz_f5l3496lJN3Jp0b_sDYJLCplHumXfKpTk6qZgIIk8NEZgRe_XP2iBEeVYNA9vinf_ig",
+          "w": 3120,
+          "h": 4160,
+          "credit": "ercan isbay"
+        },
+        {
+          "ref": "places/ChIJoaTc6wRjHTER0coUnRuH-2U/photos/Aa-ngMbiGjeSYExO99CuQQ0t_d5kKmlt4uh2CnLABzu2jlF9Z1F-9BNPdVIk__EUrOsSBsepK9aHh3ydERAE07ZHpLKsKAyHezPYL3D33WUT2wpR_k4ybm9NDrrFhBp90XBZfotePyvcBqdopzvJjY9dj5_TUrciIHswI9Ivvzz71md_EyZebisXX9URblxT5pUpkCltNyQt-LGS9vleVSnXgfsnBPdw-peocSL6oIdZMP3crJfhs3BMHaugPdvk_BX__rbu4BLrisZ9fDxco_Ew1eyZsTCC5E18ibj2JmdKPn56jFqjTq705787RUe_jPLQX-qIqIIYQ5WFK7iqThUL3jbp9KRMlq-zYyT5RQfriEkZ3CMh4fcq48Nom1q8-hAAwuM4ZXsJjHgPAztd25On1hgg0bcoxKamYlq_MF9WeUV-Ag",
+          "w": 3456,
+          "h": 3456,
+          "credit": "BeauBeau Tatchy"
+        },
+        {
+          "ref": "places/ChIJoaTc6wRjHTER0coUnRuH-2U/photos/Aa-ngMYY-eLQ-8xaXaRAg_gYM-cvSYt9GAMD0R2HFs7boNZFBOirEoLytuQoQju9QtTssgPoQu-zyVldCuMnaBhnqXT1yWHgJgGiVnkCqx5cNtJ3kbm0yfYvyQNuom5HWKpGfI5iMaqKkzXutbpmI_z5OvZMZWSwJwPSuN-lEVzYP6DQGHF3u2ZSwsqG9HG5r8RlSUO1nMrKoywqg1O8YOXYp7YY48MnUwxzcsltE50X8fae8wiWjMLsApTpYH42a3OVQ1AIheMt145cOlQEONtrVpMqYm-O5QcmrjKuZfWRd-59bZEhW8PenIJso-ZHppdNL8GPMMqbXKHoUpeAnU-VTBM5Ev_jvGnirUwSzg2o6Xbpkmw07vSaVpO29x-0j-9sWiQb2yKfkHs6TYftgTyU0HRgLuS5Ca7fGjEHI63fvKi2b1SmThNwdNo5Vxbdiw",
+          "w": 3468,
+          "h": 4624,
+          "credit": "JD"
+        },
+        {
+          "ref": "places/ChIJoaTc6wRjHTER0coUnRuH-2U/photos/Aa-ngMYkKouwyw2jGYwNJD8QdvSEskFPxOUrzEtEYSIVEyfCf-NlFXY0wQqhNqNvn_09XbwBmM_o6r4Ub2HJ56YM8gUpmt2u6JsDTQj4D1kr-uZE5tKF9EzPYjZtKSy1c40F8gfJaB_-WpUAum13DYmoABoE0PR8qDt4fCTomDNprkQWnJk2kfkzHhmwJU01QiEjZIFw6oUBXkqLyk0B8ybsgUutnOLBwG_DYafv4uz9C0Y_CA8x9xcDgt8vmO_5datUjHYPEXoQT_aW5BkzqGxqdLEPU9cr8USiHKZuAThzHJvMAvmvnr0UNE_YZR-CaDVqwVPdnKgt4VRus4KjXS8bx0Yqyt_RSswpuYulWTWr87O3sjtxjTBm6boLXBx-HtpJJdvxA9h0_rUmTbvs1PyrMI_Dd1H8GWOEu4ix6gnCg0Kjsg",
+          "w": 4032,
+          "h": 1960,
+          "credit": "Thiwakorn"
+        },
+        {
+          "ref": "places/ChIJoaTc6wRjHTER0coUnRuH-2U/photos/Aa-ngMYpuwOXFUbArkbEq9QR_nxWQ8pmtgr3D_8tR9jwJcr3OxwvJOqrbKeV9fS7tKGrE__nAM3ivWe0asxs3MIvNeQk1mIBAFxtRDtQgHfVp9cJcyV38YCevgdhtPsWM-PNxUcgPBqoDt6Pw1jI7V2xlz_jV5vCfc686rMjTCU_y1ay_37cX8Lilnv0ZrkRbsdpZXlQp2I09pQIHG4-GuvNhxEu9pAKJ_ti9fQDm9HhQnTvCcwG9FnKNpHjh0Ue4HiVAO0sF9aXCkotFOikwXxsTgqP46gC_w6myCgZCzqNlDHYA_xBbq0TjSffBeAPQjSDRDjRrcpbf9phu_Ykg2_d8D5mx1iVxwSGbyL29hU-VnprdQY202VDR9eyWwu8wULn1Fktc80XBueJoW_mREsI3n3AnPuoE9GYs8kMB2Ku-I28RA",
+          "w": 4160,
+          "h": 3120,
+          "credit": "ชลธี มรรคผลสมบัติ"
+        }
+      ],
+      "videos": []
+    },
+    "ptt-klongduea": {
+      "placeId": "ChIJQ2Km_4ExHDERId6QEcVQmhg",
+      "name": "PTT Station ปตท.คลองเดื่อ (น้ำมัน) บจ.ไนซ์เขาใหญ่พาร์ค",
+      "address": "135, ถนนทางหลวงชนบทหมายเลข ,นม.3052, ตำบล หมูสี อำเภอปากช่อง นครราชสีมา 30130 ประเทศไทย",
+      "types": [
+        "gas_station",
+        "point_of_interest",
+        "service",
+        "establishment"
+      ],
+      "photos": [
+        {
+          "ref": "places/ChIJQ2Km_4ExHDERId6QEcVQmhg/photos/Aa-ngMbHWKDASVFrn9dvrELlUayXgef31wyh2jXRZ2Y5hm6DkrWz1z7S0AqnoggBgJcZaCfKPDxPlFr5i7_fWC5XV561EW17ZezZW7tBYTjaNwbS7NwoWo9aSSz1Cjh5Lh3Ap9Xmx_HwZ2BgY265c8b0jvu-0vuAT_WMvCUjehqVeyiQo5evNOD9MdSWx8qLm2a_6QWirtjTGJnJUW8J8X-nEGTcB1rcC7S8BMjQw-CLw0SR0YAqN1Sl3mgSGDqgNoahbTsKG3TqG7GBY8q636h3_ApyegJjwM7pyCTfvZ58f7D51Ea2ENdmRUybdlu_XaMeCprP_HdXON2s3EcIlE1dkE-z9zmiSfP7SnSR8HaTaMDedoUrxfJa9cjjxSSczuPardYptj3NEPnfs6A_wI6m6vJXLLW2H410xmUdUQ-T0P_y1g",
+          "w": 4000,
+          "h": 1868,
+          "credit": "Michelle"
+        },
+        {
+          "ref": "places/ChIJQ2Km_4ExHDERId6QEcVQmhg/photos/Aa-ngMbSDcTdKlzU92AtYKwisfa1q63067I8Q6WOod9kPgaIMIz2COzg5CDaC8gOn17bdciUhxIJMNlIk6j7_zvGNkBSJ1FcZ5Z2A_JPBLAln1snfcHSN77PWxGr82x1FRMSfIY2o_uZQUMykU6ngLsu2mT57jm4T4pGLVnajK5P-jgxy5gFadlTqrjRkG3YzypBcxFl3nHb4PR0eYfvjOQuKGlcpbKVSCAUWV33AheN3glhtzeeiVbdLnSYSL5VbL24uuBh_s4jq4JW8PDCXlM50eKDZlRTc8Uz11GNTjWjD7_CX1Fzpo3V3nOFvcHz6CrKt5oSurcgHimf8CNsFvbOM_jlHRByqexwOPHzpzZVJVnR1egU9bclXp12UXTCMqWd4X7b0Iy8cJjBwvDC9ufOc3wfbWpuA893j5Yi2ANrIov8r3ZM",
+          "w": 4608,
+          "h": 3456,
+          "credit": "ทรงวุฒิ มาลา"
+        },
+        {
+          "ref": "places/ChIJQ2Km_4ExHDERId6QEcVQmhg/photos/Aa-ngMat7yFzERr3Fk5hvQCY0lE4rLtl8rwwoMLHQiuu9xv_fDabWfBQJAXdACbXjwwhZGj1L_kV0-W0iYCftk60BB9tUyY-rhJBaKodV_fo2xji3UsmrYl3DrZfIYXhulKMbf39cY_NTKPtAW6C9rbAXKqJVldIqYv3sbzamfR6NnPrtMLAcUpwopnm90EN65JAUeav0z53toLFU4Lsga8e_bUqf_ya4kfG2cxofRwb79fACWIFGIyvJMUe7yB-kwwN8KwhY5vfjkoXCq6vOawHIFLHbxOkOtnBCU3agBrvg3GTPj8Phdi3zOdWLwp1yIzTcRY_sluANDawwu1JOyMIUcNDF1BOXz6i54h_lEIdDcEE3gFtk9UVGWWAdIXVzeiiR3DxrSSy1spvTszXAq4N65KluXCg3bArWagRJ2rG8pxFgAR6",
+          "w": 4000,
+          "h": 1868,
+          "credit": "Michelle"
+        },
+        {
+          "ref": "places/ChIJQ2Km_4ExHDERId6QEcVQmhg/photos/Aa-ngMb22US_K2mmGkmLKxwJOySuK1yM4E8AJIAqNwVV4Vjp6qCNB9tfVQF7JKpt3ckqmLswvaJbyMgPbTn0-90RIlz8C8WFee4TgUsY1OGSRSYPkn_YOuHp4sZoqCPShNWHq8DaxGzRqYTnHK_PTj8ofyvs4rYRDTGW2fFdUtPo-6UAOWLglk_0VfQzlP7IsBk0WibdLF0tM_9XuqgqGH8g_u8SvF197BUBpJ1ZuFNN0sRHXtGs7rGxL4vhBUNq5vr_RKoi3QNy1dptK_hOpbxf43rSl4aSbl38tQohHXoJQSxSnTRHTrdnf7oPeaMfvnD3yxJF0c-VVpzrLhHbIScqZPkR1uI_f74jI99rlfGOD0QyzeE3OLmHPtidoW0mILywjkk5eY_7L2zu5sUiySocAxfHTv1CsXqbGs0MBXcxX0Bv_-M",
+          "w": 1080,
+          "h": 1920,
+          "credit": "ILLUSION C."
+        },
+        {
+          "ref": "places/ChIJQ2Km_4ExHDERId6QEcVQmhg/photos/Aa-ngMaAixjMrZ0u2D7FU-KuvySIWxPcJoUm9s7yfH_N-MgdZCeQxV91CbqpwpXjDcbWhS086M6Gpeox-6UNlWUxz1u81JRbCrRT94FikoRVOyDkzaluP0eqzofK4GwDURHmmdEL9Ajt3MlOOsjCbcalfRE_8qYiWl464TrIZU9cXC9fw-S8Y5JjLCnHb12eRgykYLqJMpKvbaG-oBwrWR0qS0L4C8_6LtSzvaZYDcUA8lJkSl5lUXLUb92-Oiy1YBoPKj8uMdHYYoxJVKWUYYBVzra5OBUE6UbLGsD24N0PDG1GO7mzXatw_a65hcTSmAqgjDAjpbH0lA0Zi8-ymNxVZIggTry--MWzY-c5aqdVlxe93r08rHJQjWnma6qZqGvDpnPelrxlUCkZnAhev7a9i5bCaUSjXNZsuN5841Y5PybhcZrZ",
+          "w": 1080,
+          "h": 1920,
+          "credit": "ILLUSION C."
+        },
+        {
+          "ref": "places/ChIJQ2Km_4ExHDERId6QEcVQmhg/photos/Aa-ngMYMCfyLrufFjKsVLHHXGljtWB5Y2RTimZ9_OMmSEhM4AhWcLs74tfTl76fUXmWpZEBVKq8PLc4TSITmbooQqLCV3sOGyaG1kwqUH48OP_Adl0DDUH_YRAY4FLCoOCQ6eiugSYKAgOQF2IkzhYSznM2DNsTuUtc09bvdfmVsvhGISWJkyqoX6YfL_U-VvGrkeHWtE7rvVgHb4dRii_JDf7huxvIxcQq3lUL-z04GdvGxF4tE5ZrrOUOvBzSpByIrKNFWKh4zaGWTXMcY5L26DtYUCsgyqHy-Hfw0FheQEbR-2H1gl-aobNdgOaFOvLzgp09fh2QN8AE_wXRwd0Vs6XK6PAi48sjmvURS7aWaRbXGnokQdb4etALHZC-lXG6-4hejgh5J42zGxt98tWJ0Oe_4dZsQMadTLANuK9KqUbDkQ-rL",
+          "w": 3024,
+          "h": 4032,
+          "credit": "Hbs Tony"
+        },
+        {
+          "ref": "places/ChIJQ2Km_4ExHDERId6QEcVQmhg/photos/Aa-ngMZkIOElYa0LoLPXaJ51Nzq0FPL8-QPiW9YIRCkIIAoqGb7_lZzjOii04fYZiMZsF2cjLuSZmvz80qr3uQpwLkkBud2cOkDxM-wFfKEWP9_j7tiexu55IPfiNxd7Rn5-LQrohHKtOqkqc06lcQ_D2jx8n1onux-_gAI17-BcV8mG1sM3SJVzJuUNhimBs8hcv6x1rohuaBT9jF63MM1L2e1MzSzAJENwMHYJ6IvGdSkLvuDdiWo-TSxjxpGicHL6GnQOU0eDXQX1h0EbMGv4RcN6Wr0S9H1b2-KaXqeHeiIbVDjdT08YRlKs5qksf_9hci3sd1pvn5ThH_HepWgrSKC7hcC5AZJIOZnjtKO-JUYj_oC5U7dxcmeeM6-UVz9gzpL1FhN7D8BXwVCJfMWNpNcU3gtlIaVgEec_kAmUnme47a4",
+          "w": 4608,
+          "h": 3456,
+          "credit": "ทรงวุฒิ มาลา"
+        },
+        {
+          "ref": "places/ChIJQ2Km_4ExHDERId6QEcVQmhg/photos/Aa-ngMZpHkEOLRqpkXkeOkoffDMWiAVV5uFTze_QfUypk17_vuqGPeCuUKmP9JNeKAtMbnoTfHq0-RPxb5YyBUAogzzvG_OmoD2hHnTg-WxwXCrvXS2d4jxl8ivf3p7xp9R2NYxfwUmc5wGmLGYhFeCqhLXXp1r2IiMNIFgbgRQGsAkTwie2xesXK71OdL8bQBMOwOy04_FJCuap-Xa8-0tM6v54N_t9cufkr1vb3KSn7sAHpDWdQ4-IoyViPZTqrHoRhjmIJS2yBijSPVCyIPnns3Jv2Mi8UEf9HNPbuTajECVP5feMoeY05iTIuGkJf89wgwi2RJpYlcxOsqJGIcJl8pC3slRV4nEkYS9eSkPZgL54nMRFYDHAm544VX59WAIbKbaNxvxA1veYRlSIxcXY1q2w6KXRBRxQWL5CaTtNhcECX3Hl",
+          "w": 4032,
+          "h": 3024,
+          "credit": "Wuttipong Boonlue"
+        },
+        {
+          "ref": "places/ChIJQ2Km_4ExHDERId6QEcVQmhg/photos/Aa-ngMaOXw2bx_ydTKjBXwnEoxeI2Cbc7caRC2PJiISpYIXY4CfSqRGzKGaSKMPSi09T1-6HfhySJ5ioPEuychLJTjPLS0ISOM68x3G9C4w1A4ieqJTuDfFPBf1EwR8ey1HWAtMrK0OVAlBMKH1uTlPhxOIIBbYZeWEX5YJHLlD0HELTrDaL7hpUlzuurtlD5x3bZmEtjEU_t0oqSZufZamASItyU27jsW2KYRyq3msbtnr8PhPGs44RJeknkQugUOmqP3aEO1C2ogug6EVKrc4EZ5MPDNKCLvToZxN_aOMG4-gNFpyBWCyIOU9aBhvgUK7Z0-2C6vrolMfuAO567rzxyslxIspd-MgjhLUae_hpM7AiG8n32-JtQKuEwhz-N8kwnkTA3f6iYvzSKrowKvB5Q2bOzrIpVchy3TgTdewtGsU",
+          "w": 3456,
+          "h": 4608,
+          "credit": "อาทิตย์ เปรม"
+        },
+        {
+          "ref": "places/ChIJQ2Km_4ExHDERId6QEcVQmhg/photos/Aa-ngMY8mTcS74YcNGNoZLJKsaiXS5L9A_DE0zVAEGnW8dujFC28I39AapcazdDJUPmcf35e6sh8vaceslk4sjamyyh9PUpWbb12W7r-eW6H5vm018pY2AnF9uTwtn88_Ud4a80JNXIY-yXcmjeTFPVP0z9A-qEzfBZQn2PtAFvfkxRrWDkoHhJddiCrrHUtK9YBf2Lm-iIPbbE4N4QP5peCNvFBgwXlUGw6pvX-4ic2mi6IXlB1wvBnLiX6diAn2LA9gU8wNZCjoIe6FDHLIbqmq8MGoxOc7VKnmTW864k3kjI5yRxFNS42dZtJoeuWnETukuFUZHEg1nSD812O30fxda1C9xMKqoGCVREJa9_iZ-wEvQqvIV1GTGLMPDmEIj3HrUEtsztQ0k0akdIGNtNjs-TPcOLGKTTvFmf40lEv38BtZQ",
+          "w": 3264,
+          "h": 2448,
+          "credit": "Suradech Phudech"
+        }
+      ],
+      "videos": []
+    }
+  },
+  "curated": "visually verified 2026-09-28; re-running fetch-places.mjs overwrites"
+}

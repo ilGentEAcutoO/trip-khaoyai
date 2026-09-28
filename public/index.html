@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
 <title>เที่ยวใหญ่ หนีน้ำท่วม · ทริปเขาใหญ่ 3–4 ต.ค. 2569</title>
 <meta name="description" content="แผนเที่ยวเขาใหญ่ 3–4 ตุลาคม 2569 แบบ interactive: ภาพรวมทริป แผนที่ทุกจุด นำทางด้วย Google Maps และคำนวณเวลาเดินทาง">
+<meta name="robots" content="noindex, nofollow">
 <meta name="theme-color" content="#123f31">
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-capable" content="yes">
@@ -31,9 +32,11 @@
   </a>
   <nav class="island-links" aria-label="เมนูหลัก">
     <a href="#overview" data-nav>ภาพรวม</a>
+    <a href="#day0" data-nav>วันที่ 0</a>
     <a href="#day1" data-nav>วันที่ 1</a>
     <a href="#day2" data-nav>วันที่ 2</a>
     <a href="#map" data-nav>แผนที่</a>
+    <a href="#join" data-nav>ร่วมทริป</a>
   </nav>
   <button class="btn btn-primary btn-sm island-cta" id="navGoBtn" type="button">
     <span>นำทาง</span>
@@ -48,9 +51,11 @@
 <div class="mobilemenu" id="mobilemenu" aria-hidden="true">
   <nav aria-label="เมนูมือถือ">
     <a href="#overview">ภาพรวมทริป</a>
+    <a href="#day0">วันที่ 0 · เตรียมแคมป์</a>
     <a href="#day1">วันที่ 1 · ขาขึ้น</a>
     <a href="#day2">วันที่ 2 · ขากลับ</a>
     <a href="#map">แผนที่รวม</a>
+    <a href="#join">ร่วมทริป</a>
   </nav>
   <button class="btn btn-primary btn-lg" id="menuGoBtn" type="button">
     <span>เริ่มนำทางจุดแรก</span>
@@ -69,7 +74,7 @@
       <div class="hero-copy">
         <p class="kicker"><span class="kicker-dot"></span>3 – 4 ตุลาคม 2569 · เขาใหญ่ 2 วัน 1 คืน</p>
         <h1>เที่ยวใหญ่<br><span class="h1-accent">หนีน้ำท่วม</span></h1>
-        <p class="lede">แผนเที่ยวแบบ interactive — ไทม์ไลน์ทุกจุด แผนที่รวมทั้งทริป กดนำทางได้ทันที พร้อมเวลาขับรถจริงระหว่างจุด</p>
+        <p class="lede">ไทม์ไลน์ทุกจุด แผนที่รวมทั้งทริป กดนำทางได้ทันที พร้อมเวลาขับรถจริงระหว่างจุด</p>
         <div class="countdown" id="countdown" role="status" aria-live="off" aria-label="นับถอยหลังก่อนออกเดินทาง">
           <div><b id="cdD">–</b><span>วัน</span></div>
           <div><b id="cdH">–</b><span>ชั่วโมง</span></div>
@@ -90,7 +95,6 @@
         <dl class="hero-stats" id="heroStats">
           <div><dt>จุดแวะ</dt><dd id="statStops">–</dd></div>
           <div><dt>ระยะขับรวม</dt><dd id="statKm">กำลังคำนวณ…</dd></div>
-          <div><dt>เวลาขับรวม</dt><dd id="statTime">กำลังคำนวณ…</dd></div>
         </dl>
       </div>
       <div class="hero-media">
@@ -100,11 +104,11 @@
             <span class="mos-cap"><b>น้ำตกเหวสุวัต</b><i>วันที่ 1 · 13:00</i></span>
           </button>
           <button type="button" class="mos-item" data-stop="0:5">
-            <img src="https://i.ytimg.com/vi/AtNS0kgPTb4/maxresdefault.jpg" alt="The Everest Pool Villa เขาใหญ่" loading="lazy" onerror="imgFallback(this)">
+            <img src="/api/photo?ref=places%2FChIJmyk1W8wxHDERwGXu0tEFrl4%2Fphotos%2FAa-ngMZPXn_Ndr-lZwBnvdal8tKjjA1T9HgBIv83qxQqHQREQEuPP8jcCQMLnLwnNChSsEaKebDE07LOanEA1uG4o1KSEynOVqsUfH95CC9RXXrhmo49AE0yGYOLN2fpNyczmVKsWmS06XRqd2hvIN3u2QC4f8bDRYhqf6zlHTFDnZbR3xg4uNxRmhpBoqY9emF6FLMkPY93-hDgeGTBdEVTZ8P1jeWuF7IFjwp6yhZoobMwAKbHJ0AQdt4PiXXPVLl5M5usnCWyqzccIeyO5xiNSTXv1lsX3ZNYWkDlVY8AtuUtF1-LjF87UfXUnqZLdktkmPGpSYjFjevjXxk3KPdBenIl0x50koQOp4bIpwgJoly-DOc2xFSrWjzyye6Dtf4xZJuKhBbhjvyfvlTC1uBWtBMM-w&w=800" alt="The Everest Pool Villa เขาใหญ่" loading="lazy" onerror="imgFallback(this)">
             <span class="mos-cap"><b>พูลวิลล่าเขาใหญ่</b><i>วันที่ 1 · 14:00</i></span>
           </button>
           <button type="button" class="mos-item" data-stop="1:3">
-            <img src="https://i.ytimg.com/vi/pOyu2UyrmdU/maxresdefault.jpg" alt="ฟาร์มโชคชัย" loading="lazy" onerror="imgFallback(this)">
+            <img src="/api/photo?ref=places%2FChIJaxb_rqssHDERArS7jcRwFXc%2Fphotos%2FAa-ngMZT9rCmZo5ozT8YMbvh2IcvBA1ptYluqlMRGtFBNUt9SfX7pyJySMR6ZFeZ8JrpHFRYWFw7IKqw3fOiorrCFv3hz0QtQPcOsAgOgr5GWqh8rso1_CXTuTjjTXsnotYjrS1-nrMWvvtlEyvVyhmO98addbLnbPphyWlNus2vz_GBETH5vEPqXIrCDZ14xyfRNlJ6PxuhIZN4zLFGhdv1pBzT80W26XjS-9TeLVyZqPMnyFbgHOjq811yig-4UWyx7VL_e0v1THfS3JdQvaAopczOeMSXKjBqSKAKZragnc8nciLdzl6t2JZi83Xh0Sy2034jusVNJ-wHCugVuvI4T4X99_jSI-1sNNu0QDbRJTdV6_D7Ekn-rgtOpnKY3C0QQC3E_lDENDqEM3_adbU8X7sUSpif_vOqQjgx1BSF8sH1jWWy&w=800" alt="ฟาร์มโชคชัย" loading="lazy" onerror="imgFallback(this)">
             <span class="mos-cap"><b>ฟาร์มโชคชัย</b><i>วันที่ 2 · 13:30</i></span>
           </button>
         </div>
@@ -141,8 +145,19 @@
         <p class="sec-note">ออกจากรามอินทราเช้าวันที่ 3 · นอนพูลวิลล่าเขาใหญ่ 1 คืน · กลับถึงบ้านเย็นวันที่ 4</p>
       </div>
       <div class="daycards">
+        <a class="daycard" href="#day0" data-g="home" data-cover="2">
+          <div class="daycard-photo"></div>
+          <div class="daycard-body">
+            <h3>ศุกร์ 2 ต.ค. · เตรียมแคมป์</h3>
+            <p>รวมตัวที่บ้าน → มื้อเที่ยง → แม็คโคร → เตรียม BBQ → มื้อเย็น → นอนบ้าน</p>
+            <ul class="daycard-meta">
+              <li>เริ่ม 10:00 น. · นอนเสนาพาร์ควิลล์ 2</li>
+            </ul>
+            <span class="daycard-go">ดูไทม์ไลน์ <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14m0 0-6-6m6 6-6 6"/></svg></span>
+          </div>
+        </a>
         <a class="daycard" href="#day1">
-          <div class="daycard-photo"><img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=70&auto=format&fit=crop" alt="ทิวเขายามเย็น" loading="lazy" onerror="imgFallback(this)"><span class="daycard-tag">DAY 1</span></div>
+          <div class="daycard-photo"><img src="/api/photo?ref=places%2FChIJ4QD7jiQ1HDERYIfOJh4Fj_s%2Fphotos%2FAa-ngMaCY0TQsRSc_Uklkh_pKHeMgkKUqQVtjTjib9e56gDxBM69yoe4h8tXWNoyf_zFx0oUxwIos5FHBZiZIX55FRqKBVDHiKwc0n_IwuApMwKHq6VtEtYCeW4bEeZ31f6KEppUOcKQ-IRju-bejupTf8DFxRq2oT8z13gJ0Od3gZ4bOlkrq5vDSbl0EA5uJKDfHoGMFS7qVNM8jJLHd4QYrnZAmUXTe0kNmxEkbK2AoDXqGphmpHl3lm00jAQmVuRkNgwmGDt1ZfmU9LU7q3pZzq7hcLa7W0rkcydJmWeM3xWXlachq4N2w3lczOZPnY_FAhoUjhpyNG5OSrck9i-OcFnF7Pi-gJhnGTGxLHdLeWuwV_GlA5cTypDE0iFyWfcYswgabtprky5jutv9T4jWu1q844mo&w=800" alt="น้ำตกเหวสุวัต" loading="lazy" onerror="imgFallback(this)"><span class="daycard-tag">DAY 1</span></div>
           <div class="daycard-body">
             <h3>เสาร์ 3 ต.ค. · ขาขึ้นเขา</h3>
             <p>รามอินทรา → กุ้งสด → แวะชาร์จ → มื้อเที่ยง → น้ำตกเหวสุวัต → เช็กอินพูลวิลล่า</p>
@@ -153,7 +168,7 @@
           </div>
         </a>
         <a class="daycard" href="#day2">
-          <div class="daycard-photo"><img src="https://images.unsplash.com/photo-1500382017468-9049fed747ef?w=800&q=70&auto=format&fit=crop" alt="ทุ่งกว้างยามเย็น" loading="lazy" onerror="imgFallback(this)"><span class="daycard-tag alt">DAY 2</span></div>
+          <div class="daycard-photo"><img src="/api/photo?ref=places%2FChIJaxb_rqssHDERArS7jcRwFXc%2Fphotos%2FAa-ngMZT9rCmZo5ozT8YMbvh2IcvBA1ptYluqlMRGtFBNUt9SfX7pyJySMR6ZFeZ8JrpHFRYWFw7IKqw3fOiorrCFv3hz0QtQPcOsAgOgr5GWqh8rso1_CXTuTjjTXsnotYjrS1-nrMWvvtlEyvVyhmO98addbLnbPphyWlNus2vz_GBETH5vEPqXIrCDZ14xyfRNlJ6PxuhIZN4zLFGhdv1pBzT80W26XjS-9TeLVyZqPMnyFbgHOjq811yig-4UWyx7VL_e0v1THfS3JdQvaAopczOeMSXKjBqSKAKZragnc8nciLdzl6t2JZi83Xh0Sy2034jusVNJ-wHCugVuvI4T4X99_jSI-1sNNu0QDbRJTdV6_D7Ekn-rgtOpnKY3C0QQC3E_lDENDqEM3_adbU8X7sUSpif_vOqQjgx1BSF8sH1jWWy&w=800" alt="ฟาร์มโชคชัย" loading="lazy" onerror="imgFallback(this)"><span class="daycard-tag alt">DAY 2</span></div>
           <div class="daycard-body">
             <h3>อาทิตย์ 4 ต.ค. · เที่ยวขากลับ</h3>
             <p>พูลวิลล่า → คาเฟ่ BUCOLIC → ฟาร์มโชคชัย → ไร่สุวรรณ → คาเฟ่สระบุรี → ถึงบ้าน</p>
@@ -233,6 +248,147 @@
     </div>
   </section>
 
+  <!-- ══════════ TAB: DAY 0 ══════════ -->
+  <section class="section tabpanel" id="tab-day0" role="tabpanel" aria-label="วันที่ 0">
+    <div class="container">
+      <div class="sec-head">
+        <div>
+          <p class="eyebrow">Day 0 · Fri 2 Oct</p>
+          <h2>วันที่ 0 · เตรียมแคมป์ที่บ้าน</h2>
+        </div>
+        <p class="sec-note">เจอกันศุกร์ที่ 2 ต.ค. ตั้งแต่ 10:00 น. · นอนเสนาพาร์ควิลล์ 2 แล้วออกพร้อมกันเช้าวันเสาร์</p>
+      </div>
+      <ol class="timeline" id="timeline0">
+        <li class="tstep reveal" data-tone="pine">
+          <span class="ttime">10:00</span>
+          <span class="trail" aria-hidden="true"><span class="tdot"></span></span>
+          <article class="tcard" data-g="home" data-cover="1" data-kind="start" data-lat="13.8424291" data-lng="100.6847826" data-gmaps="https://maps.app.goo.gl/Gk5FgNytaZQneTTD9" data-desc="รวมตัวกันที่บ้านตั้งแต่สิบโมง เอารถมาจอดได้เลย แล้วออกไปซื้อของด้วยกัน">
+            <div class="tcard-top">
+              <div class="tcard-body">
+                <div class="tcard-kinds"><span class="kind kind-pine">รวมตัว</span></div>
+                <h3>เจอกันที่เสนาพาร์ควิลล์ 2</h3>
+                <p class="tcard-sub">เอารถมาจอดที่บ้านได้เลย</p>
+                <div class="tcard-actions">
+                  <a class="abtn abtn-nav" href="https://www.google.com/maps/dir/?api=1&destination=13.8424291,100.6847826&travelmode=driving" target="_blank" rel="noopener">นำทาง</a>
+                  <a class="abtn abtn-line" href="https://maps.app.goo.gl/Gk5FgNytaZQneTTD9" target="_blank" rel="noopener">Google Maps</a>
+                </div>
+              </div>
+            </div>
+          </article>
+        </li>
+        <li class="tstep reveal" data-tone="amber">
+          <span class="ttime">เที่ยง</span>
+          <span class="trail" aria-hidden="true"><span class="tdot"></span></span>
+          <article class="tcard">
+            <div class="tcard-top">
+              <div class="tcard-body">
+                <div class="tcard-kinds"><span class="kind kind-amber">อาหารเที่ยง</span></div>
+                <h3>กินมื้อเที่ยงฝีมือเชฟพีต้า</h3>
+                <p class="tcard-sub">มื้อพิเศษมื้อแรก กินกันที่บ้านก่อนออกไปซื้อของ</p>
+              </div>
+            </div>
+          </article>
+        </li>
+        <li class="tstep reveal" data-tone="pine">
+          <span class="ttime">บ่าย</span>
+          <span class="trail" aria-hidden="true"><span class="tdot"></span></span>
+          <article class="tcard" data-g="makro" data-kind="shop" data-lat="13.8110547" data-lng="100.6960359" data-gmaps="https://www.google.com/maps/search/?api=1&query=13.8110547,100.6960359" data-desc="กินเที่ยงเสร็จไปตุนเสบียง ของสด และของใช้สำหรับทริป 2 วันที่แม็คโคร สาขาใกล้บ้าน">
+            <div class="tcard-top">
+              <div class="tcard-body">
+                <div class="tcard-kinds"><span class="kind kind-gray">เตรียมของ</span></div>
+                <h3>ซื้อของที่แม็คโครรามอินทรา</h3>
+                <p class="tcard-sub">เสบียง ของสด และของใช้สำหรับทริป 2 วัน</p>
+                <div class="tcard-actions">
+                  <a class="abtn abtn-nav" href="https://www.google.com/maps/dir/?api=1&destination=13.8110547,100.6960359&travelmode=driving" target="_blank" rel="noopener">นำทาง</a>
+                  <a class="abtn abtn-line" href="https://www.google.com/maps/search/?api=1&query=13.8110547,100.6960359" target="_blank" rel="noopener">Google Maps</a>
+                </div>
+              </div>
+            </div>
+          </article>
+        </li>
+        <li class="tstep reveal" data-tone="pine">
+          <span class="ttime">บ่ายแก่ ๆ</span>
+          <span class="trail" aria-hidden="true"><span class="tdot"></span></span>
+          <article class="tcard">
+            <div class="tcard-top">
+              <div class="tcard-body">
+                <div class="tcard-kinds"><span class="kind kind-amber">เตรียมแคมป์</span></div>
+                <h3>กลับมาเตรียมของ BBQ</h3>
+                <p class="tcard-sub">เตรียมวัตถุดิบ เสียบไม้ เตรียมเนื้อ ส่วนเตาไปใช้ที่ที่พักเขาใหญ่</p>
+              </div>
+            </div>
+          </article>
+        </li>
+        <li class="tstep reveal" data-tone="amber">
+          <span class="ttime">เย็น</span>
+          <span class="trail" aria-hidden="true"><span class="tdot"></span></span>
+          <article class="tcard">
+            <div class="tcard-top">
+              <div class="tcard-body">
+                <div class="tcard-kinds"><span class="kind kind-amber">อาหารเย็น</span></div>
+                <h3>กินมื้อเย็นฝีมือเชฟพีต้า</h3>
+                <p class="tcard-sub">มื้อพิเศษมื้อที่สอง ปิดท้ายคืนเตรียมตัวก่อนออกเดินทาง</p>
+              </div>
+            </div>
+          </article>
+        </li>
+        <li class="tstep reveal" data-tone="pine">
+          <span class="ttime">กลางคืน</span>
+          <span class="trail" aria-hidden="true"><span class="tdot"></span></span>
+          <article class="tcard" data-g="home" data-cover="4" data-kind="stay" data-lat="13.8424291" data-lng="100.6847826" data-gmaps="https://maps.app.goo.gl/Gk5FgNytaZQneTTD9" data-desc="นอนพักที่บ้านเอาแรงก่อนออกเดินทาง ล้อหมุนพร้อมกันพรุ่งนี้เจ็ดโมงเช้า">
+            <div class="tcard-top">
+              <div class="tcard-body">
+                <div class="tcard-kinds"><span class="kind kind-pine">พักผ่อน</span></div>
+                <h3>นอนที่เสนาพาร์ควิลล์ 2</h3>
+                <p class="tcard-sub">นอนพักเอาแรง ล้อหมุนพร้อมกันพรุ่งนี้ 07:00 น.</p>
+              </div>
+            </div>
+          </article>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- ══════════ TAB: JOIN ══════════ -->
+  <section class="section tabpanel" id="tab-join" role="tabpanel" aria-label="ร่วมทริป">
+    <div class="container">
+      <div class="sec-head">
+        <div>
+          <p class="eyebrow amber">Join us · Day 0</p>
+          <h2>มาร่วมทริปกัน</h2>
+        </div>
+        <p class="sec-note">รถหลักเต็มแล้ว แต่ขับตามมาเองได้ หรือมาสมทบตามจุดที่สะดวก · <a href="#day0">ดูตารางวันที่ 0</a></p>
+      </div>
+      <div class="lottie-wrap"><div id="joinLottie" role="img" aria-label="ภาพเคลื่อนไหวรถออกทริป"></div></div>
+      <div class="daycards">
+        <div class="daycard">
+          <div class="daycard-body">
+            <h3>แจ้ง + หารค่าที่พัก</h3>
+            <p>สนใจเข้าร่วมแค่ทักมาบอก แล้วช่วยหารค่าที่พักพูลวิลล่าคืนวันที่ 3 ด้วยกัน</p>
+          </div>
+        </div>
+        <div class="daycard">
+          <div class="daycard-body">
+            <h3>ขับรถมาเอง</h3>
+            <p>ตอนนี้รถหลัก 1 คันเต็มแล้ว ขับรถตามกันไปทุกจุดได้เลย ทางเดียวกันตลอดทริป</p>
+          </div>
+        </div>
+        <div class="daycard">
+          <div class="daycard-body">
+            <h3>สมทบตามจุดก็ได้</h3>
+            <p>ไม่ต้องอยู่ทั้งทริปก็ได้ มาสมทบตามจุดแวะที่สะดวกแล้วแยกย้ายกันได้</p>
+          </div>
+        </div>
+        <div class="daycard">
+          <div class="daycard-body">
+            <h3>ค้างคืนแจ้งล่วงหน้า</h3>
+            <p>ถ้าจะนอนค้างคืนวันที่ 3 ด้วยบอกก่อน จะได้แจ้งที่พักเตรียมไว้ให้</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <!-- ══════════ FOOTER ══════════ -->
   <footer class="footer">
     <div class="container footer-grid">
@@ -249,17 +405,19 @@
         </svg>
         <div>
           <p class="foot-brand">เที่ยวใหญ่ หนีน้ำท่วม</p>
-          <p class="foot-sub">ทริปเขาใหญ่ 3–4 ตุลาคม 2569 · ทำไว้เปิดในมือถือระหว่างเดินทาง</p>
+          <p class="foot-sub">ทริปเขาใหญ่ 3–4 ตุลาคม 2569</p>
         </div>
       </div>
       <div class="foot-links">
         <a href="#overview">ภาพรวม</a>
+        <a href="#day0">วันที่ 0</a>
         <a href="#day1">วันที่ 1</a>
         <a href="#day2">วันที่ 2</a>
         <a href="#map">แผนที่</a>
+        <a href="#join">ร่วมทริป</a>
       </div>
     </div>
-    <p class="foot-fine">รูปสถานที่จริง: Wikimedia Commons (Supanut A., Tontanthailand, Khajonrat.K, sirinthorn p., Syced, V. Argenberg), YouTube · รูปบรรยากาศ: Unsplash · เส้นทาง: OSRM · แผนที่ © Esri, HERE, Garmin, OpenStreetMap</p>
+    <p class="foot-fine">รูปสถานที่จริง: Google Maps (Places API), Wikimedia Commons (Supanut A., Tontanthailand, Khajonrat.K, sirinthorn p., Syced, V. Argenberg) · คลิปรอบสถานที่: YouTube · เส้นทาง: OSRM · แผนที่ © Esri, HERE, Garmin, OpenStreetMap</p>
   </footer>
 </main>
 
@@ -298,9 +456,11 @@
 <!-- ══════════ Mobile bottom tabs ══════════ -->
 <nav class="tabbar" aria-label="เมนูลัดมือถือ">
   <a href="#overview" data-nav><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M3 9h18M8 4v5"/></svg><span>ภาพรวม</span></a>
+  <a href="#day0" data-nav><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M20 13A8 8 0 1 1 11 4a6.5 6.5 0 0 0 9 9z"/></svg><span>วันที่ 0</span></a>
   <a href="#day1" data-nav><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg><span>วันที่ 1</span></a>
   <a href="#day2" data-nav><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg><span>วันที่ 2</span></a>
   <a href="#map" data-nav><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M9 20 3 17V4l6 3m0 0 6-3 6 3v13l-6-3m0-10v10M9 7v10"/></svg><span>แผนที่</span></a>
+  <a href="#join" data-nav><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M5 16 6.5 9.5A2 2 0 0 1 8.5 8h7a2 2 0 0 1 2 1.5L19 16M5 16h14M5 16v4m14-4v4M7 20v.01M17 20v.01"/></svg><span>ร่วมทริป</span></a>
 </nav>
 
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>

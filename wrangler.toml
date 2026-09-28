@@ -1,9 +1,26 @@
 name = "trip-khaoyai"
-compatibility_date = "2026-09-01"
+main = "worker.js"
+compatibility_date = "2026-09-28"
 account_id = "a24ce30584273b42333051f1cdec48e2"
 routes = [{ pattern = "trip.jairukchan.com", custom_domain = true }]
 workers_dev = true
 
+# Secret (never commit): wrangler secret put GOOGLE_PLACES_API_KEY
+# Local dev reads .dev.vars (gitignored, same variable name)
+
 [assets]
 directory = "./public"
+binding = "ASSETS"
 not_found_handling = "single-page-application"
+run_worker_first = true
+
+[observability]
+enabled = true
+
+[observability.logs]
+enabled = true
+head_sampling_rate = 1
+
+[observability.traces]
+enabled = true
+head_sampling_rate = 0.01
