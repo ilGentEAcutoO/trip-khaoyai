@@ -35,32 +35,32 @@ const KIND_LABEL = { start: "ออกเดินทาง", food: "อาห�
 const KIND_TONE = { start: "kind-pine", food: "kind-amber", ev: "kind-sky", nature: "kind-pine", stay: "kind-amber", shop: "kind-gray", cafe: "kind-amber", farm: "kind-pine", home: "kind-pine" };
 
 /* ---------- Trip data (coords from the plan's Google Maps links) ---------- */
-const U = (id) => `https://images.unsplash.com/${id}?w=800&q=70&auto=format&fit=crop`;
+const U = (id, w = 800) => `https://images.unsplash.com/${id}?w=${w}&q=70&auto=format&fit=crop`;
 const TRIP = [
   {
     day: 1, tone: "pine", title: "วันที่ 1 · ขาขึ้นเขาใหญ่", dateLabel: "เสาร์ 3 ต.ค. 2569",
     stops: [
-      { t: "07:00", name: "ออกเดินทางจากบ้าน", sub: "เสนา พาร์ค วิลล์ 2 · รามอินทรา–วงแหวน", kind: "start", lat: 13.8424291, lng: 100.6847826, gmaps: "https://maps.app.goo.gl/Gk5FgNytaZQneTTD9", img: U("photo-1568605114967-8130f3a36994"), desc: "ล้อหมุนแต่เช้า ใช้ทางด่วน–มอเตอร์เวย์มุ่งหน้าสระบุรี แวะกินกุ้งสดก่อนขึ้นเขา" },
-      { t: "09:00", name: "วิชชากุ้งสด", sub: "น้องแดงกุ้งสด · หนองแค สระบุรี", kind: "food", lat: 14.5238782, lng: 100.9143731, gmaps: "https://maps.app.goo.gl/TKBueBFkjfHrsPnA6", img: U("photo-1467003909585-2f8a72700288"), desc: "แวะเติมพลังมื้อสาย กุ้งสดเผาตัวโต ๆ ก่อนแยกเข้าเส้นเขาใหญ่" },
-      { t: "09:30", name: "ปตท. อีวีฮับ", sub: "ปตท.สระบุรี (น้ำมัน + EV Hub)", kind: "ev", lat: 14.553813, lng: 100.966116, gmaps: "https://maps.app.goo.gl/bPBvQ5HUsZjpwNNw8", img: U("photo-1593941707882-a5bba14938c7"), desc: "เสียบชาร์จ + เข้าห้องน้ำ + ซื้อกาแฟตุนก่อนขึ้นเขา ไฟเต็มแล้วเที่ยวสบาย" },
-      { t: "11:00", name: "ครัวน้ำปลาพริก เขาใหญ่", sub: "ร้านอาหารไทยรสจัดจ้าน", kind: "food", lat: 14.5638274, lng: 101.4058294, gmaps: "https://maps.app.goo.gl/4jKjARD2vo3ipkVX8", img: U("photo-1414235077428-338989a2e8c0"), desc: "มื้อเที่ยงบนเขา กับข้าวรสไทยแท้ กินอิ่มแล้วค่อยไปน้ำตก",
-        alt: { name: "ครัวบ้านเราเอง เขาใหญ่", lat: 14.545422, lng: 101.4098583, gmaps: "https://maps.app.goo.gl/tqA8Eg5ExhYhvKrX8" } },
-      { t: "13:00", name: "น้ำตกเหวสุวัต", sub: "อุทยานแห่งชาติเขาใหญ่", kind: "nature", lat: 14.4347, lng: 101.5025, gmaps: "https://www.google.com/maps/search/?api=1&query=%E0%B8%99%E0%B9%89%E0%B8%B3%E0%B8%95%E0%B8%81%E0%B9%80%E0%B8%AB%E0%B8%A7%E0%B8%AA%E0%B8%B8%E0%B8%A7%E0%B8%B1%E0%B8%95", img: U("photo-1433086966358-54859d0ed716"), desc: "น้ำตกชื่อดังกลางป่ามรดกโลก หน้าฝนน้ำเยอะ ถ่ายรูปสวย อย่าลืมรองเท้ากันลื่น" },
-      { t: "14:00", name: "เข้าที่พัก", sub: "The Everest Pool Villa Khaoyai", kind: "stay", lat: 14.5463323, lng: 101.5186437, gmaps: "https://maps.app.goo.gl/76wVCZj7QETAhy48A", img: U("photo-1566073771259-6a8506099945"), desc: "เช็กอินพูลวิลล่า พักผ่อน เล่นน้ำ ดูวิวเขายามเย็น" },
-      { t: "15:00", name: "แวะซื้อของ", sub: "PTT เขาใหญ่ (มี 7-Eleven)", kind: "shop", lat: 14.5127829, lng: 101.3752009, gmaps: "https://maps.app.goo.gl/ww648rAWr9GjZutn8", img: U("photo-1578916171728-46686eac8d58"), desc: "ตุนเสบียงมื้อเย็น–มื้อเช้า ขนม เครื่องดื่ม ที่ปั๊มก่อนกลับวิลล่า" },
-      { t: "สำรอง", name: "จุดเติมแบตสำรอง", sub: "PTT Charging Station เขาใหญ่", kind: "ev", backup: true, lat: 14.5127829, lng: 101.3752009, gmaps: "https://maps.app.goo.gl/GtmAPYmjLGCSAtUz5", img: U("photo-1593941707882-a5bba14938c7"), desc: "จุดชาร์จสำรองของวันที่ 1 แบตเหลือน้อยแวะได้ตลอด ไม่ต้องรอตามเวลา" },
+      { t: "07:00", name: "ออกเดินทางจากบ้าน", sub: "เสนา พาร์ค วิลล์ 2 · รามอินทรา–วงแหวน", kind: "start", lat: 13.8424291, lng: 100.6847826, gmaps: "https://maps.app.goo.gl/Gk5FgNytaZQneTTD9", ph: ["photo-1568605114967-8130f3a36994", "photo-1600585154340-be6161a56a0c", "photo-1600596542815-ffad4c1539a9"], desc: "ล้อหมุนแต่เช้า ใช้ทางด่วน–มอเตอร์เวย์มุ่งหน้าสระบุรี แวะกินกุ้งสดก่อนขึ้นเขา" },
+      { t: "09:00", name: "วิชชากุ้งสด", sub: "ร้านขายกุ้งสด · หนองแค สระบุรี", kind: "shop", lat: 14.5238782, lng: 100.9143731, gmaps: "https://maps.app.goo.gl/TKBueBFkjfHrsPnA6", ph: ["photo-1559742811-822873691df8", "photo-1488459716781-31db52582fe9", "photo-1504674900247-0877df9cc836"], desc: "ร้านขายกุ้งสด แวะซื้อกุ้งเป็น ๆ ติดรถไปเผากินเองที่วิลล่าตอนเย็น" },
+      { t: "09:30", name: "ปตท. อีวีฮับ", sub: "ปตท.สระบุรี (น้ำมัน + EV Hub)", kind: "ev", lat: 14.553813, lng: 100.966116, gmaps: "https://maps.app.goo.gl/bPBvQ5HUsZjpwNNw8", ph: ["photo-1593941707882-a5bba14938c7", "photo-1617704548017-71c0d957101c", "photo-1571068316344-75bc76f77890"], desc: "เสียบชาร์จ + เข้าห้องน้ำ + ซื้อกาแฟตุนก่อนขึ้นเขา ไฟเต็มแล้วเที่ยวสบาย" },
+      { t: "11:00", name: "ครัวบ้านเราเอง เขาใหญ่", sub: "ร้านอาหารไทยบรรยากาศบ้าน ๆ", kind: "food", lat: 14.545422, lng: 101.4098583, gmaps: "https://maps.app.goo.gl/tqA8Eg5ExhYhvKrX8", ph: ["photo-1517248135467-4c7edcad34c4", "photo-1555396273-367ea4eb4db5", "photo-1466978913421-dad2ebd01d17"], desc: "มื้อเที่ยงร้านหลักบนเขา กับข้าวรสไทยแท้ กินอิ่มแล้วค่อยไปน้ำตก",
+        alt: { name: "ครัวน้ำปลาพริก เขาใหญ่", lat: 14.5638274, lng: 101.4058294, gmaps: "https://maps.app.goo.gl/4jKjARD2vo3ipkVX8" } },
+      { t: "13:00", name: "น้ำตกเหวสุวัต", sub: "อุทยานแห่งชาติเขาใหญ่", kind: "nature", lat: 14.4347, lng: 101.5025, gmaps: "https://www.google.com/maps/search/?api=1&query=%E0%B8%99%E0%B9%89%E0%B8%B3%E0%B8%95%E0%B8%81%E0%B9%80%E0%B8%AB%E0%B8%A7%E0%B8%AA%E0%B8%B8%E0%B8%A7%E0%B8%B1%E0%B8%95", ph: ["photo-1433086966358-54859d0ed716", "photo-1432405972618-c60b0225b8f9", "photo-1504893524553-b855bce32c67", "photo-1441974231531-c6227db76b6e"], desc: "น้ำตกชื่อดังกลางป่ามรดกโลก หน้าฝนน้ำเยอะ ถ่ายรูปสวย อย่าลืมรองเท้ากันลื่น" },
+      { t: "14:00", name: "เข้าที่พัก", sub: "The Everest Pool Villa Khaoyai", kind: "stay", lat: 14.5463323, lng: 101.5186437, gmaps: "https://maps.app.goo.gl/76wVCZj7QETAhy48A", ph: ["photo-1566073771259-6a8506099945", "photo-1571896349842-33c89424de2d", "photo-1520250497591-112f2f40a3f4"], desc: "เช็กอินพูลวิลล่า พักผ่อน เล่นน้ำ ดูวิวเขายามเย็น" },
+      { t: "15:00", name: "แวะซื้อของ", sub: "PTT เขาใหญ่ (มี 7-Eleven)", kind: "shop", lat: 14.5127829, lng: 101.3752009, gmaps: "https://maps.app.goo.gl/ww648rAWr9GjZutn8", ph: ["photo-1578916171728-46686eac8d58", "photo-1441986300917-64674bd600d8", "photo-1580913428023-02c695666b61"], desc: "ตุนเสบียงมื้อเย็น–มื้อเช้า ขนม เครื่องดื่ม ที่ปั๊มก่อนกลับวิลล่า" },
+      { t: "สำรอง", name: "จุดเติมแบตสำรอง", sub: "PTT Charging Station เขาใหญ่", kind: "ev", backup: true, lat: 14.5127829, lng: 101.3752009, gmaps: "https://maps.app.goo.gl/GtmAPYmjLGCSAtUz5", ph: ["photo-1593941707882-a5bba14938c7", "photo-1617704548017-71c0d957101c"], desc: "จุดชาร์จสำรองของวันที่ 1 แบตเหลือน้อยแวะได้ตลอด ไม่ต้องรอตามเวลา" },
     ],
   },
   {
     day: 2, tone: "amber", title: "วันที่ 2 · เที่ยวขากลับ", dateLabel: "อาทิตย์ 4 ต.ค. 2569",
     stops: [
-      { t: "สำรอง", name: "จุดเติมแบตสำรอง", sub: "ปตท. เขาใหญ่สเตชั่น", kind: "ev", backup: true, lat: 14.6113092, lng: 101.4041536, gmaps: "https://maps.app.goo.gl/svK9xb9AAEJuxcXe6", img: U("photo-1593941707882-a5bba14938c7"), desc: "จุดชาร์จสำรองของวันที่ 2 อยู่เส้นปากช่อง–เขาใหญ่" },
-      { t: "12:00", name: "ออกเดินทาง", sub: "เช็กเอาต์จาก The Everest Pool Villa", kind: "start", lat: 14.5463323, lng: 101.5186437, gmaps: "https://maps.app.goo.gl/76wVCZj7QETAhy48A", img: U("photo-1506905925346-21bda4d32df4"), desc: "เช็กเอาต์เที่ยงวัน เริ่มทริปคาเฟ่–ฟาร์มขากลับ" },
-      { t: "12:20", name: "BUCOLIC Khaoyai", sub: "คาเฟ่วิวทุ่ง near อุทยาน", kind: "cafe", lat: 14.5136365, lng: 101.4499219, gmaps: "https://maps.app.goo.gl/dkQbcCpzVGePJyo48", img: U("photo-1554118811-1e0d58224f24"), desc: "คาเฟ่บรรยากาศชนบท วิวทุ่งกว้าง กาแฟดี มุมถ่ายรูปเยอะ" },
-      { t: "13:30", name: "ฟาร์มโชคชัย", sub: "ปากช่อง นครราชสีมา", kind: "farm", lat: 14.6547661, lng: 101.3485289, gmaps: "https://maps.app.goo.gl/ZKGZCahy6EgSE7Ss8", img: U("photo-1500595046743-cd271d694d30"), desc: "ฟาร์มโคนมชื่อดัง นั่งรถชมฟาร์ม ดูโชว์คาวบอย แวะซื้อของฝากนม–ไอศกรีม" },
-      { t: "15:00", name: "ไร่สุวรรณวาจกกสิกิจ", sub: "ปากช่อง นครราชสีมา", kind: "farm", lat: 14.6527316, lng: 101.3112606, gmaps: "https://maps.app.goo.gl/W6AN7Dwc1PstZQt19", img: U("photo-1500382017468-9049fed747ef"), desc: "ไร่บรรยากาศดี ชมวิวทุ่ง ถ่ายรูปชิล ๆ ก่อนลงจากเขา" },
-      { t: "16:00", name: "Oeimi Café", sub: "คาเฟ่สระบุรี", kind: "cafe", lat: 14.4270971, lng: 100.9169681, gmaps: "https://maps.app.goo.gl/V2L14vFGPSLY4uof9", img: U("photo-1501339847302-ac426a4a7cbb"), desc: "แวะคาเฟ่ย่านสระบุรี กาแฟแก้วสุดท้ายของทริปก่อนยิงยาวกลับบ้าน" },
-      { t: "18:00", name: "ถึงบ้าน", sub: "เสนาพาร์ควิลล์ 2 · โดยสวัสดิภาพ", kind: "home", lat: 13.8424291, lng: 100.6847826, gmaps: "https://maps.app.goo.gl/Gk5FgNytaZQneTTD9", img: U("photo-1568605114967-8130f3a36994"), desc: "จบทริป 2 วัน 1 คืน ถึงบ้านราวหกโมงเย็น" },
+      { t: "สำรอง", name: "จุดเติมแบตสำรอง", sub: "ปตท. เขาใหญ่สเตชั่น", kind: "ev", backup: true, lat: 14.6113092, lng: 101.4041536, gmaps: "https://maps.app.goo.gl/svK9xb9AAEJuxcXe6", ph: ["photo-1593941707882-a5bba14938c7", "photo-1617704548017-71c0d957101c"], desc: "จุดชาร์จสำรองของวันที่ 2 อยู่เส้นปากช่อง–เขาใหญ่" },
+      { t: "12:00", name: "ออกเดินทาง", sub: "เช็กเอาต์จาก The Everest Pool Villa", kind: "start", lat: 14.5463323, lng: 101.5186437, gmaps: "https://maps.app.goo.gl/76wVCZj7QETAhy48A", ph: ["photo-1506905925346-21bda4d32df4", "photo-1464822759023-fed622ff2c3b", "photo-1470071459604-3b5ec3a7fe05"], desc: "เช็กเอาต์เที่ยงวัน เริ่มทริปคาเฟ่–ฟาร์มขากลับ" },
+      { t: "12:20", name: "BUCOLIC Khaoyai", sub: "คาเฟ่วิวทุ่ง near อุทยาน", kind: "cafe", lat: 14.5136365, lng: 101.4499219, gmaps: "https://maps.app.goo.gl/dkQbcCpzVGePJyo48", ph: ["photo-1554118811-1e0d58224f24", "photo-1445116572660-236099ec97a0", "photo-1495474472287-4d71bcdd2085"], desc: "คาเฟ่บรรยากาศชนบท วิวทุ่งกว้าง กาแฟดี มุมถ่ายรูปเยอะ" },
+      { t: "13:30", name: "ฟาร์มโชคชัย", sub: "ปากช่อง นครราชสีมา", kind: "farm", lat: 14.6547661, lng: 101.3485289, gmaps: "https://maps.app.goo.gl/ZKGZCahy6EgSE7Ss8", ph: ["photo-1500595046743-cd271d694d30", "photo-1516253593875-bd7ba052fbc5", "photo-1500076656116-558758c991c1", "photo-1625246333195-78d9c38ad449"], desc: "ฟาร์มโคนมชื่อดัง นั่งรถชมฟาร์ม ดูโชว์คาวบอย แวะซื้อของฝากนม–ไอศกรีม" },
+      { t: "15:00", name: "ไร่สุวรรณวาจกกสิกิจ", sub: "ปากช่อง นครราชสีมา", kind: "farm", lat: 14.6527316, lng: 101.3112606, gmaps: "https://maps.app.goo.gl/W6AN7Dwc1PstZQt19", ph: ["photo-1500382017468-9049fed747ef", "photo-1560493676-04071c5f467b", "photo-1501594907352-04cda38ebc29"], desc: "ไร่บรรยากาศดี ชมวิวทุ่ง ถ่ายรูปชิล ๆ ก่อนลงจากเขา" },
+      { t: "16:00", name: "Oeimi Café", sub: "คาเฟ่สระบุรี", kind: "cafe", lat: 14.4270971, lng: 100.9169681, gmaps: "https://maps.app.goo.gl/V2L14vFGPSLY4uof9", ph: ["photo-1501339847302-ac426a4a7cbb", "photo-1559925393-8be0ec4767c8", "photo-1497935586351-b67a49e012bf"], desc: "แวะคาเฟ่ย่านสระบุรี กาแฟแก้วสุดท้ายของทริปก่อนยิงยาวกลับบ้าน" },
+      { t: "18:00", name: "ถึงบ้าน", sub: "เสนาพาร์ควิลล์ 2 · โดยสวัสดิภาพ", kind: "home", lat: 13.8424291, lng: 100.6847826, gmaps: "https://maps.app.goo.gl/Gk5FgNytaZQneTTD9", ph: ["photo-1568605114967-8130f3a36994", "photo-1600585154340-be6161a56a0c", "photo-1600596542815-ffad4c1539a9"], desc: "จบทริป 2 วัน 1 คืน ถึงบ้านราวหกโมงเย็น" },
     ],
   },
 ];
@@ -100,8 +100,8 @@ function toast(msg) {
 }
 
 /* ---------- Timeline rendering ---------- */
-function stopCard(day, stop, idx) {
-  const tone = day.tone, num = stop.backup ? "ส" : (idx + 1);
+function stopCard(di, day, stop, si, n) {
+  const tone = day.tone, num = stop.backup ? "ส" : n;
   const alt = stop.alt
     ? `<div class="altbox"><span>หรือเลือกร้านสำรอง <strong>${stop.alt.name}</strong></span>
        <a class="abtn abtn-nav" style="background:var(--amber-700)" href="${dirUrl(stop.alt.lat, stop.alt.lng)}" target="_blank" rel="noopener">${ICONS.nav}นำทาง</a>
@@ -111,11 +111,12 @@ function stopCard(day, stop, idx) {
   <li class="tstep reveal" data-tone="${tone}" ${stop.backup ? 'data-kind="backup"' : ""}>
     <span class="ttime">${stop.t}${stop.t.includes(".") ? " น." : ""}</span>
     <span class="trail" aria-hidden="true"><span class="tdot"></span></span>
-    <article class="tcard">
+    <article class="tcard" data-stop="${di}:${si}">
       <div class="tcard-top">
         <div class="tcard-photo">
-          <img src="${stop.img}" alt="${stop.name}" loading="lazy" onerror="imgFallback(this)">
+          <img src="${U(stop.ph[0])}" alt="${stop.name}" loading="lazy" onerror="imgFallback(this)">
           <span class="tnum">${num}</span>
+          <span class="pht-badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7" rx="1.5"/><rect x="14" y="3" width="7" height="7" rx="1.5"/><rect x="3" y="14" width="7" height="7" rx="1.5"/><rect x="14" y="14" width="7" height="7" rx="1.5"/></svg>${stop.ph.length} รูป</span>
         </div>
         <div class="tcard-body">
           <div class="tcard-kinds">
@@ -146,14 +147,14 @@ function renderTimelines() {
     const ol = $(di === 0 ? "#timeline1" : "#timeline2");
     let html = "", n = 0;
     const mains = day.stops.filter((s) => !s.backup);
-    day.stops.forEach((s) => {
+    day.stops.forEach((s, si) => {
       if (s.backup) {
-        html += stopCard(day, s, -1);
+        html += stopCard(di, day, s, si, 0);
         return;
       }
-      html += stopCard(day, s, n);
-      if (n < mains.length - 1) html += legChip(di, n);
       n++;
+      html += stopCard(di, day, s, si, n);
+      if (n < mains.length) html += legChip(di, n - 1);
     });
     ol.innerHTML = html;
   });
@@ -163,6 +164,84 @@ function renderTimelines() {
     d.stops.forEach((s) => { s._n = s.backup ? "ส" : String(++n); });
   });
   $("#statStops").textContent = TRIP.reduce((a, d) => a + d.stops.filter((s) => !s.backup).length, 0) + " จุด";
+}
+
+/* ---------- Gallery (overview tab) ---------- */
+function renderGallery() {
+  const g = $("#tripGallery");
+  if (!g) return;
+  g.innerHTML = TRIP.map((d, di) => d.stops.map((s, si) => `
+    <button type="button" class="gcard reveal" data-stop="${di}:${si}" aria-label="ดูรายละเอียด${s.name}">
+      <span class="g-img"><img src="${U(s.ph[0], 600)}" alt="" loading="lazy" onerror="imgFallback(this)">
+      <span class="g-day">วันที่ ${d.day}</span></span>
+      <span class="g-cap"><b>${s.name}</b><i>${s.t === "สำรอง" ? "เวลาสำรอง" : s.t + " น."} · ${KIND_LABEL[s.kind]} · ${s.ph.length} รูป</i></span>
+    </button>`).join("")).join("");
+}
+
+/* ---------- Stop detail modal ---------- */
+const ORDER = [];
+TRIP.forEach((d, di) => d.stops.forEach((s, si) => ORDER.push([di, si])));
+let mPhoto = 0, mTicking = false;
+function openStop(di, si) {
+  const day = TRIP[di], s = day.stops[si];
+  mPhoto = 0;
+  const track = $("#mTrack");
+  track.innerHTML = s.ph.map((id, i) => `<img src="${U(id, 1000)}" alt="${s.name} รูปที่ ${i + 1}"${i ? ' loading="lazy"' : ""} onerror="imgFallback(this)">`).join("");
+  track.scrollLeft = 0;
+  $("#mThumbs").innerHTML = s.ph.map((id, i) => `<button type="button" data-ph="${i}" class="${i ? "" : "on"}" aria-label="ดูรูปที่ ${i + 1}"><img src="${U(id, 200)}" alt="" loading="lazy" onerror="imgFallback(this)"></button>`).join("");
+  $("#mKinds").innerHTML = `<span class="kind ${KIND_TONE[s.kind]}">${ICONS[s.kind]}${KIND_LABEL[s.kind]}</span>`
+    + `<span class="kind kind-gray">วันที่ ${day.day} · ${s.t === "สำรอง" ? "เวลาสำรอง" : "เวลา " + s.t + " น."}</span>`;
+  $("#mTitle").textContent = (s._n === "ส" ? "" : "จุดที่ " + s._n + " · ") + s.name;
+  $("#mSub").textContent = s.sub;
+  $("#mDesc").textContent = s.desc;
+  const alt = $("#mAlt");
+  if (s.alt) {
+    alt.hidden = false;
+    alt.innerHTML = `<span>หรือเลือกร้านสำรอง <strong>${s.alt.name}</strong></span>`
+      + `<a class="abtn abtn-nav" style="background:var(--amber-700)" href="${dirUrl(s.alt.lat, s.alt.lng)}" target="_blank" rel="noopener">${ICONS.nav}นำทาง</a>`
+      + `<a class="abtn abtn-line" href="${s.alt.gmaps}" target="_blank" rel="noopener">${ICONS.ext}Google Maps</a>`;
+  } else {
+    alt.hidden = true;
+    alt.innerHTML = "";
+  }
+  const nav = $("#mNav");
+  nav.href = dirUrl(s.lat, s.lng);
+  nav.innerHTML = `${ICONS.nav}นำทาง`;
+  const gm = $("#mGmaps");
+  gm.href = s.gmaps;
+  gm.innerHTML = `${ICONS.ext}Google Maps`;
+  const me = $("#mMe");
+  me.dataset.me = `${s.lat},${s.lng}`;
+  me.dataset.name = s.name;
+  const k = ORDER.findIndex(([a, b]) => a === di && b === si);
+  const pv = ORDER[(k - 1 + ORDER.length) % ORDER.length], nx = ORDER[(k + 1) % ORDER.length];
+  $("#mPrevStop").textContent = "← " + TRIP[pv[0]].stops[pv[1]].name;
+  $("#mNextStop").textContent = TRIP[nx[0]].stops[nx[1]].name + " →";
+  $("#mPrevStop").onclick = () => openStop(pv[0], pv[1]);
+  $("#mNextStop").onclick = () => openStop(nx[0], nx[1]);
+  mCount();
+  const modal = $("#stopModal");
+  modal.classList.add("show");
+  modal.setAttribute("aria-hidden", "false");
+  document.body.style.overflow = "hidden";
+}
+function mGo(i) {
+  const track = $("#mTrack"), n = track.children.length || 1;
+  mPhoto = (i + n) % n;
+  track.scrollTo({ left: mPhoto * track.clientWidth, behavior: "smooth" });
+  mCount();
+}
+function mCount() {
+  const n = $("#mTrack").children.length || 1;
+  $("#mCount").textContent = (mPhoto + 1) + " / " + n;
+  $$("#mThumbs button").forEach((b, i) => b.classList.toggle("on", i === mPhoto));
+}
+function closeStop() {
+  const modal = $("#stopModal");
+  if (!modal.classList.contains("show")) return;
+  modal.classList.remove("show");
+  modal.setAttribute("aria-hidden", "true");
+  document.body.style.overflow = "";
 }
 
 /* ---------- Routing via OSRM (real road network) with haversine fallback ---------- */
@@ -247,12 +326,13 @@ function initMap() {
   layerD1 = L.layerGroup(); layerD2 = L.layerGroup();
   const bounds = [];
   TRIP.forEach((day, di) => {
-    day.stops.forEach((s) => {
+    day.stops.forEach((s, si) => {
       const m = L.marker([s.lat, s.lng], { icon: pinIcon(s, day.tone), title: s.name });
       m.bindPopup(`<div class="pop"><h4>${s._n === "ส" ? "สำรอง · " : "จุดที่ " + s._n + " · "}${s.name}</h4><p>${s.sub}</p>
         <div class="pop-btns"><a class="pop-nav" href="${dirUrl(s.lat, s.lng)}" target="_blank" rel="noopener">นำทาง</a>
-        <a class="pop-gmaps" href="${s.gmaps}" target="_blank" rel="noopener">Google Maps</a></div></div>`);
-      m.on("click", () => showSheet(day, s));
+        <a class="pop-gmaps" href="${s.gmaps}" target="_blank" rel="noopener">Google Maps</a></div>
+        <button class="pop-detail" data-stop="${di}:${si}">ดูรูป + รายละเอียด</button></div>`);
+      m.on("click", () => showSheet(di, day, s, si));
       (di === 0 ? layerD1 : layerD2).addLayer(m);
       layerAll.addLayer(m);
       bounds.push([s.lat, s.lng]);
@@ -260,6 +340,7 @@ function initMap() {
   });
   map.fitBounds(bounds, { padding: [28, 28] });
   setTimeout(() => map.invalidateSize(), 400);
+  ROUTES.forEach((r, di) => { if (r) drawDayRoute(di); });
 }
 function drawDayRoute(di) {
   const r = ROUTES[di];
@@ -279,17 +360,19 @@ function drawDayRoute(di) {
   line.addTo(di === 0 ? layerD1 : layerD2);
   line.addTo(layerAll);
 }
-function showSheet(day, s) {
+function showSheet(di, day, s, si) {
   const el = $("#stopsheet");
   el.innerHTML = `
     <button class="sheet-x" type="button" aria-label="ปิด">×</button>
+    <img class="sheet-img" src="${U(s.ph[0], 600)}" alt="" loading="lazy" onerror="imgFallback(this)">
     <span class="kind ${KIND_TONE[s.kind]}">${ICONS[s.kind]}${KIND_LABEL[s.kind]} · วันที่ ${day.day}</span>
     <h4 style="margin-top:.5rem">${s._n === "ส" ? "" : "จุดที่ " + s._n + " · "}${s.name}</h4>
     <p class="sub">${s.t === "สำรอง" ? "เวลาสำรอง" : "เวลา " + s.t + " น."} · ${s.sub}</p>
     <div class="row">
       <a class="abtn abtn-nav" href="${dirUrl(s.lat, s.lng)}" target="_blank" rel="noopener">${ICONS.nav}นำทาง</a>
       <a class="abtn abtn-line" href="${s.gmaps}" target="_blank" rel="noopener">${ICONS.ext}Google Maps</a>
-    </div>`;
+    </div>
+    <button type="button" class="sheet-detail" data-stop="${di}:${si}">ดูรูป + รายละเอียด (${s.ph.length} รูป)</button>`;
   el.classList.add("show");
   el.setAttribute("aria-hidden", "false");
   $(".sheet-x", el).addEventListener("click", hideSheet);
@@ -359,14 +442,21 @@ const T0 = new Date("2026-10-03T07:00:00+07:00").getTime();
 const T1 = new Date("2026-10-04T20:00:00+07:00").getTime();
 function tickCountdown() {
   const now = Date.now();
-  const d = $("#cdD"), h = $("#cdH"), m = $("#cdM"), label = $("#cdLabel");
-  if (now >= T1) { d.textContent = "0"; h.textContent = "0"; m.textContent = "0"; label.textContent = "จบทริปแล้ว · ไว้เที่ยวกันใหม่"; return; }
-  if (now >= T0) { label.textContent = "กำลังเที่ยวอยู่ · เที่ยวให้สนุก!"; }
-  const target = now >= T0 ? T1 : T0;
-  let s = Math.max(0, Math.floor((target - now) / 1000));
+  const d = $("#cdD"), h = $("#cdH"), m = $("#cdM"), sec = $("#cdS"), label = $("#cdLabel");
+  const pad = (n) => String(n).padStart(2, "0");
+  if (now >= T1) {
+    d.textContent = "0"; h.textContent = "00"; m.textContent = "00"; sec.textContent = "00";
+    label.textContent = "จบทริปแล้ว · ไว้เที่ยวกันใหม่";
+    return;
+  }
+  const ontrip = now >= T0;
+  const target = ontrip ? T1 : T0;
+  const s = Math.max(0, Math.floor((target - now) / 1000));
   d.textContent = Math.floor(s / 86400);
-  h.textContent = String(Math.floor((s % 86400) / 3600)).padStart(2, "0");
-  m.textContent = String(Math.floor((s % 3600) / 60)).padStart(2, "0");
+  h.textContent = pad(Math.floor((s % 86400) / 3600));
+  m.textContent = pad(Math.floor((s % 3600) / 60));
+  sec.textContent = pad(s % 60);
+  label.textContent = ontrip ? "กำลังเที่ยวอยู่ · นับถอยหลังก่อนถึงบ้าน" : "นับถอยหลัง · ออกเดินทาง เสาร์ 3 ต.ค. 07:00 น.";
 }
 
 /* ---------- Nav / menu / spy / reveal ---------- */
@@ -388,17 +478,9 @@ function initChrome() {
   const goFirst = () => window.open(dirUrl(first.lat, first.lng), "_blank", "noopener");
   ["navGoBtn", "heroGoBtn", "menuGoBtn"].forEach((id) => $("#" + id).addEventListener("click", goFirst));
 
-  // scroll spy
-  const secs = ["overview", "day1", "day2", "map"].map((id) => document.getElementById(id));
-  const links = $$("[data-nav]");
-  const spy = new IntersectionObserver((es) => {
-    es.forEach((e) => {
-      if (e.isIntersecting) {
-        links.forEach((l) => l.classList.toggle("active", l.getAttribute("href") === "#" + e.target.id));
-      }
-    });
-  }, { rootMargin: "-40% 0px -55% 0px" });
-  secs.forEach((s) => s && spy.observe(s));
+  // tab switching
+  activateTab((location.hash || "").slice(1), { push: false });
+  window.addEventListener("hashchange", () => activateTab(location.hash.slice(1), { push: false }));
 
   // reveal
   const ro = new IntersectionObserver((es) => {
@@ -417,20 +499,91 @@ function initChrome() {
   }));
   $("#locateBtn").addEventListener("click", locateMe);
   document.addEventListener("click", (e) => {
+    const a = e.target.closest('a[href^="#"]');
+    if (a) {
+      const id = a.getAttribute("href").slice(1);
+      if (TABS.includes(id)) {
+        e.preventDefault();
+        activateTab(id);
+        return;
+      }
+      if (id === "top") {
+        e.preventDefault();
+        activateTab("overview");
+        return;
+      }
+    }
+    const card = e.target.closest("[data-stop]");
+    if (card) {
+      const inner = e.target.closest("a,button");
+      if (!inner || inner === card) {
+        const [di, si] = card.dataset.stop.split(":").map(Number);
+        openStop(di, si);
+        return;
+      }
+    }
     const b = e.target.closest("[data-me]");
     if (b) {
       const [lat, lng] = b.dataset.me.split(",").map(Number);
       etaFromMe(lat, lng, b.dataset.name);
     }
   });
+
+  // modal wiring
+  $("#mPrev").addEventListener("click", () => mGo(mPhoto - 1));
+  $("#mNext").addEventListener("click", () => mGo(mPhoto + 1));
+  $("#mThumbs").addEventListener("click", (e) => {
+    const t = e.target.closest("[data-ph]");
+    if (t) mGo(Number(t.dataset.ph));
+  });
+  $$("#stopModal [data-close]").forEach((el) => el.addEventListener("click", closeStop));
+  document.addEventListener("keydown", (e) => { if (e.key === "Escape") closeStop(); });
+  $("#mTrack").addEventListener("scroll", () => {
+    if (mTicking) return;
+    mTicking = true;
+    requestAnimationFrame(() => {
+      const t = $("#mTrack");
+      if (t.clientWidth) {
+        mPhoto = Math.min(t.children.length - 1, Math.round(t.scrollLeft / t.clientWidth));
+        mCount();
+      }
+      mTicking = false;
+    });
+  }, { passive: true });
+}
+
+/* ---------- Tabs ---------- */
+const TABS = ["overview", "day1", "day2", "map"];
+let currentTab = null, mapInited = false;
+function activateTab(name, { push = true } = {}) {
+  if (!TABS.includes(name)) name = "overview";
+  if (name === currentTab) {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+    return;
+  }
+  currentTab = name;
+  $$(".tabpanel").forEach((p) => p.classList.toggle("active", p.id === "tab-" + name));
+  $$("[data-nav]").forEach((l) => l.classList.toggle("active", l.getAttribute("href") === "#" + name));
+  window.scrollTo({ top: 0, behavior: "auto" });
+  if (name === "map" && window.L) {
+    if (!mapInited) {
+      initMap();
+      mapInited = true;
+    } else if (map) {
+      setTimeout(() => map.invalidateSize(), 60);
+    }
+  }
+  if (push) {
+    try { history.pushState(null, "", "#" + name); } catch { /* ignore */ }
+  }
 }
 
 /* ---------- Boot ---------- */
 document.addEventListener("DOMContentLoaded", () => {
   renderTimelines();
+  renderGallery();
   initChrome();
   tickCountdown();
-  setInterval(tickCountdown, 30000);
-  if (window.L) initMap();
+  setInterval(tickCountdown, 1000);
   computeRoutes();
 });

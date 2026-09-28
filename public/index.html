@@ -25,7 +25,7 @@
 <header class="island" id="topnav">
   <a class="brand" href="#top" aria-label="กลับขึ้นด้านบน">
     <span class="brand-mark" aria-hidden="true">
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M3 18 9.5 7.5 12.5 12l3-4.5L21 18H3Z"/><path d="M9.5 7.5 11 10l-1.2 1.2L8 10l1.5-2.5Z" fill="currentColor" stroke="none" opacity=".45"/></svg>
+      <svg viewBox="0 0 32 32"><circle cx="24" cy="8" r="4" fill="#dd7f2a"/><path d="M4 25 13 10q.8-1.4 1.6 0L24 25q.4 1-1 1H5q-1.4 0-1-1Z" fill="#f5f1e6"/><path d="M10.5 15.5 13 10q.8-1.4 1.6 0l2.5 5.5-1.9-1-1.2 1.9-1.4-1.9-1.1 1Z" fill="#1b5c44"/><circle cx="11.5" cy="20" r="1.3" fill="#123f31"/><circle cx="17" cy="20" r="1.3" fill="#123f31"/><path d="M12.8 22.6q1.1 1 2.4 0" stroke="#123f31" stroke-width="1.1" fill="none" stroke-linecap="round"/><ellipse cx="9.4" cy="21.6" rx="1.3" ry=".8" fill="#eba9a9"/><ellipse cx="19.1" cy="21.6" rx="1.3" ry=".8" fill="#eba9a9"/></svg>
     </span>
     <span class="brand-text">ทริป<strong>เขาใหญ่</strong></span>
   </a>
@@ -60,6 +60,8 @@
 
 <main id="top">
 
+  <!-- ══════════ TAB: OVERVIEW ══════════ -->
+  <div class="tabpanel" id="tab-overview" role="tabpanel" aria-label="ภาพรวมทริป">
   <!-- ══════════ HERO ══════════ -->
   <section class="hero">
     <div class="hero-bg" aria-hidden="true"></div>
@@ -68,12 +70,13 @@
         <p class="kicker"><span class="kicker-dot"></span>3 – 4 ตุลาคม 2569 · เขาใหญ่ 2 วัน 1 คืน</p>
         <h1>เที่ยวใหญ่<br><span class="h1-accent">หนีน้ำท่วม</span></h1>
         <p class="lede">แผนเที่ยวแบบ interactive — ไทม์ไลน์ทุกจุด แผนที่รวมทั้งทริป กดนำทางได้ทันที พร้อมเวลาขับรถจริงระหว่างจุด</p>
-        <div class="countdown" id="countdown" role="status" aria-live="polite">
+        <div class="countdown" id="countdown" role="status" aria-live="off" aria-label="นับถอยหลังก่อนออกเดินทาง">
           <div><b id="cdD">–</b><span>วัน</span></div>
           <div><b id="cdH">–</b><span>ชั่วโมง</span></div>
           <div><b id="cdM">–</b><span>นาที</span></div>
-          <p id="cdLabel">ก่อนออกเดินทาง</p>
+          <div class="sec"><b id="cdS">–</b><span>วินาที</span></div>
         </div>
+        <p class="cd-cap" id="cdLabel">นับถอยหลัง · ออกเดินทาง เสาร์ 3 ต.ค. 07:00 น.</p>
         <div class="hero-cta">
           <a class="btn btn-primary btn-lg" href="#map">
             <span>ดูแผนที่รวม</span>
@@ -91,17 +94,34 @@
         </dl>
       </div>
       <div class="hero-media">
-        <figure class="frame frame-main">
-          <span class="frame-shell"><img src="https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?w=1000&q=70&auto=format&fit=crop" alt="ทะเลหมอกยามเช้าเหนือทิวเขา" fetchpriority="high" onerror="imgFallback(this)"></span>
-          <figcaption>เขาใหญ่ · ตุลาคม หมอกกำลังสวย</figcaption>
-        </figure>
-        <figure class="frame frame-sub">
-          <span class="frame-shell"><img src="https://images.unsplash.com/photo-1433086966358-54859d0ed716?w=600&q=70&auto=format&fit=crop" alt="น้ำตกในป่าเขา" loading="lazy" onerror="imgFallback(this)"></span>
-          <figcaption>น้ำตกเหวสุวัต</figcaption>
-        </figure>
-        <div class="hero-badge" aria-hidden="true">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s-7-5.5-7-11a7 7 0 0 1 14 0c0 5.5-7 11-7 11Z"/><circle cx="12" cy="10" r="2.6"/></svg>
-          <span>13 จุด · 2 เส้นทาง</span>
+        <div class="mosaic">
+          <button type="button" class="mos-item mos-big" data-stop="0:4">
+            <img src="https://images.unsplash.com/photo-1433086966358-54859d0ed716?w=1000&q=70&auto=format&fit=crop" alt="น้ำตกเหวสุวัต" fetchpriority="high" onerror="imgFallback(this)">
+            <span class="mos-cap"><b>น้ำตกเหวสุวัต</b><i>วันที่ 1 · 13:00</i></span>
+          </button>
+          <button type="button" class="mos-item" data-stop="0:5">
+            <img src="https://images.unsplash.com/photo-1566073771259-6a8506099945?w=600&q=70&auto=format&fit=crop" alt="พูลวิลล่าที่พัก" loading="lazy" onerror="imgFallback(this)">
+            <span class="mos-cap"><b>พูลวิลล่าเขาใหญ่</b><i>วันที่ 1 · 14:00</i></span>
+          </button>
+          <button type="button" class="mos-item" data-stop="1:3">
+            <img src="https://images.unsplash.com/photo-1500595046743-cd271d694d30?w=600&q=70&auto=format&fit=crop" alt="ฟาร์มโชคชัย" loading="lazy" onerror="imgFallback(this)">
+            <span class="mos-cap"><b>ฟาร์มโชคชัย</b><i>วันที่ 2 · 13:30</i></span>
+          </button>
+        </div>
+        <div class="mascot-sticker" aria-hidden="true">
+          <svg viewBox="0 0 140 112" class="mascot">
+            <g class="mc-sun"><circle cx="22" cy="24" r="9" fill="#dd7f2a"/><g stroke="#dd7f2a" stroke-width="2.4" stroke-linecap="round"><path d="M22 8v5M22 35v5M6 24h5M33 24h5M11 13l3.5 3.5M29.5 31.5 33 35M33 13l-3.5 3.5M15.5 31.5 12 35"/></g></g>
+            <g class="mc-cloud" fill="#ffffff" opacity=".95"><ellipse cx="102" cy="20" rx="13" ry="6.5"/><ellipse cx="112" cy="16" rx="9" ry="6"/><ellipse cx="92" cy="17" rx="7" ry="5"/></g>
+            <path d="M38 20q3-3.5 6 0M47 20q3-3.5 6 0" stroke="#1b5c44" stroke-width="1.8" fill="none" stroke-linecap="round"/>
+            <ellipse cx="70" cy="102" rx="60" ry="7" fill="#dcebe1"/>
+            <path d="M22 98 60 30q2.5-4.5 5 0l44 68q1 3-3 3H25q-4 0-3-3Z" fill="#1b5c44"/>
+            <path d="M50 44l10-14q2.5-4.5 5 0l10 14-6-3-4 6-5-6-4 6Z" fill="#fffdf8"/>
+            <path d="M48 70q5-6 10 0M72 70q5-6 10 0" stroke="#0d2c22" stroke-width="2.6" fill="none" stroke-linecap="round"/>
+            <ellipse cx="42" cy="77" rx="4.2" ry="2.7" fill="#eba9a9"/><ellipse cx="88" cy="77" rx="4.2" ry="2.7" fill="#eba9a9"/>
+            <path d="M62 79q3 3.2 6 0" stroke="#0d2c22" stroke-width="2.2" fill="none" stroke-linecap="round"/>
+            <rect x="108" y="82" width="4.5" height="13" rx="2" fill="#7a5c3e"/>
+            <path d="M110 60l8 15h-16Z" fill="#2e7d5b"/><path d="M110 69l10 18h-20Z" fill="#1b5c44"/>
+          </svg>
         </div>
       </div>
     </div>
@@ -144,6 +164,14 @@
           </div>
         </a>
       </div>
+      <div class="sec-head gal-head">
+        <div>
+          <p class="eyebrow">Photo gallery</p>
+          <h2>แกลเลอรีที่เที่ยว</h2>
+        </div>
+        <p class="sec-note">แตะรูปเพื่อเปิดดูรายละเอียดและรูปเพิ่มของจุดนั้น</p>
+      </div>
+      <div class="gal" id="tripGallery"></div>
       <div class="evnote" role="note">
         <span class="evnote-ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2 4 14h6l-1 8 9-12h-6l1-8Z"/></svg></span>
         <div>
@@ -153,9 +181,10 @@
       </div>
     </div>
   </section>
+  </div><!-- /tab-overview -->
 
-  <!-- ══════════ DAY 1 ══════════ -->
-  <section class="section day" id="day1">
+  <!-- ══════════ TAB: DAY 1 ══════════ -->
+  <section class="section day tabpanel" id="tab-day1" role="tabpanel" aria-label="วันที่ 1">
     <div class="container">
       <div class="sec-head">
         <div>
@@ -169,7 +198,7 @@
   </section>
 
   <!-- ══════════ DAY 2 ══════════ -->
-  <section class="section day day-alt" id="day2">
+  <section class="section day day-alt tabpanel" id="tab-day2" role="tabpanel" aria-label="วันที่ 2">
     <div class="container">
       <div class="sec-head">
         <div>
@@ -183,7 +212,7 @@
   </section>
 
   <!-- ══════════ MAP ══════════ -->
-  <section class="section mapsec" id="map">
+  <section class="section mapsec tabpanel" id="tab-map" role="tabpanel" aria-label="แผนที่">
     <div class="container">
       <div class="sec-head">
         <div>
@@ -199,13 +228,13 @@
             <button type="button" data-mapfilter="1" role="tab" aria-selected="false">วันที่ 1</button>
             <button type="button" data-mapfilter="2" role="tab" aria-selected="false">วันที่ 2</button>
           </div>
-          <button type="button" class="btn btn-ghost btn-sm" id="locateBtn">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="3"/><path d="M12 2v3m0 14v3M2 12h3m14 0h3"/><circle cx="12" cy="12" r="8"/></svg>
-            <span>ตำแหน่งของฉัน</span>
-          </button>
         </div>
         <div class="mapbox">
           <div id="mapEl" role="application" aria-label="แผนที่จุดแวะทั้งทริป"></div>
+          <button type="button" class="map-fab" id="locateBtn" title="ไปที่ตำแหน่งของฉัน">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="3"/><path d="M12 2v3m0 14v3M2 12h3m14 0h3"/><circle cx="12" cy="12" r="8"/></svg>
+            <span>ตำแหน่งฉัน</span>
+          </button>
           <aside class="stopsheet" id="stopsheet" aria-hidden="true" aria-live="polite"></aside>
         </div>
         <p class="map-hint" id="geoHint" hidden></p>
@@ -216,9 +245,21 @@
   <!-- ══════════ FOOTER ══════════ -->
   <footer class="footer">
     <div class="container footer-grid">
-      <div>
-        <p class="foot-brand">เที่ยวใหญ่ หนีน้ำท่วม</p>
-        <p class="foot-sub">ทริปเขาใหญ่ 3–4 ตุลาคม 2569 · ทำไว้เปิดในมือถือระหว่างเดินทาง</p>
+      <div class="foot-mascot">
+        <svg viewBox="0 0 140 112" class="mascot mini" aria-hidden="true">
+          <ellipse cx="70" cy="102" rx="60" ry="7" fill="#dcebe1" opacity=".35"/>
+          <path d="M22 98 60 30q2.5-4.5 5 0l44 68q1 3-3 3H25q-4 0-3-3Z" fill="#2e7d5b"/>
+          <path d="M50 44l10-14q2.5-4.5 5 0l10 14-6-3-4 6-5-6-4 6Z" fill="#fffdf8"/>
+          <path d="M48 70q5-6 10 0M72 70q5-6 10 0" stroke="#fffdf8" stroke-width="2.6" fill="none" stroke-linecap="round"/>
+          <ellipse cx="42" cy="77" rx="4.2" ry="2.7" fill="#eba9a9"/><ellipse cx="88" cy="77" rx="4.2" ry="2.7" fill="#eba9a9"/>
+          <path d="M62 79q3 3.2 6 0" stroke="#fffdf8" stroke-width="2.2" fill="none" stroke-linecap="round"/>
+          <rect x="108" y="82" width="4.5" height="13" rx="2" fill="#7a5c3e"/>
+          <path d="M110 60l8 15h-16Z" fill="#4d9a6f"/><path d="M110 69l10 18h-20Z" fill="#2e7d5b"/>
+        </svg>
+        <div>
+          <p class="foot-brand">เที่ยวใหญ่ หนีน้ำท่วม</p>
+          <p class="foot-sub">ทริปเขาใหญ่ 3–4 ตุลาคม 2569 · ทำไว้เปิดในมือถือระหว่างเดินทาง</p>
+        </div>
       </div>
       <div class="foot-links">
         <a href="#overview">ภาพรวม</a>
@@ -230,6 +271,39 @@
     <p class="foot-fine">ระยะทาง/เวลาขับรถคำนวณจากโครงข่ายถนนจริง (OSRM) · พิกัดจากลิงก์ Google Maps ในไฟล์แผน · แผนที่ © Esri, HERE, Garmin, OpenStreetMap contributors</p>
   </footer>
 </main>
+
+<!-- ══════════ Stop detail modal ══════════ -->
+<div class="modal" id="stopModal" aria-hidden="true">
+  <div class="modal-bg" data-close></div>
+  <div class="modal-card" role="dialog" aria-modal="true" aria-labelledby="mTitle">
+    <span class="modal-grip" aria-hidden="true"></span>
+    <button class="modal-x" type="button" data-close aria-label="ปิด">×</button>
+    <div class="m-media">
+      <div class="m-track" id="mTrack"></div>
+      <button class="m-arrow prev" type="button" id="mPrev" aria-label="รูปก่อนหน้า"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="m14 6-6 6 6 6"/></svg></button>
+      <button class="m-arrow next" type="button" id="mNext" aria-label="รูปถัดไป"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="m10 6 6 6-6 6"/></svg></button>
+      <span class="m-count" id="mCount">1 / 1</span>
+    </div>
+    <div class="m-thumbs" id="mThumbs"></div>
+    <div class="m-info">
+      <div class="tcard-kinds" id="mKinds"></div>
+      <h3 id="mTitle"></h3>
+      <p class="tcard-sub" id="mSub"></p>
+      <p class="tcard-desc" id="mDesc"></p>
+      <div class="altbox" id="mAlt" hidden></div>
+      <div class="tcard-actions">
+        <a class="abtn abtn-nav" id="mNav" href="#" target="_blank" rel="noopener"></a>
+        <a class="abtn abtn-line" id="mGmaps" href="#" target="_blank" rel="noopener"></a>
+        <button class="abtn abtn-me" type="button" id="mMe">จากตำแหน่งฉัน</button>
+      </div>
+      <p class="m-note">รูปเป็นภาพบรรยากาศใกล้เคียงสถานที่ · ดูรูปจริงจากนักท่องเที่ยวในปุ่ม Google Maps</p>
+      <div class="m-pager">
+        <button type="button" id="mPrevStop">← จุดก่อนหน้า</button>
+        <button type="button" id="mNextStop">จุดถัดไป →</button>
+      </div>
+    </div>
+  </div>
+</div>
 
 <!-- ══════════ Mobile bottom tabs ══════════ -->
 <nav class="tabbar" aria-label="เมนูลัดมือถือ">
