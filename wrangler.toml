@@ -1,0 +1,6 @@
+name = "trip-khaoyai"
+compatibility_date = "2026-09-01"
+
+[assets]
+directory = "./public"
+not_found_handling = "single-page-application"

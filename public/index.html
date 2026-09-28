@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>เที่ยวใหญ่ หนีน้ำท่วม · ทริปเขาใหญ่ 3–4 ต.ค. 2569</title>
+<meta name="description" content="แผนเที่ยวเขาใหญ่ 3–4 ตุลาคม 2569 แบบ interactive: ภาพรวมทริป แผนที่ทุกจุด นำทางด้วย Google Maps และคำนวณเวลาเดินทาง">
+<meta name="theme-color" content="#123f31">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="ทริปเขาใหญ่">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" type="image/svg+xml" href="icons/icon.svg">
+<link rel="apple-touch-icon" href="icons/icon-192.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Prompt:wght@400;500;600;700;800&family=IBM+Plex+Sans+Thai:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- ══════════ Floating island nav ══════════ -->
+<header class="island" id="topnav">
+  <a class="brand" href="#top" aria-label="กลับขึ้นด้านบน">
+    <span class="brand-mark" aria-hidden="true">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M3 18 9.5 7.5 12.5 12l3-4.5L21 18H3Z"/><path d="M9.5 7.5 11 10l-1.2 1.2L8 10l1.5-2.5Z" fill="currentColor" stroke="none" opacity=".45"/></svg>
+    </span>
+    <span class="brand-text">ทริป<strong>เขาใหญ่</strong></span>
+  </a>
+  <nav class="island-links" aria-label="เมนูหลัก">
+    <a href="#overview" data-nav>ภาพรวม</a>
+    <a href="#day1" data-nav>วันที่ 1</a>
+    <a href="#day2" data-nav>วันที่ 2</a>
+    <a href="#map" data-nav>แผนที่</a>
+  </nav>
+  <button class="btn btn-primary btn-sm island-cta" id="navGoBtn" type="button">
+    <span>นำทาง</span>
+    <span class="btn-dot" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 19V5m0 0-6 6m6-6 6 6"/></svg></span>
+  </button>
+  <button class="burger" id="burger" type="button" aria-label="เปิดเมนู" aria-expanded="false">
+    <span></span><span></span>
+  </button>
+</header>
+
+<!-- Mobile fullscreen menu -->
+<div class="mobilemenu" id="mobilemenu" aria-hidden="true">
+  <nav aria-label="เมนูมือถือ">
+    <a href="#overview">ภาพรวมทริป</a>
+    <a href="#day1">วันที่ 1 · ขาขึ้น</a>
+    <a href="#day2">วันที่ 2 · ขากลับ</a>
+    <a href="#map">แผนที่รวม</a>
+  </nav>
+  <button class="btn btn-primary btn-lg" id="menuGoBtn" type="button">
+    <span>เริ่มนำทางจุดแรก</span>
+    <span class="btn-dot" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m5 12 7-7 7 7M12 5v14"/></svg></span>
+  </button>
+</div>
+
+<main id="top">
+
+  <!-- ══════════ HERO ══════════ -->
+  <section class="hero">
+    <div class="hero-bg" aria-hidden="true"></div>
+    <div class="container hero-grid">
+      <div class="hero-copy">
+        <p class="kicker"><span class="kicker-dot"></span>3 – 4 ตุลาคม 2569 · เขาใหญ่ 2 วัน 1 คืน</p>
+        <h1>เที่ยวใหญ่<br><span class="h1-accent">หนีน้ำท่วม</span></h1>
+        <p class="lede">แผนเที่ยวแบบ interactive — ไทม์ไลน์ทุกจุด แผนที่รวมทั้งทริป กดนำทางได้ทันที พร้อมเวลาขับรถจริงระหว่างจุด</p>
+        <div class="countdown" id="countdown" role="status" aria-live="polite">
+          <div><b id="cdD">–</b><span>วัน</span></div>
+          <div><b id="cdH">–</b><span>ชั่วโมง</span></div>
+          <div><b id="cdM">–</b><span>นาที</span></div>
+          <p id="cdLabel">ก่อนออกเดินทาง</p>
+        </div>
+        <div class="hero-cta">
+          <a class="btn btn-primary btn-lg" href="#map">
+            <span>ดูแผนที่รวม</span>
+            <span class="btn-dot" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 20 3 17V4l6 3m0 0 6-3 6 3v13l-6-3m0-10v10M9 7v10"/></svg></span>
+          </a>
+          <button class="btn btn-ghost btn-lg" id="heroGoBtn" type="button">
+            <span>นำทางจุดแรก</span>
+            <span class="btn-dot" aria-hidden="true"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2 19 21l-7-4-7 4L12 2Z"/></svg></span>
+          </button>
+        </div>
+        <dl class="hero-stats" id="heroStats">
+          <div><dt>จุดแวะ</dt><dd id="statStops">–</dd></div>
+          <div><dt>ระยะขับรวม</dt><dd id="statKm">กำลังคำนวณ…</dd></div>
+          <div><dt>เวลาขับรวม</dt><dd id="statTime">กำลังคำนวณ…</dd></div>
+        </dl>
+      </div>
+      <div class="hero-media">
+        <figure class="frame frame-main">
+          <span class="frame-shell"><img src="https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?w=1000&q=70&auto=format&fit=crop" alt="ทะเลหมอกยามเช้าเหนือทิวเขา" fetchpriority="high" onerror="imgFallback(this)"></span>
+          <figcaption>เขาใหญ่ · ตุลาคม หมอกกำลังสวย</figcaption>
+        </figure>
+        <figure class="frame frame-sub">
+          <span class="frame-shell"><img src="https://images.unsplash.com/photo-1433086966358-54859d0ed716?w=600&q=70&auto=format&fit=crop" alt="น้ำตกในป่าเขา" loading="lazy" onerror="imgFallback(this)"></span>
+          <figcaption>น้ำตกเหวสุวัต</figcaption>
+        </figure>
+        <div class="hero-badge" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s-7-5.5-7-11a7 7 0 0 1 14 0c0 5.5-7 11-7 11Z"/><circle cx="12" cy="10" r="2.6"/></svg>
+          <span>13 จุด · 2 เส้นทาง</span>
+        </div>
+      </div>
+    </div>
+    <div class="ridges" aria-hidden="true">
+      <svg viewBox="0 0 1440 120" preserveAspectRatio="none"><path d="M0 78 120 46l130 24 110-38 140 44 120-30 130 30 130-44 150 40 120-26 130 28 150-34v62H0V78Z" fill="#123f31" opacity=".12"/><path d="M0 96 150 62l140 26 120-34 150 38 130-24 140 28 140-40 160 36 130-22 130 26v24H0V96Z" fill="#f4f2ea"/></svg>
+    </div>
+  </section>
+
+  <!-- ══════════ OVERVIEW ══════════ -->
+  <section class="section overview" id="overview">
+    <div class="container">
+      <div class="sec-head">
+        <div>
+          <p class="eyebrow">Trip overview</p>
+          <h2>ภาพรวมทั้งทริป</h2>
+        </div>
+        <p class="sec-note">ออกจากรามอินทราเช้าวันที่ 3 · นอนพูลวิลล่าเขาใหญ่ 1 คืน · กลับถึงบ้านเย็นวันที่ 4</p>
+      </div>
+      <div class="daycards">
+        <a class="daycard" href="#day1">
+          <div class="daycard-photo"><img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=70&auto=format&fit=crop" alt="ทิวเขายามเย็น" loading="lazy" onerror="imgFallback(this)"><span class="daycard-tag">DAY 1</span></div>
+          <div class="daycard-body">
+            <h3>เสาร์ 3 ต.ค. · ขาขึ้นเขา</h3>
+            <p>รามอินทรา → กุ้งสด → แวะชาร์จ → มื้อเที่ยง → น้ำตกเหวสุวัต → เช็กอินพูลวิลล่า</p>
+            <ul class="daycard-meta">
+              <li id="day1Meta">กำลังคำนวณเส้นทาง…</li>
+            </ul>
+            <span class="daycard-go">ดูไทม์ไลน์ <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14m0 0-6-6m6 6-6 6"/></svg></span>
+          </div>
+        </a>
+        <a class="daycard" href="#day2">
+          <div class="daycard-photo"><img src="https://images.unsplash.com/photo-1500382017468-9049fed747ef?w=800&q=70&auto=format&fit=crop" alt="ทุ่งกว้างยามเย็น" loading="lazy" onerror="imgFallback(this)"><span class="daycard-tag alt">DAY 2</span></div>
+          <div class="daycard-body">
+            <h3>อาทิตย์ 4 ต.ค. · เที่ยวขากลับ</h3>
+            <p>พูลวิลล่า → คาเฟ่ BUCOLIC → ฟาร์มโชคชัย → ไร่สุวรรณ → คาเฟ่สระบุรี → ถึงบ้าน</p>
+            <ul class="daycard-meta">
+              <li id="day2Meta">กำลังคำนวณเส้นทาง…</li>
+            </ul>
+            <span class="daycard-go">ดูไทม์ไลน์ <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14m0 0-6-6m6 6-6 6"/></svg></span>
+          </div>
+        </a>
+      </div>
+      <div class="evnote" role="note">
+        <span class="evnote-ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2 4 14h6l-1 8 9-12h-6l1-8Z"/></svg></span>
+        <div>
+          <strong>รถ EV อุ่นใจได้</strong>
+          <p>มีจุดชาร์จสำรองทั้ง 2 วัน: วันที่ 1 ที่ PTT Charging Station เขาใหญ่ · วันที่ 2 ที่ ปตท. เขาใหญ่สเตชั่น — ดูพิกัดได้ในไทม์ไลน์แต่ละวัน</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════ DAY 1 ══════════ -->
+  <section class="section day" id="day1">
+    <div class="container">
+      <div class="sec-head">
+        <div>
+          <p class="eyebrow pine">Day 1 · Sat 3 Oct</p>
+          <h2>วันที่ 1 · ขาขึ้นเขาใหญ่</h2>
+        </div>
+        <p class="sec-note" id="day1Summary">ออกจากบ้าน 07:00 · ถึงที่พักราว 14:00</p>
+      </div>
+      <ol class="timeline" id="timeline1"></ol>
+    </div>
+  </section>
+
+  <!-- ══════════ DAY 2 ══════════ -->
+  <section class="section day day-alt" id="day2">
+    <div class="container">
+      <div class="sec-head">
+        <div>
+          <p class="eyebrow amber">Day 2 · Sun 4 Oct</p>
+          <h2>วันที่ 2 · เที่ยวขากลับ</h2>
+        </div>
+        <p class="sec-note" id="day2Summary">เช็กเอาต์ 12:00 · ถึงบ้านราว 18:00</p>
+      </div>
+      <ol class="timeline" id="timeline2"></ol>
+    </div>
+  </section>
+
+  <!-- ══════════ MAP ══════════ -->
+  <section class="section mapsec" id="map">
+    <div class="container">
+      <div class="sec-head">
+        <div>
+          <p class="eyebrow pine">All pins · live map</p>
+          <h2>แผนที่รวมทั้งทริป</h2>
+        </div>
+        <p class="sec-note">แตะหมุดเพื่อดูรายละเอียดและกดนำทาง · เส้นสีเขียว = วันที่ 1 · เส้นสีส้ม = วันที่ 2</p>
+      </div>
+      <div class="mapwrap">
+        <div class="map-tools" role="toolbar" aria-label="เครื่องมือแผนที่">
+          <div class="seg" role="tablist" aria-label="เลือกวัน">
+            <button type="button" class="on" data-mapfilter="all" role="tab" aria-selected="true">ทั้งหมด</button>
+            <button type="button" data-mapfilter="1" role="tab" aria-selected="false">วันที่ 1</button>
+            <button type="button" data-mapfilter="2" role="tab" aria-selected="false">วันที่ 2</button>
+          </div>
+          <button type="button" class="btn btn-ghost btn-sm" id="locateBtn">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="3"/><path d="M12 2v3m0 14v3M2 12h3m14 0h3"/><circle cx="12" cy="12" r="8"/></svg>
+            <span>ตำแหน่งของฉัน</span>
+          </button>
+        </div>
+        <div class="mapbox">
+          <div id="mapEl" role="application" aria-label="แผนที่จุดแวะทั้งทริป"></div>
+          <aside class="stopsheet" id="stopsheet" aria-hidden="true" aria-live="polite"></aside>
+        </div>
+        <p class="map-hint" id="geoHint" hidden></p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════ FOOTER ══════════ -->
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div>
+        <p class="foot-brand">เที่ยวใหญ่ หนีน้ำท่วม</p>
+        <p class="foot-sub">ทริปเขาใหญ่ 3–4 ตุลาคม 2569 · ทำไว้เปิดในมือถือระหว่างเดินทาง</p>
+      </div>
+      <div class="foot-links">
+        <a href="#overview">ภาพรวม</a>
+        <a href="#day1">วันที่ 1</a>
+        <a href="#day2">วันที่ 2</a>
+        <a href="#map">แผนที่</a>
+      </div>
+    </div>
+    <p class="foot-fine">ระยะทาง/เวลาขับรถคำนวณจากโครงข่ายถนนจริง (OSRM) · พิกัดจากลิงก์ Google Maps ในไฟล์แผน · แผนที่ © Esri, HERE, Garmin, OpenStreetMap contributors</p>
+  </footer>
+</main>
+
+<!-- ══════════ Mobile bottom tabs ══════════ -->
+<nav class="tabbar" aria-label="เมนูลัดมือถือ">
+  <a href="#overview" data-nav><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M3 9h18M8 4v5"/></svg><span>ภาพรวม</span></a>
+  <a href="#day1" data-nav><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg><span>วันที่ 1</span></a>
+  <a href="#day2" data-nav><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg><span>วันที่ 2</span></a>
+  <a href="#map" data-nav><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M9 20 3 17V4l6 3m0 0 6-3 6 3v13l-6-3m0-10v10M9 7v10"/></svg><span>แผนที่</span></a>
+</nav>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+<script src="app.js"></script>
+</body>
+</html>
