@@ -444,7 +444,13 @@ section.tabpanel { padding-top: clamp(6.2rem, 11vw, 8rem); min-height: 70dvh; }
 .m-media { position: relative; background: var(--pine-900); min-height: 100%; }
 .m-track { display: flex; height: 100%; min-height: 20rem; overflow-x: auto; scroll-snap-type: x mandatory; scrollbar-width: none; }
 .m-track::-webkit-scrollbar { display: none; }
-.m-track img { flex: 0 0 100%; width: 100%; height: 100%; min-height: 20rem; max-height: 32rem; object-fit: cover; scroll-snap-align: center; background: var(--pine-100); }
+.m-slide { flex: 0 0 100%; margin: 0; position: relative; scroll-snap-align: center; background: var(--pine-100); }
+.m-slide img { width: 100%; height: 100%; min-height: 20rem; max-height: 32rem; object-fit: cover; display: block; }
+.m-credit {
+  position: absolute; left: .9rem; bottom: .9rem; background: rgb(13 44 34 / .78); color: #fff;
+  font-size: .72rem; font-weight: 600; padding: .25rem .7rem; border-radius: 999px;
+}
+.alt-thumb { width: 3.2rem; height: 3.2rem; border-radius: .8rem; object-fit: cover; flex: none; background: var(--amber-100); }
 .m-arrow {
   position: absolute; top: 50%; transform: translateY(-50%); width: 2.6rem; height: 2.6rem;
   border-radius: 50%; border: 0; background: rgb(255 253 248 / .92); color: var(--pine-900);
@@ -496,8 +502,8 @@ section.tabpanel { padding-top: clamp(6.2rem, 11vw, 8rem); min-height: 70dvh; }
   .mascot-sticker { left: auto; right: -.4rem; top: -1.6rem; bottom: auto; width: 6rem; height: 6rem; }
   .modal-card { grid-template-columns: 1fr; grid-template-rows: none; width: min(640px, 100%); }
   .m-media, .m-thumbs, .m-info { grid-column: auto; grid-row: auto; }
-  .m-track, .m-track img { min-height: 0; }
-  .m-track img { height: 52vw; max-height: 340px; }
+  .m-track, .m-slide img { min-height: 0; }
+  .m-slide img { height: 52vw; max-height: 340px; }
   .daycards { grid-template-columns: 1fr; }
   .daycard { grid-template-columns: 1fr; }
   .daycard-photo { min-height: 11rem; position: relative; }
@@ -533,7 +539,7 @@ section.tabpanel { padding-top: clamp(6.2rem, 11vw, 8rem); min-height: 70dvh; }
   .modal { padding: 0; place-items: end center; }
   .modal-card { width: 100%; max-height: 94dvh; border-radius: 1.4rem 1.4rem 0 0; }
   .modal-grip { display: block; position: absolute; z-index: 2; top: .55rem; left: 50%; transform: translateX(-50%); width: 2.6rem; height: .3rem; border-radius: 99px; background: rgb(255 255 255 / .8); }
-  .m-track img { height: 56vw; max-height: 300px; }
+  .m-slide img { height: 56vw; max-height: 300px; }
   .stopsheet { left: 1rem; right: 1rem; bottom: 1rem; width: auto; }
   .hero-stats dd { font-size: 1.05rem; }
   .map-tools { flex-direction: column; align-items: stretch; }

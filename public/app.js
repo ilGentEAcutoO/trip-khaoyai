@@ -43,10 +43,16 @@ const TRIP = [
       { t: "07:00", name: "ออกเดินทางจากบ้าน", sub: "เสนา พาร์ค วิลล์ 2 · รามอินทรา–วงแหวน", kind: "start", lat: 13.8424291, lng: 100.6847826, gmaps: "https://maps.app.goo.gl/Gk5FgNytaZQneTTD9", ph: ["photo-1568605114967-8130f3a36994", "photo-1600585154340-be6161a56a0c", "photo-1600596542815-ffad4c1539a9"], desc: "ล้อหมุนแต่เช้า ใช้ทางด่วน–มอเตอร์เวย์มุ่งหน้าสระบุรี แวะกินกุ้งสดก่อนขึ้นเขา" },
       { t: "09:00", name: "วิชชากุ้งสด", sub: "ร้านขายกุ้งสด · หนองแค สระบุรี", kind: "shop", lat: 14.5238782, lng: 100.9143731, gmaps: "https://maps.app.goo.gl/TKBueBFkjfHrsPnA6", ph: ["photo-1559742811-822873691df8", "photo-1488459716781-31db52582fe9", "photo-1504674900247-0877df9cc836"], desc: "ร้านขายกุ้งสด แวะซื้อกุ้งเป็น ๆ ติดรถไปเผากินเองที่วิลล่าตอนเย็น" },
       { t: "09:30", name: "ปตท. อีวีฮับ", sub: "ปตท.สระบุรี (น้ำมัน + EV Hub)", kind: "ev", lat: 14.553813, lng: 100.966116, gmaps: "https://maps.app.goo.gl/bPBvQ5HUsZjpwNNw8", ph: ["photo-1593941707882-a5bba14938c7", "photo-1617704548017-71c0d957101c", "photo-1571068316344-75bc76f77890"], desc: "เสียบชาร์จ + เข้าห้องน้ำ + ซื้อกาแฟตุนก่อนขึ้นเขา ไฟเต็มแล้วเที่ยวสบาย" },
-      { t: "11:00", name: "ครัวบ้านเราเอง เขาใหญ่", sub: "ร้านอาหารไทยบรรยากาศบ้าน ๆ", kind: "food", lat: 14.545422, lng: 101.4098583, gmaps: "https://maps.app.goo.gl/tqA8Eg5ExhYhvKrX8", ph: ["photo-1517248135467-4c7edcad34c4", "photo-1555396273-367ea4eb4db5", "photo-1466978913421-dad2ebd01d17"], desc: "มื้อเที่ยงร้านหลักบนเขา กับข้าวรสไทยแท้ กินอิ่มแล้วค่อยไปน้ำตก",
-        alt: { name: "ครัวน้ำปลาพริก เขาใหญ่", lat: 14.5638274, lng: 101.4058294, gmaps: "https://maps.app.goo.gl/4jKjARD2vo3ipkVX8" } },
-      { t: "13:00", name: "น้ำตกเหวสุวัต", sub: "อุทยานแห่งชาติเขาใหญ่", kind: "nature", lat: 14.4347, lng: 101.5025, gmaps: "https://www.google.com/maps/search/?api=1&query=%E0%B8%99%E0%B9%89%E0%B8%B3%E0%B8%95%E0%B8%81%E0%B9%80%E0%B8%AB%E0%B8%A7%E0%B8%AA%E0%B8%B8%E0%B8%A7%E0%B8%B1%E0%B8%95", ph: ["photo-1433086966358-54859d0ed716", "photo-1432405972618-c60b0225b8f9", "photo-1504893524553-b855bce32c67", "photo-1441974231531-c6227db76b6e"], desc: "น้ำตกชื่อดังกลางป่ามรดกโลก หน้าฝนน้ำเยอะ ถ่ายรูปสวย อย่าลืมรองเท้ากันลื่น" },
-      { t: "14:00", name: "เข้าที่พัก", sub: "The Everest Pool Villa Khaoyai", kind: "stay", lat: 14.5463323, lng: 101.5186437, gmaps: "https://maps.app.goo.gl/76wVCZj7QETAhy48A", ph: ["photo-1566073771259-6a8506099945", "photo-1571896349842-33c89424de2d", "photo-1520250497591-112f2f40a3f4"], desc: "เช็กอินพูลวิลล่า พักผ่อน เล่นน้ำ ดูวิวเขายามเย็น" },
+      { t: "11:00", name: "ครัวบ้านเราเอง เขาใหญ่", sub: "ร้านอาหารไทยบรรยากาศบ้าน ๆ", kind: "food", lat: 14.545422, lng: 101.4098583, gmaps: "https://maps.app.goo.gl/tqA8Eg5ExhYhvKrX8", ph: ["photo-1517248135467-4c7edcad34c4", "photo-1555396273-367ea4eb4db5", "photo-1466978913421-dad2ebd01d17"],
+        real: [{ u: "https://i.ytimg.com/vi/bRiO-SOFq9o/hqdefault.jpg", c: "YouTube" }, { u: "https://i.ytimg.com/vi/y2rak8xoSHw/maxresdefault.jpg", c: "YouTube" }],
+        desc: "มื้อเที่ยงร้านหลักบนเขา กับข้าวรสไทยแท้ กินอิ่มแล้วค่อยไปน้ำตก",
+        alt: { name: "ครัวน้ำปลาพริก เขาใหญ่", lat: 14.5638274, lng: 101.4058294, gmaps: "https://maps.app.goo.gl/4jKjARD2vo3ipkVX8", img: "https://i.ytimg.com/vi/9-Cg7FTdY2w/maxresdefault.jpg" } },
+      { t: "13:00", name: "น้ำตกเหวสุวัต", sub: "อุทยานแห่งชาติเขาใหญ่", kind: "nature", lat: 14.4347, lng: 101.5025, gmaps: "https://www.google.com/maps/search/?api=1&query=%E0%B8%99%E0%B9%89%E0%B8%B3%E0%B8%95%E0%B8%81%E0%B9%80%E0%B8%AB%E0%B8%A7%E0%B8%AA%E0%B8%B8%E0%B8%A7%E0%B8%B1%E0%B8%95", ph: ["photo-1433086966358-54859d0ed716", "photo-1432405972618-c60b0225b8f9", "photo-1504893524553-b855bce32c67", "photo-1441974231531-c6227db76b6e"],
+        real: [{ u: "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/Haew_Suwat_%28I%29.jpg/960px-Haew_Suwat_%28I%29.jpg", c: "Wikimedia" }, { u: "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/Haew_suwat_waterfall.jpg/960px-Haew_suwat_waterfall.jpg", c: "Wikimedia" }, { u: "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/Haew_Suwat_Waterfall_Through_the_Forest_Arch.jpg/960px-Haew_Suwat_Waterfall_Through_the_Forest_Arch.jpg", c: "Wikimedia" }, { u: "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/Haew_Suwat_Waterfall.jpg/960px-Haew_Suwat_Waterfall.jpg", c: "Wikimedia" }, { u: "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/Nam_Tok_Heo_Suwat.jpg/960px-Nam_Tok_Heo_Suwat.jpg", c: "Wikimedia" }, { u: "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/Khao_Yai%2C_Thailand%2C_Haew_Suwat_Waterfall%2C_Top.jpg/960px-Khao_Yai%2C_Thailand%2C_Haew_Suwat_Waterfall%2C_Top.jpg", c: "Wikimedia" }],
+        desc: "น้ำตกชื่อดังกลางป่ามรดกโลก หน้าฝนน้ำเยอะ ถ่ายรูปสวย อย่าลืมรองเท้ากันลื่น" },
+      { t: "14:00", name: "เข้าที่พัก", sub: "The Everest Pool Villa Khaoyai", kind: "stay", lat: 14.5463323, lng: 101.5186437, gmaps: "https://maps.app.goo.gl/76wVCZj7QETAhy48A", ph: ["photo-1566073771259-6a8506099945", "photo-1571896349842-33c89424de2d", "photo-1520250497591-112f2f40a3f4"],
+        real: [{ u: "https://i.ytimg.com/vi/AtNS0kgPTb4/maxresdefault.jpg", c: "YouTube" }],
+        desc: "เช็กอินพูลวิลล่า พักผ่อน เล่นน้ำ ดูวิวเขายามเย็น" },
       { t: "15:00", name: "แวะซื้อของ", sub: "PTT เขาใหญ่ (มี 7-Eleven)", kind: "shop", lat: 14.5127829, lng: 101.3752009, gmaps: "https://maps.app.goo.gl/ww648rAWr9GjZutn8", ph: ["photo-1578916171728-46686eac8d58", "photo-1441986300917-64674bd600d8", "photo-1580913428023-02c695666b61"], desc: "ตุนเสบียงมื้อเย็น–มื้อเช้า ขนม เครื่องดื่ม ที่ปั๊มก่อนกลับวิลล่า" },
       { t: "สำรอง", name: "จุดเติมแบตสำรอง", sub: "PTT Charging Station เขาใหญ่", kind: "ev", backup: true, lat: 14.5127829, lng: 101.3752009, gmaps: "https://maps.app.goo.gl/GtmAPYmjLGCSAtUz5", ph: ["photo-1593941707882-a5bba14938c7", "photo-1617704548017-71c0d957101c"], desc: "จุดชาร์จสำรองของวันที่ 1 แบตเหลือน้อยแวะได้ตลอด ไม่ต้องรอตามเวลา" },
     ],
@@ -56,10 +62,18 @@ const TRIP = [
     stops: [
       { t: "สำรอง", name: "จุดเติมแบตสำรอง", sub: "ปตท. เขาใหญ่สเตชั่น", kind: "ev", backup: true, lat: 14.6113092, lng: 101.4041536, gmaps: "https://maps.app.goo.gl/svK9xb9AAEJuxcXe6", ph: ["photo-1593941707882-a5bba14938c7", "photo-1617704548017-71c0d957101c"], desc: "จุดชาร์จสำรองของวันที่ 2 อยู่เส้นปากช่อง–เขาใหญ่" },
       { t: "12:00", name: "ออกเดินทาง", sub: "เช็กเอาต์จาก The Everest Pool Villa", kind: "start", lat: 14.5463323, lng: 101.5186437, gmaps: "https://maps.app.goo.gl/76wVCZj7QETAhy48A", ph: ["photo-1506905925346-21bda4d32df4", "photo-1464822759023-fed622ff2c3b", "photo-1470071459604-3b5ec3a7fe05"], desc: "เช็กเอาต์เที่ยงวัน เริ่มทริปคาเฟ่–ฟาร์มขากลับ" },
-      { t: "12:20", name: "BUCOLIC Khaoyai", sub: "คาเฟ่วิวทุ่ง near อุทยาน", kind: "cafe", lat: 14.5136365, lng: 101.4499219, gmaps: "https://maps.app.goo.gl/dkQbcCpzVGePJyo48", ph: ["photo-1554118811-1e0d58224f24", "photo-1445116572660-236099ec97a0", "photo-1495474472287-4d71bcdd2085"], desc: "คาเฟ่บรรยากาศชนบท วิวทุ่งกว้าง กาแฟดี มุมถ่ายรูปเยอะ" },
-      { t: "13:30", name: "ฟาร์มโชคชัย", sub: "ปากช่อง นครราชสีมา", kind: "farm", lat: 14.6547661, lng: 101.3485289, gmaps: "https://maps.app.goo.gl/ZKGZCahy6EgSE7Ss8", ph: ["photo-1500595046743-cd271d694d30", "photo-1516253593875-bd7ba052fbc5", "photo-1500076656116-558758c991c1", "photo-1625246333195-78d9c38ad449"], desc: "ฟาร์มโคนมชื่อดัง นั่งรถชมฟาร์ม ดูโชว์คาวบอย แวะซื้อของฝากนม–ไอศกรีม" },
-      { t: "15:00", name: "ไร่สุวรรณวาจกกสิกิจ", sub: "ปากช่อง นครราชสีมา", kind: "farm", lat: 14.6527316, lng: 101.3112606, gmaps: "https://maps.app.goo.gl/W6AN7Dwc1PstZQt19", ph: ["photo-1500382017468-9049fed747ef", "photo-1560493676-04071c5f467b", "photo-1501594907352-04cda38ebc29"], desc: "ไร่บรรยากาศดี ชมวิวทุ่ง ถ่ายรูปชิล ๆ ก่อนลงจากเขา" },
-      { t: "16:00", name: "Oeimi Café", sub: "คาเฟ่สระบุรี", kind: "cafe", lat: 14.4270971, lng: 100.9169681, gmaps: "https://maps.app.goo.gl/V2L14vFGPSLY4uof9", ph: ["photo-1501339847302-ac426a4a7cbb", "photo-1559925393-8be0ec4767c8", "photo-1497935586351-b67a49e012bf"], desc: "แวะคาเฟ่ย่านสระบุรี กาแฟแก้วสุดท้ายของทริปก่อนยิงยาวกลับบ้าน" },
+      { t: "12:20", name: "BUCOLIC Khaoyai", sub: "คาเฟ่วิวทุ่ง near อุทยาน", kind: "cafe", lat: 14.5136365, lng: 101.4499219, gmaps: "https://maps.app.goo.gl/dkQbcCpzVGePJyo48", ph: ["photo-1554118811-1e0d58224f24", "photo-1445116572660-236099ec97a0", "photo-1495474472287-4d71bcdd2085"],
+        real: [{ u: "https://i.ytimg.com/vi/6vvXDBye7Fw/maxresdefault.jpg", c: "YouTube" }, { u: "https://i.ytimg.com/vi/Np5iR0-GLq8/maxresdefault.jpg", c: "YouTube" }, { u: "https://i.ytimg.com/vi/8ALyAdM0WgQ/maxresdefault.jpg", c: "YouTube" }, { u: "https://i.ytimg.com/vi/xo7kjb0leOE/maxresdefault.jpg", c: "YouTube" }],
+        desc: "คาเฟ่บรรยากาศชนบท วิวทุ่งกว้าง กาแฟดี มุมถ่ายรูปเยอะ" },
+      { t: "13:30", name: "ฟาร์มโชคชัย", sub: "ปากช่อง นครราชสีมา", kind: "farm", lat: 14.6547661, lng: 101.3485289, gmaps: "https://maps.app.goo.gl/ZKGZCahy6EgSE7Ss8", ph: ["photo-1500595046743-cd271d694d30", "photo-1516253593875-bd7ba052fbc5", "photo-1500076656116-558758c991c1", "photo-1625246333195-78d9c38ad449"],
+        real: [{ u: "https://i.ytimg.com/vi/B-Vy0aFyyf8/maxresdefault.jpg", c: "YouTube" }, { u: "https://i.ytimg.com/vi/RQe4_4-8fT0/maxresdefault.jpg", c: "YouTube" }, { u: "https://i.ytimg.com/vi/7rjdg_Ov7wg/maxresdefault.jpg", c: "YouTube" }, { u: "https://i.ytimg.com/vi/pOyu2UyrmdU/maxresdefault.jpg", c: "YouTube" }],
+        desc: "ฟาร์มโคนมชื่อดัง นั่งรถชมฟาร์ม ดูโชว์คาวบอย แวะซื้อของฝากนม–ไอศกรีม" },
+      { t: "15:00", name: "ไร่สุวรรณวาจกกสิกิจ", sub: "ปากช่อง นครราชสีมา", kind: "farm", lat: 14.6527316, lng: 101.3112606, gmaps: "https://maps.app.goo.gl/W6AN7Dwc1PstZQt19", ph: ["photo-1500382017468-9049fed747ef", "photo-1560493676-04071c5f467b", "photo-1501594907352-04cda38ebc29"],
+        real: [{ u: "https://i.ytimg.com/vi/C8lJ7All4Fo/maxresdefault.jpg", c: "YouTube" }, { u: "https://i.ytimg.com/vi/pC1s1Neh4Bo/maxresdefault.jpg", c: "YouTube" }],
+        desc: "ไร่บรรยากาศดี ชมวิวทุ่ง ถ่ายรูปชิล ๆ ก่อนลงจากเขา" },
+      { t: "16:00", name: "Oeimi Café", sub: "คาเฟ่สระบุรี", kind: "cafe", lat: 14.4270971, lng: 100.9169681, gmaps: "https://maps.app.goo.gl/V2L14vFGPSLY4uof9", ph: ["photo-1501339847302-ac426a4a7cbb", "photo-1559925393-8be0ec4767c8", "photo-1497935586351-b67a49e012bf"],
+        real: [{ u: "https://i.ytimg.com/vi/l0MCINM3myM/maxresdefault.jpg", c: "YouTube" }, { u: "https://i.ytimg.com/vi/9b5t1RLSXCQ/maxresdefault.jpg", c: "YouTube" }, { u: "https://i.ytimg.com/vi/rBD1iEWtmoY/maxresdefault.jpg", c: "YouTube" }, { u: "https://i.ytimg.com/vi/EiIFbvWpQac/maxresdefault.jpg", c: "YouTube" }],
+        desc: "แวะคาเฟ่ย่านสระบุรี กาแฟแก้วสุดท้ายของทริปก่อนยิงยาวกลับบ้าน" },
       { t: "18:00", name: "ถึงบ้าน", sub: "เสนาพาร์ควิลล์ 2 · โดยสวัสดิภาพ", kind: "home", lat: 13.8424291, lng: 100.6847826, gmaps: "https://maps.app.goo.gl/Gk5FgNytaZQneTTD9", ph: ["photo-1568605114967-8130f3a36994", "photo-1600585154340-be6161a56a0c", "photo-1600596542815-ffad4c1539a9"], desc: "จบทริป 2 วัน 1 คืน ถึงบ้านราวหกโมงเย็น" },
     ],
   },
@@ -69,6 +83,9 @@ const TRIP = [
 const $ = (s, r = document) => r.querySelector(s);
 const $$ = (s, r = document) => [...r.querySelectorAll(s)];
 const dirUrl = (lat, lng) => `https://www.google.com/maps/dir/?api=1&destination=${lat},${lng}&travelmode=driving`;
+const coverOf = (s) => (s.real && s.real[0] ? s.real[0].u : U(s.ph[0]));
+const photoCount = (s) => (s.real ? s.real.length : 0) + s.ph.length;
+const allPhotos = (s) => [...(s.real || []).map((r) => ({ u: r.u, c: r.c })), ...s.ph.map((id) => ({ u: U(id, 1000) }))];
 const fmtKm = (m) => (m / 1000 >= 100 ? Math.round(m / 1000) : (m / 1000).toFixed(m / 1000 < 10 ? 1 : 0)) + " กม.";
 const fmtMin = (s) => {
   const m = Math.round(s / 60);
@@ -103,7 +120,7 @@ function toast(msg) {
 function stopCard(di, day, stop, si, n) {
   const tone = day.tone, num = stop.backup ? "ส" : n;
   const alt = stop.alt
-    ? `<div class="altbox"><span>หรือเลือกร้านสำรอง <strong>${stop.alt.name}</strong></span>
+    ? `<div class="altbox">${stop.alt.img ? `<img class="alt-thumb" src="${stop.alt.img}" alt="" loading="lazy" onerror="imgFallback(this)">` : ""}<span>หรือเลือกร้านสำรอง <strong>${stop.alt.name}</strong></span>
        <a class="abtn abtn-nav" style="background:var(--amber-700)" href="${dirUrl(stop.alt.lat, stop.alt.lng)}" target="_blank" rel="noopener">${ICONS.nav}นำทาง</a>
        <a class="abtn abtn-line" href="${stop.alt.gmaps}" target="_blank" rel="noopener">${ICONS.ext}Google Maps</a></div>`
     : "";
@@ -114,9 +131,9 @@ function stopCard(di, day, stop, si, n) {
     <article class="tcard" data-stop="${di}:${si}">
       <div class="tcard-top">
         <div class="tcard-photo">
-          <img src="${U(stop.ph[0])}" alt="${stop.name}" loading="lazy" onerror="imgFallback(this)">
+          <img src="${coverOf(stop)}" alt="${stop.name}" loading="lazy" onerror="imgFallback(this)">
           <span class="tnum">${num}</span>
-          <span class="pht-badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7" rx="1.5"/><rect x="14" y="3" width="7" height="7" rx="1.5"/><rect x="3" y="14" width="7" height="7" rx="1.5"/><rect x="14" y="14" width="7" height="7" rx="1.5"/></svg>${stop.ph.length} รูป</span>
+          <span class="pht-badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7" rx="1.5"/><rect x="14" y="3" width="7" height="7" rx="1.5"/><rect x="3" y="14" width="7" height="7" rx="1.5"/><rect x="14" y="14" width="7" height="7" rx="1.5"/></svg>${photoCount(stop)} รูป</span>
         </div>
         <div class="tcard-body">
           <div class="tcard-kinds">
@@ -172,9 +189,9 @@ function renderGallery() {
   if (!g) return;
   g.innerHTML = TRIP.map((d, di) => d.stops.map((s, si) => `
     <button type="button" class="gcard reveal" data-stop="${di}:${si}" aria-label="ดูรายละเอียด${s.name}">
-      <span class="g-img"><img src="${U(s.ph[0], 600)}" alt="" loading="lazy" onerror="imgFallback(this)">
+      <span class="g-img"><img src="${coverOf(s)}" alt="" loading="lazy" onerror="imgFallback(this)">
       <span class="g-day">วันที่ ${d.day}</span></span>
-      <span class="g-cap"><b>${s.name}</b><i>${s.t === "สำรอง" ? "เวลาสำรอง" : s.t + " น."} · ${KIND_LABEL[s.kind]} · ${s.ph.length} รูป</i></span>
+      <span class="g-cap"><b>${s.name}</b><i>${s.t === "สำรอง" ? "เวลาสำรอง" : s.t + " น."} · ${KIND_LABEL[s.kind]} · ${photoCount(s)} รูป</i></span>
     </button>`).join("")).join("");
 }
 
@@ -186,9 +203,10 @@ function openStop(di, si) {
   const day = TRIP[di], s = day.stops[si];
   mPhoto = 0;
   const track = $("#mTrack");
-  track.innerHTML = s.ph.map((id, i) => `<img src="${U(id, 1000)}" alt="${s.name} รูปที่ ${i + 1}"${i ? ' loading="lazy"' : ""} onerror="imgFallback(this)">`).join("");
+  const slides = allPhotos(s);
+  track.innerHTML = slides.map((sl, i) => `<figure class="m-slide"><img src="${sl.u}" alt="${s.name} รูปที่ ${i + 1}"${i ? ' loading="lazy"' : ""} onerror="imgFallback(this)">${sl.c ? `<figcaption class="m-credit">${sl.c}</figcaption>` : ""}</figure>`).join("");
   track.scrollLeft = 0;
-  $("#mThumbs").innerHTML = s.ph.map((id, i) => `<button type="button" data-ph="${i}" class="${i ? "" : "on"}" aria-label="ดูรูปที่ ${i + 1}"><img src="${U(id, 200)}" alt="" loading="lazy" onerror="imgFallback(this)"></button>`).join("");
+  $("#mThumbs").innerHTML = slides.map((sl, i) => `<button type="button" data-ph="${i}" class="${i ? "" : "on"}" aria-label="ดูรูปที่ ${i + 1}"><img src="${sl.u}" alt="" loading="lazy" onerror="imgFallback(this)"></button>`).join("");
   $("#mKinds").innerHTML = `<span class="kind ${KIND_TONE[s.kind]}">${ICONS[s.kind]}${KIND_LABEL[s.kind]}</span>`
     + `<span class="kind kind-gray">วันที่ ${day.day} · ${s.t === "สำรอง" ? "เวลาสำรอง" : "เวลา " + s.t + " น."}</span>`;
   $("#mTitle").textContent = (s._n === "ส" ? "" : "จุดที่ " + s._n + " · ") + s.name;
@@ -197,7 +215,7 @@ function openStop(di, si) {
   const alt = $("#mAlt");
   if (s.alt) {
     alt.hidden = false;
-    alt.innerHTML = `<span>หรือเลือกร้านสำรอง <strong>${s.alt.name}</strong></span>`
+    alt.innerHTML = `${s.alt.img ? `<img class="alt-thumb" src="${s.alt.img}" alt="" loading="lazy" onerror="imgFallback(this)">` : ""}<span>หรือเลือกร้านสำรอง <strong>${s.alt.name}</strong></span>`
       + `<a class="abtn abtn-nav" style="background:var(--amber-700)" href="${dirUrl(s.alt.lat, s.alt.lng)}" target="_blank" rel="noopener">${ICONS.nav}นำทาง</a>`
       + `<a class="abtn abtn-line" href="${s.alt.gmaps}" target="_blank" rel="noopener">${ICONS.ext}Google Maps</a>`;
   } else {
@@ -364,7 +382,7 @@ function showSheet(di, day, s, si) {
   const el = $("#stopsheet");
   el.innerHTML = `
     <button class="sheet-x" type="button" aria-label="ปิด">×</button>
-    <img class="sheet-img" src="${U(s.ph[0], 600)}" alt="" loading="lazy" onerror="imgFallback(this)">
+    <img class="sheet-img" src="${coverOf(s)}" alt="" loading="lazy" onerror="imgFallback(this)">
     <span class="kind ${KIND_TONE[s.kind]}">${ICONS[s.kind]}${KIND_LABEL[s.kind]} · วันที่ ${day.day}</span>
     <h4 style="margin-top:.5rem">${s._n === "ส" ? "" : "จุดที่ " + s._n + " · "}${s.name}</h4>
     <p class="sub">${s.t === "สำรอง" ? "เวลาสำรอง" : "เวลา " + s.t + " น."} · ${s.sub}</p>
@@ -372,7 +390,7 @@ function showSheet(di, day, s, si) {
       <a class="abtn abtn-nav" href="${dirUrl(s.lat, s.lng)}" target="_blank" rel="noopener">${ICONS.nav}นำทาง</a>
       <a class="abtn abtn-line" href="${s.gmaps}" target="_blank" rel="noopener">${ICONS.ext}Google Maps</a>
     </div>
-    <button type="button" class="sheet-detail" data-stop="${di}:${si}">ดูรูป + รายละเอียด (${s.ph.length} รูป)</button>`;
+    <button type="button" class="sheet-detail" data-stop="${di}:${si}">ดูรูป + รายละเอียด (${photoCount(s)} รูป)</button>`;
   el.classList.add("show");
   el.setAttribute("aria-hidden", "false");
   $(".sheet-x", el).addEventListener("click", hideSheet);
