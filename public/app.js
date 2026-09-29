@@ -53,6 +53,8 @@ const TRIP = [
         desc: "เช็กอินพูลวิลล่า พักผ่อน เล่นน้ำ ดูวิวเขายามเย็น" },
       { t: "15:50", name: "แวะซื้อของ", g: "ptt-klongduea", sub: "PTT คลองเดื่อ · 7-Eleven + Café Amazon ใกล้ที่พัก", kind: "shop", lat: 14.5172835, lng: 101.4395904, gmaps: "https://www.google.com/maps/search/?api=1&query=14.5172835,101.4395904", ph: [], desc: "ตุนเสบียงมื้อเย็น–มื้อเช้า ขนม เครื่องดื่ม ที่ปั๊มก่อนกลับวิลล่า" },
       { t: "สำรอง", name: "จุดเติมแบตสำรอง", g: "ptt-charge", sub: "PTT Charging Station เขาใหญ่", kind: "ev", backup: true, lat: 14.5127829, lng: 101.3752009, gmaps: "https://maps.app.goo.gl/GtmAPYmjLGCSAtUz5", ph: [], desc: "จุดชาร์จสำรองของวันที่ 1 แบตเหลือน้อยแวะได้ตลอด ไม่ต้องรอตามเวลา" },
+      { t: "สำรอง", name: "Take Me Home Park Khaoyai", g: "takemehome", sub: "คาเฟ่เครื่องบินกลางทุ่งดอกไม้ · ขนงพระ", kind: "nature", backup: true, lat: 14.6530812, lng: 101.4671596, gmaps: "https://maps.app.goo.gl/hVLY3vY1etyEJjku5", ph: [], vids: ["C9tGhhDclbI", "fuP7z3C4r4s"], desc: "เครื่องบินลำยักษ์กลางทุ่งดอกไม้ มีทั้งคาเฟ่และมุมถ่ายรูปเพียบ แวะวันไหนก็ได้ถ้ามีเวลาเหลือ" },
+      { t: "สำรอง", name: "ดง เฮ้าส์ เขาใหญ่", g: "donghouse", sub: "คาเฟ่วิว 360° บนเนิน · วังกะทะ", kind: "cafe", backup: true, lat: 14.537488, lng: 101.6751633, gmaps: "https://maps.app.goo.gl/2S3ahtaCdxCAkHT47", ph: [], vids: ["DulUYYzbTdk", "nL2p8-y14aQ"], desc: "คาเฟ่มินิมอลบนเนินเขา วิวรอบด้าน พาหมาแมวมาได้ด้วย มีค่าเข้าชมแลกเครื่องดื่มได้ ทางเข้าลึกเผื่อเวลาหน่อย" },
     ],
   },
   {
@@ -491,7 +493,7 @@ const sum = (legs, k) => legs.reduce((a, l) => a + l[k], 0);
 let map, layerAll, layerD1, layerD2, meMarker = null, myPos = null;
 function pinIcon(stop, tone) {
   const cls = stop.backup ? "backup" : (tone === "amber" ? "amber" : "");
-  const inner = stop.backup
+  const inner = stop.backup && stop.kind === "ev"
     ? `<svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="#fff" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2 4 14h6l-1 8 9-12h-6l1-8Z"/></svg>`
     : `<span>${stop._n}</span>`;
   return L.divIcon({ className: "", html: `<div class="pin ${cls}">${inner}</div>`, iconSize: [37, 37], iconAnchor: [18, 34], popupAnchor: [0, -32] });

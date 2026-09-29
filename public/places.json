@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-28T10:59:32.882Z",
+  "generated": "2026-09-29T08:33:59.884Z",
   "places": {
     "kung": {
       "placeId": "ChIJYWW2V8vpHTER_lBvNFyN9iM",
@@ -930,6 +930,132 @@
         }
       ],
       "videos": []
+    },
+    "takemehome": {
+      "placeId": "ChIJubiSA2MvHDERnRzOzzcAj6c",
+      "name": "Take Me Home Park Khaoyai",
+      "address": "238 หัวสนาม ตำบล ขนงพระ อำเภอปากช่อง นครราชสีมา 30450 ประเทศไทย",
+      "types": [
+        "tourist_attraction",
+        "point_of_interest",
+        "establishment"
+      ],
+      "distM": 0,
+      "photos": [
+        {
+          "ref": "places/ChIJubiSA2MvHDERnRzOzzcAj6c/photos/Aa-ngMa8NCOEtsOicoULhav9DmFLPD3ScnksoACuUVcVo3gwgP_flwZHc-5_40bKkmNkGQIKqIP206Ac74tPB_fXNy4ZN5LocKeOOrvPQ29Es4HJjqG9gVJa9KsL_gBSMY7ICceyF0G_cIUx3tNGE9F9K-WqDnRckS1wl2Xs7Wz8Gp-OtojaAggCRndLdZPeSnLR1Evb4IrUh1pOvtD0kB3TTrzW9vHfQWrZlwdHoCMUGkWVw-AH3k4neLPoQoV-9wKWnDfAbuVTNOv8cAJZr3Fkemg0CZMtmHsZhDXyYO-YBrf8Vlv-ImC6MPLYn3o3J6EGqx2FRF-TuAjdrZJjE1IOOtIWxHQwtoH1s0HhFohyJuUQLwV0Af2fMW1Qsb-dC5GlLxRshFdvQyH-vDg4Mheq8PRj_225XiXyTSpok7p9cCZg",
+          "w": 4096,
+          "h": 3072,
+          "credit": "TANINbigice"
+        },
+        {
+          "ref": "places/ChIJubiSA2MvHDERnRzOzzcAj6c/photos/Aa-ngMYqj6DlJfRVLa-Kl71_0QE7pJhwAhYtX54S5nkBIlFvfcK4Cf5trgB30kqXMadiyt5HY3HLSsb1GK3CZBN_1V0A_2HRlfnbFua0kBcBycOaVkxHdMwUxY6ZH3cZ7mLKd837p21pjJDD_zhzKf1btmEhJz1LM4M1pK77c62xkdVTCNivwp4XrP4fOUEwDUP3grtx9XsVE5HsKGDqNjYI_JM6EuiFqa7FX3IoZplF10WjiYMzo-ybn7XlK6OU8oPfrRe2HftqOQyLgC8jxrkaBFgB2huELSfnVblAdAIRHNCDRghiG3c6jPrADGfZ0yVTcwfY77a_AEcqc0kA0j1O2pdcc26AHyn7vOwXOmgt_zS1E7GRTHzONBP5keeUlwdpv_LN9jSOM3RV_brjDfrKFZITteXWiCHiQJSYd0Qsll3Vnw",
+          "w": 4096,
+          "h": 3072,
+          "credit": "Phongpun Saehang"
+        },
+        {
+          "ref": "places/ChIJubiSA2MvHDERnRzOzzcAj6c/photos/Aa-ngMYxqGQ8Oqq-BqFw3yZHNxhRpCFC5oEEwP9It0jkG184GsMncdnMXCd5EkV2DtFPFfuCrb421IoQPiAws3pgBrCeOMfCpD5WEDSIN6C7OifMulR2OI_2sBOKLvU_-l_ZRWRZ9hKLYP6tIzZXzzu-4CmvUzF76wsu-awNRFL1fT-JIHd49Y1sSSu_L0zDK_GtUujXOqJoLPzJs0I1Mg6d-GaSHrx4K1DwTSh84_Fw4DECqPgBr9pDLsbPykDgm3kQRJ5H5XBlhDL_LF7QrzE9OqotlHs0EpXLsaxL5oKqUBt-XJus9YsvorpGa9g1ui1Mck9-WWLjmBpi1bKV3TuVQyWMuARdX0wu-74ENTeQZT1MCszu0_TzyMpT-78xrafo7FTfCOYwoUUYShdOCyB243g4UjHr0O5BplFqwRyJcopw7Q",
+          "w": 4096,
+          "h": 3072,
+          "credit": "sunhajuta meesub"
+        },
+        {
+          "ref": "places/ChIJubiSA2MvHDERnRzOzzcAj6c/photos/Aa-ngMaLwBf_Z2n38FwnkMOLJ3ctqSuvdTzwVQjlZLay-IVdFnrbnu-r6d3LHStJO-NBZavIoFCpPbYUaLLcXedAgnOpRtfQ4lj8myvhbKYrn-U-Wyp6IxD6l_HJ7q3wQfwE2J5C_Byk-pYrv7S89fRItDLwmvWhQ-PO3ifo_c0TXw28TqxIzbnkGeEdLT5QTBS2I9BsPUayBPqrwHhxXEJuUeUP1zQaG-D0iyB7b4WrXVE828JmxIGvsGQjMcNcw-PudLhfTYZWZ4d-A2-kUdGzFLsFHYl2871nVQa1w7OqVv6ZErt8TOwA2_3ZKOmNWZmhfmA_5YtjDUTOVBmsrgCLwjfJr6JHLnjom96KTr0H1Z_EzX8yVeU6QygQleOuqbhDUkE0w2Jjwg5VYOMVvp43SmPuIrLB9tAL6g6xnfXDXOgj0A",
+          "w": 4080,
+          "h": 3060,
+          "credit": "Adul Jaisadngad"
+        },
+        {
+          "ref": "places/ChIJubiSA2MvHDERnRzOzzcAj6c/photos/Aa-ngMb2bFDYFF5vpRL8hIxu-roLFvptTGchtRdoii8Ajimm3iadbSkdWSh81lJdOHU8mNy1MiA6LrqhGn8VI9_ZJfCxVpbGAflmH9RzHTNVX-fEK_AJGo-qnJxbjOX2HSaNW40sqVPCAzCmoYrYzZZBGIsaFencB22kVI2Dnt9_dMXgjLHJaDSt_zsmlhIZHt6SrGJv4lgdtXNXyXM2A7h_dtEF5S3BjL5Nt4AUqA-JjHk5RXX0QlLbdwI_Vb2g0z0r-Ep7GzAcYaR44pCCCYOpsiteNES5bGY5__vG3Z6Kq8RX0x9mIJST2w8OXOf15QEIRBIGLvCZOtWwtffTK8I6YhlyOFopbBR9KSbbLb0_qEmgtualHXwLMFQBRJ21M_xrTy6qijForCDr4I2K8O6JaJTbHmCM_XvnkivX20qd0Us4WA",
+          "w": 4032,
+          "h": 3024,
+          "credit": "Bigatech"
+        },
+        {
+          "ref": "places/ChIJubiSA2MvHDERnRzOzzcAj6c/photos/Aa-ngMZlPxspnKn8CUwki8Z2LRu7_IQxJAIu7Tv7neEHWd3A3pR45PViAiNdKcb3ewebU7xXz4I32gmx_IK2CgNf5q_SG5ryiJFib4BMKqYslhnrPABt3ppRPuxjGlQmfsvMqBNDGLv29P-Y8JEfgEy88gaKPnUTCO1Rc7h8c03peYmv9b7um7LGuiJv6NBlrsLwv-8Bq_wsq-VdjWzEyaVe395q39q3MdVwNtkJHBGZYLyqzkGqlgYwVFnAwDAqOCcXDH6CRYlfDa4iJdtZCBmTFpt5rP6Ss7qzNbShJjGvbFo09iCzAgWU2e59wIvJfNwiT3Cu1minRIjukjcZ4_5i-IYMAEAH2_zYN0Ct9nLjL-r3wkwxHXSrVHgNbwTlG-irYg5PHIGlyndxSMAhlKWcxnS7BxK7lSmNXbhEpX0ikQ-hXw",
+          "w": 4032,
+          "h": 3024,
+          "credit": "จีรศักดิ์ ตั้งปฏิพัทธ์"
+        },
+        {
+          "ref": "places/ChIJubiSA2MvHDERnRzOzzcAj6c/photos/Aa-ngMbOLgGeA7sLbEXapkcO-8VS3ZT-VGop2mq-2i9mwMu8-DWwr7zbjGED_JggiF0DREY-HsCW4dwPVKo3EFKO8RZXEjns-Oa8BhZSotwTZFMhrDmk3wS-mwamiZUJ3gUskbYkUJ6R37-xcjcNtzc9BBc9gK89e6FDYmEp0EMwC2MAACCSnMgFQ86Em4_TpMMESawOScNQHPW_Uo5o2IB2FPASZV1SmUo-FO81LOLBmA4jVugQYFjRvvnf2Cex_PVnGFfVo9YRCOgEy6GIJEJQ6rHhbsYKuiec__xO7ljGoyDD-fVQv1yy-rrTFUUdR2H4GJvIESTateMonZ4e5pItkmEG7759b7kmp_4S428qd5QPq-Ovp9zxpFyc60EIsyZQqjWDJsOeGyWljFFrko7BJQ3X323kqZ6jSQiVquHw0C5ltw",
+          "w": 4080,
+          "h": 2296,
+          "credit": "stephane pelletier"
+        },
+        {
+          "ref": "places/ChIJubiSA2MvHDERnRzOzzcAj6c/photos/Aa-ngMalNtMkat_hRumuNh8_72GjBIv4BFvgct5irVUADzmaZ2PHgRZEX6HMEgP9OOpitfDzT1AbSghh1yBbzvCIRsfB7brCFnPn_RK1xRbiZuwy1rm1foYd_dE80semOnUWu0le5KEG-zTMDvaAbrpRDh2UqCIcQxX9A3riYZ90D0j-u9RVq_eHwUI3SCgM_6bz5LLLse9SJUZBW83h7c4I7N6syil2ewOQJi0p1kmF1QsoSQnk6JhTnulxPNZuqCIfTtZXuNC7tpHbptV_bHOT9-hM4jpL9X4m08-J-4NADZIkBBXQB8fUhMShu-ANwTgeXjD3XoOmWXPjUL6sNMkNvqCrs3nRAttmFoOxw8PNkd_11wPIpWNgWgkmANDiTJwEBCv2YiDGlk4JvM6CEgKRHDzkNlBpkIF_-e_mX79N-vU81Q",
+          "w": 4000,
+          "h": 2256,
+          "credit": "Noppol Promsorn"
+        }
+      ]
+    },
+    "donghouse": {
+      "placeId": "ChIJnceqOQ89HDEREDh1pX0cXKk",
+      "name": "ดง เฮ้าส์ เขาใหญ่",
+      "address": "8 คลองไทร ตำบล วังกะทะ อำเภอปากช่อง นครราชสีมา 30130 ประเทศไทย",
+      "types": [
+        "coffee_shop",
+        "cafe",
+        "food_store",
+        "food",
+        "store",
+        "point_of_interest",
+        "establishment"
+      ],
+      "distM": 0,
+      "photos": [
+        {
+          "ref": "places/ChIJnceqOQ89HDEREDh1pX0cXKk/photos/Aa-ngMYrShce4qtg_twpuS_A2PGtlAb13j30yH_fuuuo2trKH5SsqLWN49j9jvBAP6XNa2lFStOvar5CpiGZh678uGpCPtfzKwA2aetMODSxV50IoGWLbcBHQK0V43C_iFJWAUF3nLIf_lBlq4fydN6jgBDSlJiO72N33NqNXmpnAqKpj1dq0mIOoElOh-3pBPzGnvA5WpwXKMI9SuuUb8QMurQP4GPIJhcmu7DjLAm7DWXcIETl4YUcFjzo_K4MES_AuxORWxMdUPwYbmnwei0_zIg3ndQOToF0UQTLwrB3nv9jpAZWkJ3nvYUuz0SWALn8Bf-K5MtTTKcuwqs9A5SDrs0N2BEgeaOTu7KKfnlkYT9U1jQ1hy18iLtRh1HejM2O7gL4hcb3cJsBj9HJPgs2utDj90Igf96u5pUiYwCrz0PtWg",
+          "w": 4800,
+          "h": 3600,
+          "credit": "Pornjira Srimuen Joyable"
+        },
+        {
+          "ref": "places/ChIJnceqOQ89HDEREDh1pX0cXKk/photos/Aa-ngMa9DsovEcb1JLZLbP7bKo7Rw81eQkCUrK6R2Z9D5Wq4G4vgaHhjcDFJOWmIq8nHc-pYvjGJN4h5_UhfJUXtR6NZHx-zz9G00iLIMUH5AFi68Y7Cjm2l215i__RNukXCGDONufUGgkTHoiAM-vYBYBxG-SGH942FUbF7REio54RBbB6HEMw3xiT3mu9fvfVmKoyIZWPO4_8U06fjVZ4FNZ10uhCv19Usy2qkVr6G73rE71IT0CVnvJpv03_1-N2tJjspI3FS0sbP6iglcxM8xt2eYc7uyyb9I86J46VlWEYMMNBysrCfXs0bNL8d8UBuYGrCV7x22LHaWGnsACEcpxzL7PabY7y7Q-gr2Ki9mFvewJRVjnbVR_Gfxqpus04m-FTkV_-IQivfkxXYgaQIWsDfuVmd0-gvt42NDK_tOOxbTQ",
+          "w": 4800,
+          "h": 3600,
+          "credit": "Preaw Felionajj"
+        },
+        {
+          "ref": "places/ChIJnceqOQ89HDEREDh1pX0cXKk/photos/Aa-ngMa7pbdLd4yCrOEiwdxESpDTdktx1yNT542zLolfOWUynJA_G5KLX9z7YUbXCaiPbthVkoNcY2ytG4apTw8l2RZatbmEbARecjgcAFuVGfzR2yNRHiUMbUYsl4LzNAPfsvWKnDqFHVuUQ2a3IE-OrA7rYBEn0jq8pTP1zcsk-_fUgReT0uHU7FKdzIdz6KmvPmI7sIbeizk4mojtcziqlkWoY7-n6nEklWFIURzAvGmK4zhrD7X473uMs7cX4Xyzwmbg5LwazujloN4Xucz7lKAu5dXFxHpdjzM2-c-aa1mXnaHkXolcm1MV67b3u55vn82xmfK0DA_k-v8C1ZtjZaLkD3SEz5_qMsKGi_TR_yn94ZtT6ZNCw17UYQvE1aIcHecQau3e-0r91iUsopjRmULtfFuEydFsTm0Z8mGjiTwWGA",
+          "w": 4032,
+          "h": 3024,
+          "credit": "TOON WARA"
+        },
+        {
+          "ref": "places/ChIJnceqOQ89HDEREDh1pX0cXKk/photos/Aa-ngMbUIepZf6twBPwsN_GKtw0SqkXDX9O2fasz-Vsu1oqBtnNifWALcwTW37WJtDw06U_x4zRvHuoOvNyh3lRPilO6tQDKd6begF6H3oGdsEDmWAaqGslBnZV4FM3ITNVJvZxgmBWBgjjoRboYWrnAZGUJ0xzbSS2ct6Fl6xemkHFtoRnoadeC5_Uhg1F_srRljubwQYs-j9r3pasejw2S0BrBxgua7dvbLFuAhqJvZUbgTYqKB50Q5TQIDaKzNea_Jy5-H2u6gMKefYoIg7YJGWpEtJqyn2g9JXwkViUlP5kIE38ZMvoKTPAkNR-5nPoN2DQqkn0vgUDKT1vNfponhh4TrY4orLCWHJz3emc9mKBgoFBaBtBYdlv-PK5ZUswj2PJwxQaJqiAaHIVwb52ffblIvtymaD3fYf48dQJvUtom",
+          "w": 3962,
+          "h": 3072,
+          "credit": "Cerelou Restor"
+        },
+        {
+          "ref": "places/ChIJnceqOQ89HDEREDh1pX0cXKk/photos/Aa-ngMazIU0F7E2OZPjuzSVTNOp-zJqgXll9AB3VtaG1bSNo6Z2g7F19vp0yG6lteP8oB56wNYfJc2281J5T_cArh5zKdtI5F3Zsb9RrUjYv-Cb2JtnzVichPc00bivUc5wXOeewNR04hwVDYPxSVt9eAbpxh9LJJh2Ro7aL4_JNeL1vzHOdGmcyilCOTt-61DktCabJSjvGrQ-ELyhRpAqmIe9tYZBDhKaZNiz6qOnS7cVY_Po5QVr1mDhY-RXJmpPHDxrurVZv-PUdnzHZwAG27nZPqW-RRovz8hpnvHk886hja4F9judSri7cIBKY1MOkF7T-84Tg5v6cpPoG6Dr2NVpPzfBMBp-swsDw5yuMLaev8AgqsoERE3wg8cKnr0vOAsq7JlT9Zl8xa2rIk3q133V0cTewSQZBrQ1xfpzZfHq4MQ",
+          "w": 4032,
+          "h": 2268,
+          "credit": "สุดขีด Streetfood"
+        },
+        {
+          "ref": "places/ChIJnceqOQ89HDEREDh1pX0cXKk/photos/Aa-ngMYQ3VhxqDIoFAwWjn33a2broOklDmeWXQYpUNbkbAQtn5wk0YP2hLX97e6qASkz5Xc-IQmjPG2Y54Wb1mrx-BYXAbtcF0M0WCrGGsAsvYguHpGUux1qW2f1dDRXiEb6MHD9A8knKRTjBdggcdYCeG-YQd-RGq7_pXjzsoUhmuPTV8jqXbu65XvAhnYbYWbGw928oXSrVCvAiRt3PajckSYCeEjspnYfMxsyrljSqLjwkbtPylLL6gmXaR7gxhDEDX5naP_9kIl-JWOvVC3lArKqzV3m1eF1dDEYu7CoF5RVE_4ofrgaeCBR9d_njreOuW0rg5lhWRcnkMYEN-IfgouBebfKsefcSTCYrV-0pOFPt_-kWiFhLdawl0aEelOQvVvKmibhxmv1aS7e6aT6KVG61Cxsn4nex59DwXjR5zbBxQ",
+          "w": 3600,
+          "h": 4800,
+          "credit": "ดง เฮ้าส์ เขาใหญ่"
+        },
+        {
+          "ref": "places/ChIJnceqOQ89HDEREDh1pX0cXKk/photos/Aa-ngMZr7PHQHL1DQmRpL-9dFkn-zg8AyPi9qXvMVZpaq48suDHfrQTUaPstY-Y3c2evNmORhlLDo0MsXmOjuglaaQWvkG9KGP9zusgwP4nQvAs3a6jXsuDV0iIJ0lZBNtDdZc_rH-1R3KJN4WvlU-HivixkK_ElIP6jmytEU55gEgsd0dIi4jle3LO6PcOMiutU33PNTNcsgJCPRUSdZQC1upmi9AV-LWUrBqg0sypRTAoDRwa9l97ZUYC1euI6-RDf0O9N0ad7PJYy3vFvoICjj1WJV9TUEc7jPHArkEzxF9OHTeiaIeQNIkHd6DZbfuPJsfwFV3S-wqbLeglY5JaedpkJZIlx_WjIv2nbS9Zmdj1vRAeW9Syl_BJszFP2LarK54z3gWwMpAJfadI5-MnWYszvDh3q2nMk07PsCTMa_tga",
+          "w": 3600,
+          "h": 4800,
+          "credit": "Aofapp Tiew Kin"
+        },
+        {
+          "ref": "places/ChIJnceqOQ89HDEREDh1pX0cXKk/photos/Aa-ngMa370z_QKEl2CEwVNI2ZFCse_rvj2S1Q7eD2w1AMuhxt7p7pcV3QY8KszHKCsjm2gE4zey_ZXpizN9u_X09rWRGHMBrl2NpZy_uPyC-eHv4J597jqaBPctgTnbqp39dGUj08qgApbTc_1lbwwuMefgs4tFyFi1FlPhWIA6XI8UXZGf62lzQ-_4fcE1culLtVhxKB2L76LbaU7dHnRvG1itsLjICwJeSMkBMfYBXOE1tgvDNFPRlH4xtznqDjfCF0Lwyg9iKgekOKnHdEaawXvDc2N0k3Vw_5l2sjL7kmMz2ukSGubkkIpaQKdgz73G6IZR3VkR4KwaaVyJpUNmhrQfsd6VZYm8iAu2z_q1IMPtpG6YkHQS4u29PplMjbF1vk3HX8XgG_R16XlBdI7FeMnJl7fbr",
+          "w": 3024,
+          "h": 4032,
+          "credit": "ดง เฮ้าส์ เขาใหญ่"
+        }
+      ]
     }
   },
   "curated": "visually verified 2026-09-28; re-running fetch-places.mjs overwrites"
